@@ -29,6 +29,7 @@ Scroll = Gira viewport
 Ctrl + 1 = Visualiza o contrário do eixo Y(costa)
 Ctrl + 3 = Visualiza o contrário do eixo X(lado)
 Ctrl + 7 = Visualiza o contrário do eixo Z(baixo)
+Home = Visualiza objeto inteiro
 
 ## Seleção
 A = Seleciona todos os objetos da cena
@@ -187,6 +188,13 @@ Tirar time line, clica com o ícone de cruz, espera o ícone de seta e joga para
 
 ## Render
 0(numpad) = Vizualizar câmera
+Ctrl + Alt + 0 = Envia a câmera para o modo atual de visualização
+Texture » Inviroment Texture = Selecione HDR
+Shade » Background
+Shade » Background
+Shade » Mix Shade
+Input » Light Path (Is Camera Ray in Factor in Mix Shader)
+Professor recomenda câmera 35mm
 
 ## Add-ons
 Add mesh extra
