@@ -1,6 +1,7 @@
 # Vim
 
 ## Navegação
+
 hjkl = setas
 ^e = 1linha pra baixo
 ^y = 1 linha pra cima
@@ -23,7 +24,7 @@ e, E = final da palavra
 w, W = próxima palavra
 ^ = início do texto na linha
 0 = início da linha
-$ = final da linha
+\$ = final da linha
 G = final
 gg = inicio
 gi = volta para a última linha em inserção
@@ -34,6 +35,7 @@ num_linha+G = vai para linha num_linha
 50% = vai para 50% do texto
 
 ## Inserção
+
 i = inserção
 a = inserção na frente
 r = substitui o carácter
@@ -55,18 +57,19 @@ S = deleta linha e entra no modo de inserção igual cc
 ^x ^f = auto-completa arquivos
 ^x ^k = auto-completa dicionários
 
-
 ## Delete
+
 dd = deleta linha inteira
 dit = deleta o que está entre tag
 d3w = deleta três palavras a frente
 d9l = apaga três caracteres pra frente
 d3j = apaga 3 linhas pra baixo
-d$ = deleta até o final da linha
+d\$ = deleta até o final da linha
 x = deleta um carácter de cada vez
 X = deleta antes do cursor
 
 ## Editar
+
 u = desfaz
 ^r em alguns casos ctrl+shift+r = refaz
 yy = copia linha
@@ -76,6 +79,7 @@ p] = cola depois
 P = cola pra baixo
 
 ## Visual
+
 v = modo visual
 ^v = modo visual em bloco
 vw = seleciona uma palavra
@@ -96,11 +100,15 @@ vU = torna maiúsculo o caracter/seleção
 v( = seleciona até o final da sentença
 
 ## Pesquisa e Substituição
+
 f = busca letra na linha
 F = busca letra no sentido inverso
 t = busca letra colocando o cursor antes da palavra buscada
-* = busca palavra onde está o cursor
+
+- = busca palavra onde está o cursor
+
 # = busca palavra onde está o cursor na ordem inversa
+
 ?nome_palavra = pesquisa pra cima
 /nome_palavra = pesquisa pra baixo
 Dando ENTER
@@ -113,13 +121,14 @@ N = pesquisar pra trás
 :nhol = desmarca a pesquisa
 
 ## Múltiplos Arquivos
+
 vim arquivo1 arquivo2 = abre mais os dois arquivos
 :e = nome do arquivo
 :bn = ir para o próximo arquivo
 :bp = ir para arquivo anterior
 :b1 = vai para o arquivo de buffer 1
 :b0 = primeiro arquivo
-:b$ = último arquivo
+:b\$ = último arquivo
 :ls = lista burfers
 :bufdo = executa em todos os buffers
 :retab = retabula todos os arquivos
@@ -139,6 +148,7 @@ o = abre arquivo do nerdree
 \b = Plugin Buffer Explorer
 
 ## Macro
+
 qa = começa a grava macro a
 q = termina de gravar
 @a = repete a macro

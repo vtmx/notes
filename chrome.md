@@ -1,14 +1,24 @@
 # Chrome
 
-https://support.google.com/chrome/answer/157179?hl|pt-BR
+## Abas
 
-| Atalho                    | Descrição                              |
-| :------------------------ | :------------------------------------- |
-| `Ctrl + G`                | Pesquisa termo selecionado na pesquisa |
-| `Enter`                   | Next                                   |
-| `Shift + Enter`           | Prev                                   |
-| `Ctrl + T`                | Nova guia                              |
-| `Ctrl + Shift + T`        | Recupera última guia fechada           |
-| `Ctrl + Shift + I ou F12` | Devtools                               |
-| `Ctrl + Shift + J`        | Console                                |
-| `Ctrl + Shift + O`        | Favoritos                              |
+Ctrl + T = Nova guia
+Ctrl + Shift + T = Recupera última guia fechada
+Ctrl + Shift + O = Favoritos
+
+## Pesquisa
+
+Ctrl + G = Pesquisa termo selecionado na pesquisa
+E = Next
+Shift + E = Prev
+
+## Devtools
+
+Ctrl + Shift + I ou F = Devtools
+Ctrl + Shift + J = Console
+Ctrl + Shift + C = Entra no modo de seleção de elementos
+
+## Links
+
+- https://support.google.com/chrome/answer/157179?hlpt-BR
+- https://developers.google.com/web/tools/chrome-devtools/shortcuts?utm_source=devtools

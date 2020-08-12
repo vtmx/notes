@@ -1,5 +1,9 @@
 # Blender
 
+## Referência
+
+https://www.giudansky.com/illustration/infographics/blender-map
+
 ## Viewport
 
 T = Oculta e exibe barra de ferramentas
@@ -9,7 +13,7 @@ Ctrl + Tab = Altera modos de interação
 Ctrl + Espaço = Maximiza área de trabalho
 Ctrl + Alt + Espaço = Modo fullscreen
 Ctrl + Page = Up vai para modo da direita, Down vai para modo da esquerda
-Shift + ~ ou Shift + ´ = Vier » Navigation » flymode ou walk
+ClickD = Cancela ação feita
 
 ## Navegação
 
@@ -17,35 +21,36 @@ Shift + ~ ou Shift + ´ = Vier » Navigation » flymode ou walk
 2 = Ir para collection 2
 Alt + Scroll = Movimenta nas visualizações pré-definidas
 Shift + Scroll = Movimenta viewport
-Ctrl + Scroll(Cima, Baixo) = Zoom suave
+Ctrl + Scroll (Cima, Baixo) = Zoom suave
 Ctrl + + = Zoom In
 Ctrl + - = Zoom Out
 Scroll Rolar = Zoom
 Scroll = Gira viewport
 
-## Visualizações pré-definidas
+## Visualizações Pré-Definidas
 
 1 = Visualiza o eixo Y(frente)
-3 = Visualiza eixo X(lado)
-7 = Visualiza o eixo Z(cima)
-5 = Visão ortográfica(sem distorção no objeto)
 Ctrl + 1 = Visualiza o contrário do eixo Y(costa)
+3 = Visualiza eixo X(lado)
 Ctrl + 3 = Visualiza o contrário do eixo X(lado)
+7 = Visualiza o eixo Z(cima)
 Ctrl + 7 = Visualiza o contrário do eixo Z(baixo)
-Home = Visualiza objeto inteiro
+4 = Gira em torno do objeto para esquerda
+6 = Gira em torno do objeto para direita
+8 = Gira em torno do objeto para cima
+2 = Gira em torno do objeto para baixo
+5 = Visão ortográfica(sem distorção no objeto)
+Home = Enquadra todo os objetos da viewport
 
 ## Seleção
 
 A = Seleciona todos os objetos da cena
 Alt + A / A + A = Tira seleção de todos os objetos
-
 C = Seleção circular
 B = Seleção retangular (com Ctrl ou scroll, excluí a selação)
 L = Seleciona um objeto descolado (Ctrl + Scroll selecionar com o mouse nas faces também funciona)
-
 Ctrl + = Expande seleção feita
 Ctrl - = Diminui seleção feita
-
 Alt + Click = Ring Loop (selecionar face no lado v ou h para vertical ou horizontal)
 Ctrl + Alt + ClickE = Seleciona arestas paralelas
 Ctrl + ClickE = Seleciona uma aresta deixando ctrl pressionado seleciona a última para fazer a seleção entre elas
@@ -98,6 +103,11 @@ Ctrl + V = Abre o menu específico de vértices
 Ctrl + E = Abre o menu específico de arestas
 (Edge Slide » Move seguindo as linhas)
 Ctrl + F = Abre o menu específico de faces
+Shift Pressionado = Ação suave
+Shift + Tab = Ativa snap
+Ctrl Pressionado = Ativa snap
+Ctrl + Shift Pressionado = Usa o snap com mais precisão
+Ctrl + Shift + Tab = Exibe exibe menu do snap
 
 ## Movimentação, Rotação e Escalonamento
 
@@ -110,9 +120,9 @@ G + Y = Movimenta no eixo Y
 G + Z = Movimenta no eixo Z
 G + X + Num = Move de acordo com o valor digitado
 G + Shift + Z = Restringe a movimentação no eixo Z
-Mover com o Ctrl pressionado ativa o snap
+Mover com o Ctrl pressionado = Ativa o snap
 Shift + Tab = Ativar/desativar snap
-No object mode = A » Objects » Aply » Scale (para aplicar escala)
+Ctrl + A = Para aplicar escala
 
 R = Rotaciona objeto
 R + X = Rotaciona no eixo X
@@ -138,24 +148,24 @@ Ctrl + A (surge popup para aplicar valores da aplicação)
 ClickD no momento da movimentação cancela ação
 Quando estiver fazendo as modificações antes de soltar o ClickE, o ClickD cancela a ação.
 
-## Criação de Ojbetos
+## Modificação de Ojbetos
 
-,(Numpad) = Centralizar o pivô no objeto
-Alt + M = Solda vértices(by distance = remover doubles)
+, (Numpad) = Centralizar o pivô no objeto
+Alt + M = Solda vértices (by distance = remover doubles)
 Shift + A = Cria um novo objeto
 Shift + D = Duplica objeto
 Ctrl + J = Juntar objetos
 Ctrl + P = Separar objetos
-ClickD » Remover doubles = Remover vértices duplicados(barra status mostra quanto qtd de vértices)
+ClickD » Remover doubles = Remover vértices duplicados (barra status mostra quanto qtd de vértices)
 ClickD » Set smooth
 ClickD » Set Origim » Object Origin = Alinha cursor 3D
 
-## Visualização
+## Visualização de Objetos
 
 H = Oculta seleção
 Alt + H = Retorna objetos ocultados
 / = Isola seleção(deixa somente o objeto selecionado)
-Del(numpad) = Centraliza a câmera nos objetos selecionados
+Del (numpad) = Centraliza a câmera nos objetos selecionados
 1..9 = Exibe apenas as collections em ordem
 Alt + H (com o cursor no outline) = Reexibe todas as coleões escondidas com os números
 Alt + Z = Modo X-Ray (deixa objeto transparente)
@@ -164,14 +174,12 @@ Z = Exibe os tipos de visualização dos objetos
 Shift + C = Centraliza o 3D cursor
 Shift + C, Shift + S = Select to cursor para centralizar
 Shift + N = Vira toda as normals para fora
-Home = Enquadra todo os objetos da viewport
-Overlay » Normals » 3º Botão(corrigi em Mesh » Normals » Flip)
+Overlay » Normals » 3º Botão = Corrigi em Mesh » Normals » Flip)
 Q = Visualiza objetos que estão nos favoritos (clickD Add to favorites » 3d cursor e wire frames ajudam muito no uso)
 Ctrl + Tab = Entra no pose mode
 
 ## Modificadores
 
-Shift + Tab = Imã Snap
 Shift + N = Ordena os lados(normas)
 Ctrl + M + Y = Mirror
 
@@ -179,6 +187,7 @@ Ctrl + M + Y = Mirror
 
 M = Com o objeto selecionado para mover para uma collection
 Outline: Filter » Habilitar loock do objeto
+1..9 = Ativa coleções
 
 ## Search
 
@@ -197,16 +206,26 @@ Alt + R = Reseta rotação
 Alt + R = Reseta escala
 Tirar time line, clica com o ícone de cruz, espera o ícone de seta e joga para baixo
 
+## Overlay
+
+Geometry » Wireframe = Exibe o wireframe do objeto
+Edit Mode » Edge Lenght = Mostra a distância entre os vértices
+
 ## Render
 
-0(numpad) = Vizualizar câmera
+0 (numpad) = Vizualizar câmera
 Ctrl + Alt + 0 = Envia a câmera para o modo atual de visualização
+Shift + ´ = Flymode pressionando Tab parai para Walk
+N = Em View selecione Lock câmera to View para usar visão atual como câmera
+F12 = Render
+
+# Textura
+
 Texture » Inviroment Texture = Selecione HDR
-Shade » Background
-Shade » Background
+Shade » Background x2
 Shade » Mix Shade
 Input » Light Path (Is Camera Ray in Factor in Mix Shader)
-Professor recomenda câmera 35mm
+Câmera 35mm
 
 ## Add-ons
 

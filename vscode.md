@@ -88,15 +88,6 @@ Ctrl + \ = Cria um comentário em linha da seleção
 Ctrl + ; = Comenta linha
 Shift + Alt + A = Comentar conteúdo selecionado
 
-## Links
-
-[Fala mal mas ensina bem](https://youtu.be/3yxwz_4O4yc)
-https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9#file-vscode_shortcuts-md
-https://code.visualstudio.com/docs/getstarted/keybindings#_editorwindow-management
-https://blog.logrocket.com/learn-these-keyboard-shortcuts-to-become-a-vs-code-ninja/
-https://www.youtube.com/watch?v=_u-Uuw3GhCQ
-https://www.youtube.com/watch?v=Xa5EU-qAv-I
-
 ## Remove Recents
 
 Ctrl + Shift + P = Clear Editor History
@@ -114,3 +105,12 @@ Ctrl + Shift + P = Select Default Shell
 ## Node Modules
 
 C:\Users\vitor\AppData\Roaming\npm\node_modules
+
+## Links
+
+- https://youtu.be/3yxwz_4O4yc
+- https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9#file-vscode_shortcuts-md
+- https://code.visualstudio.com/docs/getstarted/keybindings#_editorwindow-management
+- https://blog.logrocket.com/learn-these-keyboard-shortcuts-to-become-a-vs-code-ninja/
+- https://www.youtube.com/watch?v=_u-Uuw3GhCQ
+- https://www.youtube.com/watch?v=Xa5EU-qAv-I

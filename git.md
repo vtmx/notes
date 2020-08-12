@@ -1,17 +1,5 @@
 # Git
 
-## Links
-
-https://github.com/joshnh/Git-Commands/blob/master/READMEpt.md
-https://github.com/bpassos/git-commands/blob/master/translation/README.pt-br.md
-https://gist.github.com/digitaljhelms/4287848
-https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
-https://help.github.com/articles/closing-issues-using-keywords/
-https://chris.beams.io/posts/git-commit/
-https://pt.stackoverflow.com/questions/210652/qual-objetivo-do-git-push-u
-https://stackoverflow.com/questions/34400272/visual-studio-code-always-asking-for-git-credentials
-https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely
-
 ## Comandos
 
 Adicionar diretório remoto<br>
@@ -96,4 +84,18 @@ Set your email address:
 remove mensagem de erro CRLF
 `git config --global core.autocrlf false`
 
+## Nomes de commit
+
 "Fix", "Add", "Change"
+
+## Links
+
+https://github.com/joshnh/Git-Commands/blob/master/READMEpt.md
+https://github.com/bpassos/git-commands/blob/master/translation/README.pt-br.md
+https://gist.github.com/digitaljhelms/4287848
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+https://help.github.com/articles/closing-issues-using-keywords/
+https://chris.beams.io/posts/git-commit/
+https://pt.stackoverflow.com/questions/210652/qual-objetivo-do-git-push-u
+https://stackoverflow.com/questions/34400272/visual-studio-code-always-asking-for-git-credentials
+https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely

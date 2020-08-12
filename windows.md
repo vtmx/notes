@@ -1,80 +1,101 @@
 # Windows 10
 
-## Links
-https://canaltech.com.br/windows/100-comandos-para-voce-executar-no-windows-10-que-pouca-gente-conhece/
-https://www.howtogeek.com/198122/32-new-keyboard-shortcuts-in-the-windows-10-technical-preview/
-
 ## Explorer
 
-win + 1 = primeiro programa na barra de tarefas
-win + e = abre o explorer
-win + i = abre configurações
-win + g = xbox
-win + d = minimiza todas as janelas abertas
-win + l = bloqueia área de trabalho
-win + m = minimiza todas as janelas abertas
-win + p = projetar
-win + r = executar
-win + u = abre gerenciador de tela
-win + esquerda = divide janela para a esquerda
-win + direita = divide janela para a esquerda
-win + cima = diminui janela
-win + cima + cima = maximiza janela
-alt + f4 = fecha a janela atual
-alt + tab = alterna entre os programas aberto
-ctrl + shift + esq = gerenciador de tarefas
-alt+space+n = minimiza
-alt+space+x = maximiniza
-shift+f10 = botão direito
+Win + 1 = Primeiro programa na barra de tarefas
+Win + E = Abre o explorer
+Win + I = Abre configurações
+Win + A = Central de Ações
+Win + D = Minimiza todas as janelas abertas
+Win + G = Barra de jogos Xbox
+Win + H = Reconhecimento de fala
+Win + K = Open The Connect Quick Action
+Win + L = Bloqueia área de trabalho
+Win + M = Minimiza todas as janelas abertas
+Win + R = Executar
+Win + P = Projetar
+Win + S = Pesquisa
+Win + U = Abre gerenciador de tela
+Win + X = Abre pesquisa de programas
+Win + , = Exibe Área de Trabalho e Retorna
+Win + +- = Zoom
+Win + PrtScn = Ferramenta de captura
+Win + Tab = Alterna janelas
+Win + Esquerda = Divide janela para a esquerda
+Win + Direita = Divide janela para a esquerda
+Win + Cima = Diminui janela
+Win + Cima + Cima = maximiza janela
+Ctrl + W = Fecha janela
+Ctrl + Shift + Esq = Gerenciador de tarefas
+Shift + F10 = botão direito
+Alt + F4 = Fecha janela
+Alt + Tab = Alterna entre os programas aberto
+Alt + Espaço + N = Minimiza
+Alt + Espaço + X = Maximiniza
 
 ## Múltiplos Desktop
-ctrl + win + d = cria uma nova área de trabalho
-ctrl + win + direita = vai para a área de trabalho a direita
-ctrl + win + esquerda = vai para a área de trabalho a esquerda
-ctrl + win + tab = alterna entre as áreas de trabalhos abertas
-ctrl + win + f4 = fecha a área de trabalho atual
+
+Ctrl + Win + D = Cria uma nova área de trabalho
+Ctrl + Win + Direita = vai para a área de trabalho a direita
+Ctrl + Win + Esquerda = vai para a área de trabalho a esquerda
+Ctrl + Win + Tab = Alterna entre as áreas de trabalhos abertas
+Ctrl + Win + F4 = fecha a área de trabalho atual
 
 ## Executar
-calc = calculadora
-cmd = abrir o command
-control = abre paintel de controles
-dxdiag = diagnóstico directx
-explorer = explorer
-excel = exel
+
+## Programas
+
+calc = Calculadora
+cmd = Prompt
+control = Painel de Controle
+dxdiag = Diagnóstico Directx
+explorer = Explorer
+excel = Exel
 iexplore = Internet Explorer
-msinfo32 = informações do sistema
-msconfig = serviços gerais do windows
-mstsc = controle de área de trabalho remota
-notepad = bloco de notas
-perfmon = monitor de perfomance
-taskmgr = gerenciador de tarefas
-regedit = registro
-winver = exibe versão do Windows
-writer = wordpad
-winword = word
+msinfo32 = Informações do Sistema
+msconfig = Serviços Gerais do Windows
+mstsc = Controle de Área de Trabalho Remota
+notepad = Bloco de Notas
+perfmon = Monitor de Perfomance
+taskmgr = Gerenciador de Tarefas
+regedit = Registro
+Winver = Versão do Windows
+writer = Wordpad
+winword = Word
 
-appwiz.cpl = adiciona, atualiza e remove programas
-inetcpl.cpl = propriedades da internet
-firewall.cpl = firewall
-hdwwiz.cpl = gerenciador de dispositivos
-main.cpl = propriedades do mouse
-ncpa.cpl = gerencimaneto de redes
-powercfg.cpl = gerenciador de energia
-timedate.cpl = data e hora
-sysdm.cpl = pripriedades do sistema
-wscui.cpl = segurança e manutenção
+### CPL
 
-certmgr.msc = gerencimaneto de certificados
-compmgmt.msc = gerenciamento do computador
-devmgmt.msc = gerenciamento de hardware
-diskmgmt.msc = gerenciamento de disco
-gpedit.msc = editor de políticas
+appwiz.cpl = Adiciona e Remove Programas
+inetcpl.cpl = Propriedades da Internet
+firewall.cpl = Firewall
+hdwwiz.cpl = Gerenciador de Dispositivos
+main.cpl = Propriedades do Mouse
+ncpa.cpl = Gerencimaneto de Redes
+powercfg.cpl = Gerenciador de Energia
+timedate.cpl = Data e Hora
+sysdm.cpl = Propriedades do Sistema
+wscui.cpl = Segurança e Manutenção
+
+### MSC
+
+certmgr.msc = Gerencimaneto de Certificados
+compmgmt.msc = Gerenciamento do Computador
+devmgmt.msc = Gerenciamento de Hardware
+diskmgmt.msc = Gerenciamento de Disco
+gpedit.msc = Editor de Políticas
 services.msc = serviços
 
-control admintools = ferramentas administrativas
-control desktop = gerenciamento da área de trabalho
-control mouse = propriedades do mouse
-control netconnections = gerenciamento de redes
-control printers = gerenciamento de impressoras
-control userpasswords = gerenciamento de usuários
-control userpasswords2 = gerencimento de senhas de usuários
+### Controles
+
+control admintools = Ferramentas Administrativas
+control desktop = Gerenciamento da Área de Trabalho
+control mouse = Propriedades do Mouse
+control netconnections = Gerenciamento de Redes
+control printers = Gerenciamento de Impressoras
+control userpasswords = Gerenciamento de Usuários
+control userpasswords2 = Gerencimento de Senhas de Usuários
+
+## Links
+
+- https://canAltech.com.br/Windows/100-comandos-para-voce-executar-no-Windows-10-que-pouca-gente-conhece/
+- https://www.howtogeek.com/198122/32-new-keyboard-shortcuts-in-the-Windows-10-technical-preview/
