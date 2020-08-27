@@ -119,6 +119,7 @@ G + Y = Movimenta no eixo Y
 G + Z = Movimenta no eixo Z
 G + X + Num = Move de acordo com o valor digitado
 G + Shift + Z = Restringe a movimentação no eixo Z
+G + Z + Z = Anda no eixo local do objeto
 
 R = Rotaciona objeto
 R + X = Rotaciona no eixo X
@@ -171,6 +172,7 @@ Z = Exibe os tipos de visualização dos objetos
 Shift + C = Centraliza o 3D cursor
 Shift + C, Shift + S = Select to cursor para centralizar
 Shift + N = Recalcular normals para fora
+Overlay Orientation » Face Orientation = Exibe as faces invertidas
 Overlay » Normals » 3º Botão = Corrigi em Mesh » Normals » Flip
 
 ## Pose Mode
