@@ -8,10 +8,11 @@ https://www.giudansky.com/illustration/infographics/blender-map
 
 T = Oculta e exibe barra de ferramentas
 N = Exibe a sidebar para editar valores
+N = View diminuir clipstart para evitar câmera entrar dentro do objeto
 Shift + Alt + Z = Desabilita todas as informações da viewport
 Esq = Sai do comando
 Delete or X = Deleta objetos selecionados
-Ctrl + Tab = Altera modos de interação
+Ctrl + Tab = Altera modos de interação (vertex, edge e face)
 Ctrl + Espaço = Maximiza área de trabalho
 Ctrl + Alt + Espaço = Modo fullscreen
 Ctrl + Page = Up vai para modo da direita, Down vai para modo da esquerda
@@ -77,7 +78,6 @@ Alt + E = Extrude along normals
 I = Insert
 Ctrl + B = Bevel
 O = Proporcional Edit
-P = Converte mesh para objeto
 E + Z = Extrusão com movimento livre
 E + Y = Extrusão no eixo Y
 E + X = Extrusão no eixo X
@@ -150,6 +150,7 @@ V = Solta edge selecionado também
 M = At center, faz o merge entre dois vértices
 Shift + A = Cria um novo objeto
 Shift + D = Duplica objeto
+Alt + D = Duplica objeto clonando (edita todos atualizam)
 Shift + R = Repete última ação
 Ctrl + J = Juntar objetos
 Ctrl + P = Separar objetos
@@ -159,7 +160,8 @@ ClickD » Set Origim » Object Origin = Alinha cursor 3D
 
 ## Visualização e Organização
 
-; ou / (Numpad) = Isola seleção (deixa somente o objeto selecionado)
+; ou / (Numpad) = Isola seleção (exibe somente o objeto selecionado)
+Delete (Numpad) = Fixa edição no objeto
 , (Numpad) = Centralizar o pivô no objeto
 H = Oculta seleção
 Alt + H = Retorna objetos ocultados
@@ -187,6 +189,7 @@ Ctrl + M + Y = Mirror
 ## Organização
 
 1..9 = Ativa coleções
+P = Separa parte selecionada para coleção
 M = Com o objeto selecionado para mover para uma collection
 Outline: Filter » Habilitar lock do objeto = Habilitar loock do objeto
 ClickD Add to favorites = Adiciona nos favoritos
@@ -210,14 +213,17 @@ Alt + R = Reseta localização
 Alt + R = Reseta rotação
 Alt + R = Reseta escala
 Tirar time line, clica com o ícone de cruz, espera o ícone de seta e joga para baixo
+Câmera Seguindo = Colocar Empty, com câmera selecionada ir em Constraint e escolher Track To, e selecionar o objeto
 
-# Textura
+# Shading
 
+Render Properties » Scene » Film » Alpha » Transparent
 Texture » Inviroment Texture = Selecione HDR
 Shade » Background x2
 Shade » Mix Shade
 Input » Light Path (Is Camera Ray in Factor in Mix Shader)
 Câmera 35mm
+Ctrl + Shift + T = Abrir todas as texturas do site
 
 ## Render
 
@@ -246,3 +252,20 @@ Shadow » [x] Hight Bitdeph
 [x] Mesh: Loop Tools
 [x] Rigging: Riggify
 [x] Node: Node Wrangle = Ctrl + T na textura para abrir opções
+[x] Plane: Import image to plane
+[x] https://gumroad.com/l/fontselector
+[x] https://gumroad.com/l/PgyXc
+[x] https://gumroad.com/l/studiohdri
+
+## Canais
+
+https://www.youtube.com/channel/UCdEKHCpwH39lca6v-BzRROA/videos
+https://www.youtube.com/user/Danielfc10
+https://www.youtube.com/c/BlendermanTutoriais
+https://www.youtube.com/c/AcademiaCriativa
+https://www.youtube.com/c/VideoVertigo
+
+## Obs
+
+O Blender aceita seus próprios atalhos no menu.
+Clique com o botão direito e adicione.
