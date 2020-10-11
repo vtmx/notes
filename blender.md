@@ -249,7 +249,7 @@ Shadow » [x] Hight Bitdeph
 ## Add-ons
 
 [x] Add mesh extra
-[x] Mesh: Loop Tools
+[x] Mesh: Loop Tools (cria círculos nas areas selecionadas)
 [x] Rigging: Riggify
 [x] Node: Node Wrangle = Ctrl + T na textura para abrir opções
 [x] Plane: Import image to plane
