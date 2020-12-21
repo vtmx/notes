@@ -91,6 +91,7 @@ remove mensagem de erro CRLF
 ## Links
 https://docs.github.com/pt/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
 https://github.com/joshnh/Git-Commands/blob/master/READMEpt.md
+https://www.conventionalcommits.org/en/v1.0.0/
 https://github.com/bpassos/git-commands/blob/master/translation/README.pt-br.md
 https://gist.github.com/digitaljhelms/4287848
 https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
