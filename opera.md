@@ -20,12 +20,9 @@ Smooth Scrolling = Disable
 settings/powerSettingsOverlay
 pesquisar Speed
 Esconder caixa de pesquisa.
-
 https://www.youtube.com/watch?v=hr8arUD5rSs
 
----
-
-pesquisar Tab
+Pesquisar Tab
 Desabilitar espaçamento da barra superior.
 
 ---
