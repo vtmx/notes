@@ -100,3 +100,7 @@ https://help.github.com/articles/closing-issues-using-keywords/
 https://pt.stackoverflow.com/questions/210652/qual-objetivo-do-git-push-u
 https://stackoverflow.com/questions/34400272/visual-studio-code-always-asking-for-git-credentials
 https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely
+
+## Helps
+https://github.com/joshnh/Git-Commands
+https://github.com/bpassos/git-commands
