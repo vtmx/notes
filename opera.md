@@ -37,7 +37,6 @@ Download Chrome Extension
 Google Tradutor
 uBlock Origin
 Youtube Downloader
-
 https://addons.opera.com/pt-br/extensions/details/google-translate/
 https://about.imtranslator.net/tutorials/presentations/google-translate-for-opera/
 
