@@ -84,11 +84,16 @@ Set your email address:
 remove mensagem de erro CRLF
 `git config --global core.autocrlf false`
 
+adiciona ssh para não pedir senha
+`eval "$(ssh-agent -s)"`
+`ssh-add ~/.ssh/id_rsa`
+
 ## Nomes de commit
 
 "Fix", "Add", "Change"
 
 ## Links
+
 https://www.conventionalcommits.org/en/v1.0.0/
 https://chris.beams.io/posts/git-commit/
 https://docs.github.com/pt/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
@@ -102,5 +107,6 @@ https://stackoverflow.com/questions/34400272/visual-studio-code-always-asking-fo
 https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely
 
 ## Helps
+
 https://github.com/joshnh/Git-Commands
 https://github.com/bpassos/git-commands
