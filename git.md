@@ -88,6 +88,9 @@ adiciona ssh para não pedir senha
 `eval "$(ssh-agent -s)"`
 `ssh-add ~/.ssh/id_rsa`
 
+verifica se a chave no git está correta
+`ssh -T git@github.com`
+
 ## Nomes de commit
 
 "Fix", "Add", "Change"
