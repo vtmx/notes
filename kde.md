@@ -50,3 +50,6 @@ Cursor =  We10XOS Cursors
 ### Konsole
 Colors scheme = One Half Dark
 Font = Fira Code Medium 11pt
+
+## Links
+https://store.kde.org/p/1281798/
