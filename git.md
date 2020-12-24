@@ -91,6 +91,9 @@ adiciona ssh para não pedir senha
 verifica se a chave no git está correta
 `ssh -T git@github.com`
 
+no manjaro foi necessário instalar o x11-ssh-askpass
+https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
+
 ## Nomes de commit
 
 "Fix", "Add", "Change"
