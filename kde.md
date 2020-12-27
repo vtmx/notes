@@ -53,6 +53,37 @@ Fonts = Segoe UI Semibold 10pt
 Icons = Sensual-Breeze-Dark
 Cursor = We10XOS Cursors
 
+### Global Themes
+/usr/share/plasma/look-and-feel/
+/home/vitor/.local/share/plasma/look-and-feel/
+
+### Plasma Style
+/usr/share/plasma/desktoptheme/
+/home/vitor/.local/share/plasma/desktoptheme/
+
+### Window Decorations
+/home/vitor/.local/share/aurorae/themes/
+
+### Icons
+/usr/share/icons/
+/home/vitor/.local/share/icons/
+
+### Colors
+/usr/share/color-schemes/
+/home/vitor/.local/share/color-schemes/
+/home/vitor/.kde4/share/apps/color-schemes/
+
+### Kvantum
+/usr/share/themes/
+/usr/share/Kvantum/
+/home/vitor/.local/share/plasma/desktoptheme/
+
+### Backgrounds
+/usr/share/backgrounds/
+
+### SDDM
+/usr/share/sddm/themes/
+
 ### Konsole
 
 Colors Scheme = One Half Dark
