@@ -76,6 +76,7 @@ Cursor = We10XOS Cursors
 ### Kvantum
 /usr/share/themes/
 /usr/share/Kvantum/
+/home/vitor/.config/Kvantum/
 /home/vitor/.local/share/plasma/desktoptheme/
 
 ### Backgrounds
@@ -86,8 +87,12 @@ Cursor = We10XOS Cursors
 
 ### Konsole
 
-Colors Scheme = One Half Dark
+Colors Scheme = Nuanced Dark One
 Font = Fira Code Medium 11pt
+
+## Apps
+### Inkscape Default
+/home/vitor/.config/inkscape/templates/
 
 ## Links
 
