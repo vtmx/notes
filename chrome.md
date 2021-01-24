@@ -1,7 +1,6 @@
 # Chrome
 
 ## Abas
-
 Ctrl + T = Nova guia
 Ctrl + Shift + T = Recupera última guia fechada
 Ctrl + Shift + O = Favoritos
