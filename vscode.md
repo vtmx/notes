@@ -1,12 +1,10 @@
 # VS Code
 
 ## Opções
-
 Ctrl + , = Vá em opções do usuário
 Ctrl + K Ctrl + S = Vá em atalhos
 
 ## Utilitários
-
 Ctrl + P = Pesquisa arquivo
 Ctrl + Shift + P = Pesquisa comando interno do VS Code
 Ctrl + Space = Auto-completa possíveis resultados
