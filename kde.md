@@ -90,5 +90,4 @@ Font = Fira Code Medium 11pt
 /home/vitor/.config/inkscape/templates/
 
 ## Links
-
 https://store.kde.org/p/1281798/
