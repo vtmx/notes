@@ -83,11 +83,22 @@ Cursor = We10XOS Cursors
 
 ### Konsole
 Colors Scheme = Nuanced Dark One
-Font = Fira Code Medium 11pt
+Font = Roboto Mono 11pt
 
 ## Apps
 ### Inkscape Default
 /home/vitor/.config/inkscape/templates/
+
+## Shortcuts
+~/.config/kdeglobals
+~/.config/kglobalshortcutsrc
+~/.config/khotkeysrc
+~/.config/kwinrc
+~/.config/plasma-org.kde.plasma.desktop-appletsrc
+~/.local/share/kxmlgui5/katepart/katepart5ui.rc
+~/.local/share/kxmlgui5/konsole/konsoleui.rc
+~/.local/share/kxmlgui5/konsole/sessionui.rc
+~/.local/share/kxmlgui5/kwrite/kwriteui.rc
 
 ## Links
 https://store.kde.org/p/1281798/

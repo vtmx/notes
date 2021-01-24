@@ -6,7 +6,6 @@ Ctrl + Shift + T = Recupera última guia fechada
 Ctrl + Shift + O = Favoritos
 
 ## Pesquisa
-
 Ctrl + G = Pesquisa termo selecionado na pesquisa
 E = Next
 Shift + E = Prev
