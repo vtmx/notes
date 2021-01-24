@@ -26,7 +26,6 @@ Ctrl + Shift + G = Vai para barra lateral do Debug
 Ctrl + Shift + X = Vai para barra lateral de Extensões
 
 ## Indentação
-
 Shift + Alt + F = Autoformat
 Ctrl + ´ ou Ctrl + [ = Move identação no meio da palavra igual Tab
 
