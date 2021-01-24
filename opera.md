@@ -12,8 +12,6 @@ F12 = Devtools
 
 https://www.hongkiat.com/blog/opera-flags-better-browsing-experience/
 
----
-
 ## Flags
 opera://flags
 Smooth Scrolling = Disable
