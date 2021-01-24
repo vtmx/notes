@@ -10,7 +10,6 @@ Ctrl + Shift + P = Pesquisa comando interno do VS Code
 Ctrl + Space = Auto-completa possíveis resultados
 
 ## Cursor
-
 Ctrl + Click = Múltiplos cursores
 
 ## Barra Lateral
