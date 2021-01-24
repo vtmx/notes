@@ -1,7 +1,6 @@
 # Vim
 
 ## Navegação
-
 hjkl = setas
 ^e = 1linha pra baixo
 ^y = 1 linha pra cima
@@ -35,7 +34,6 @@ num_linha+G = vai para linha num_linha
 50% = vai para 50% do texto
 
 ## Inserção
-
 i = inserção
 a = inserção na frente
 r = substitui o carácter
@@ -50,6 +48,7 @@ cat = apaga tag e entra em inserção
 C = deleta palavras a direita e entra no modo de inserção
 s = deleta carácter e entra no modo de inserção
 S = deleta linha e entra no modo de inserção igual cc
+^j = adiciona linha no modo de inserção
 ^a = incremento
 ^i = decremento
 ^x ^n = auto-completa palavra
@@ -58,7 +57,6 @@ S = deleta linha e entra no modo de inserção igual cc
 ^x ^k = auto-completa dicionários
 
 ## Delete
-
 dd = deleta linha inteira
 dit = deleta o que está entre tag
 d3w = deleta três palavras a frente
@@ -67,9 +65,9 @@ d3j = apaga 3 linhas pra baixo
 d\$ = deleta até o final da linha
 x = deleta um carácter de cada vez
 X = deleta antes do cursor
+^w = apaga palavra anterior em inserção
 
 ## Editar
-
 u = desfaz
 ^r em alguns casos ctrl+shift+r = refaz
 yy = copia linha
@@ -77,9 +75,12 @@ Y = copia linha
 [p = cola antes
 p] = cola depois
 P = cola pra baixo
+^t = indenta pra frente
+^d = indenta para trás
+^n = auto completa próximo
+^p = auto completa anterior
 
 ## Visual
-
 v = modo visual
 ^v = modo visual em bloco
 vw = seleciona uma palavra
@@ -100,15 +101,12 @@ vU = torna maiúsculo o caracter/seleção
 v( = seleciona até o final da sentença
 
 ## Pesquisa e Substituição
-
 f = busca letra na linha
 F = busca letra no sentido inverso
 t = busca letra colocando o cursor antes da palavra buscada
-
 - = busca palavra onde está o cursor
 
 # = busca palavra onde está o cursor na ordem inversa
-
 ?nome_palavra = pesquisa pra cima
 /nome_palavra = pesquisa pra baixo
 Dando ENTER
@@ -164,4 +162,7 @@ zm = fecha todas
 :%normal Whd = % executa o comando em normal em todas as linhas
 :norm = ||
 !comando = executar comando terminal
+
+## Links
+https://vim.rtorr.com
 r! comando = executar comando terminal

@@ -235,6 +235,7 @@ Ctrl + F12 = Render animação
 Ctrl + F11 = Visualiza animação
 F12 = Render
 F11 = Visualiza render
+Disable blend1 = Preferences » Save & Load » Save Versions = 0
 
 ### Render Properties
 

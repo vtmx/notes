@@ -1,7 +1,6 @@
 # KDE
 
 ## Global
-
 Meta + , = System Settings
 Meta + I = System Settings
 Meta + . = Shortcuts
@@ -15,12 +14,10 @@ Meta + Ctrl + Right = Switch to Next Desktop
 Meta + Ctrl + Left = Switch to Prev Desktop
 
 ## Custom Shortcuts
-
 Meta + O = Opera
 Meta + Enter = Konsole
 
 ## Dolphin
-
 F3 = Open Side
 F4 = Open Terminal
 Shift + F4 = Focus Terminal
@@ -32,20 +29,19 @@ Ctrl + , = Preferences
 Ctrl + . = Shortcuts
 Ctrl + D = Duplicate
 Ctrl + L = Go to Adress
+Ctrl + F = Search
+Ctrl + I = Filter
 Tabs = Like Chrome
 
 ## Comands
-
 kmenuedit = Shortcuts
 
 ## Configs
-
 Deskto Session = On Login: Start with an empty session
 Window Behavior = Advanced > Window placement: Centered
 General Behavior = Animation speed: Instant
 
 ## Themes
-
 Global Theme = Nordic
 Plasma Style = Nordic Solid
 Colors = Nordic-Darker
@@ -86,7 +82,6 @@ Cursor = We10XOS Cursors
 /usr/share/sddm/themes/
 
 ### Konsole
-
 Colors Scheme = Nuanced Dark One
 Font = Fira Code Medium 11pt
 
