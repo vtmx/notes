@@ -158,6 +158,7 @@ zo = abre método
 zc = fecha métodos
 zr = abre todas
 zm = fecha todas
+:%norm! @a = executa em todas as macros
 
 :%normal Whd = % executa o comando em normal em todas as linhas
 :norm = ||

@@ -23,16 +23,22 @@ sudo chown -hR vitor /run/media/vitor/db5d4111-906e-4fc2-881a-b8f703167c16/
 ## Mount partition on boot
 sudo fdisk /dev/sdb
 
-# show color system terminal
+## show color system terminal
 echo "$TERM"
 
-# kill tmux
+## kill tmux
 tmux kill-server && tmux
 prefix + alt + arrow to resize pannel
 
-# start process in background
+## start process in background
 chromium &
 ```
-# zsh
+## zsh
 ^u = clear line
 ^w = clear before word
+
+## show all drivers
+mhwd -l
+
+## list driver installed
+mhwd -li

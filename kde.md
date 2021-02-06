@@ -1,5 +1,13 @@
 # KDE
 
+## Current Style
+Plasma Style: Breeze AlphaBlack
+Application Style: Lightly
+Colors: One Dark 2 (me)
+Fonts: Segoe UI Semibold 10pt
+Icons: Sensual-Breeze-Dark
+Cursors: We10xOS Cursors
+
 ## Global
 Meta + , = System Settings
 Meta + I = System Settings
@@ -81,6 +89,9 @@ Cursor = We10XOS Cursors
 ### SDDM
 /usr/share/sddm/themes/
 
+### Splashscreen
+~/.local/share/plasma/look-and-feel/
+
 ### Konsole
 Colors Scheme = Nuanced Dark One
 Font = Roboto Mono 11pt
@@ -99,6 +110,10 @@ Font = Roboto Mono 11pt
 ~/.local/share/kxmlgui5/konsole/konsoleui.rc
 ~/.local/share/kxmlgui5/konsole/sessionui.rc
 ~/.local/share/kxmlgui5/kwrite/kwriteui.rc
+
+## Kruner with Metakey
+kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,display"
+Restart
 
 ## Links
 https://store.kde.org/p/1281798/

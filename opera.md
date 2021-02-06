@@ -32,7 +32,7 @@ Opera Importa SpeedDial para ícone do Celular nos Favoritos
 ## Extensões
 Dashlane
 Download Chrome Extension
-Google Tradutor
+Google Tradutor by instranslator
 uBlock Origin
 Youtube Downloader
 https://addons.opera.com/pt-br/extensions/details/google-translate/
