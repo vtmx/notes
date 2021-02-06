@@ -8,6 +8,11 @@ Fonts: Segoe UI Semibold 10pt
 Icons: Sensual-Breeze-Dark
 Cursors: We10xOS Cursors
 
+## Terminal
+Dark One Nuanced
+Roboto Mono Medium 11pt Smooth fonts
+Miscellaneous - Margins: 8px
+
 ## Global
 Meta + , = System Settings
 Meta + I = System Settings
