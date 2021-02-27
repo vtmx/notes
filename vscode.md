@@ -1,6 +1,6 @@
 # VS Code
 
-## Executa sem extensões ativadas
+## Executa sem extensões temporariamente
 code --disable-extensions
 
 ## Opções
