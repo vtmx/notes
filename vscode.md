@@ -94,7 +94,7 @@ Shift + Alt + A = Comentar conteúdo selecionado
 
 ## Remove Recents
 
-Ctrl + Shift + P = Limpa Editor History
+Ctrl + Shift + P = Clear Editor History
 
 ## Terminal Integrated
 
