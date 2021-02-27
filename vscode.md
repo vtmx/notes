@@ -1,18 +1,22 @@
 # VS Code
 
-## Executa sem extensões temporariamente
+## Executa sem extensões
+
 code --disable-extensions
 
 ## Opções
+
 Ctrl + , = Vá em opções do usuário
 Ctrl + K Ctrl + S = Vá em atalhos
 
 ## Utilitários
+
 Ctrl + P = Pesquisa arquivo
 Ctrl + Shift + P = Pesquisa comando interno do VS Code
 Ctrl + Space = Auto-completa possíveis resultados
 
 ## Cursor
+
 Ctrl + Click = Múltiplos cursores
 
 ## Barra Lateral
@@ -26,6 +30,7 @@ Ctrl + Shift + G = Vai para barra lateral do Debug
 Ctrl + Shift + X = Vai para barra lateral de Extensões
 
 ## Indentação
+
 Shift + Alt + F = Autoformat
 Ctrl + ´ ou Ctrl + [ = Move identação no meio da palavra igual Tab
 
