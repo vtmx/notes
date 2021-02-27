@@ -3,8 +3,10 @@
 ## Fonts
 /usr/share/fonts/TTF/
 ~/.local/share/fonts/source-code/
+Font can use with folders.
 
-Font can use with inner folders.
+# font clear cache
+sudo fc-cache -f -v
 
 ## Apps
 KRename
@@ -32,7 +34,9 @@ prefix + alt + arrow to resize pannel
 
 ## start process in background
 chromium &
-```
+whereis chromium
+which flutter
+
 ## zsh
 ^u = clear line
 ^w = clear before word
@@ -42,3 +46,11 @@ mhwd -l
 
 ## list driver installed
 mhwd -li
+
+## folders
+
+# path folder
+/usr/local/bin/
+
+# npm folder
+/usr/local/lib/node_modules/

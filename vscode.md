@@ -1,5 +1,8 @@
 # VS Code
 
+## Abre sem extensões ativadas
+code --disable-extensions
+
 ## Opções
 Ctrl + , = Vá em opções do usuário
 Ctrl + K Ctrl + S = Vá em atalhos
