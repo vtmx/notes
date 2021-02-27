@@ -83,7 +83,7 @@ Ctrl + P = Ctrl + Enter = Abre split
 Ctrl + F = Pesquisa
 Ctrl + H = Pesquisar e substituir
 Ctrl + G = Ir para linha
-Ctrl + Shift + O = Pesquisa símbolos (funções)
+Ctrl + Shift + O = Pesquisa símbolos e funções
 
 ## Comentários
 
