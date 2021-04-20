@@ -261,6 +261,7 @@ Shadow » [x] Hight Bitdeph
 [x] https://gumroad.com/l/studiohdri
 
 ### Sprytile
+
 Shift + Middle = Move Sprite
 S + Hold = Cursor
 
