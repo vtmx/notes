@@ -190,7 +190,7 @@ Ctrl + M + Y = Mirror
 
 1..9 = Ativa coleções
 P = Separa parte selecionada para coleção
-M = Com o objeto selecionado para mover para uma collection
+M = Com o objeto selecionado para criar ou mover para uma collection
 Outline: Filter » Habilitar lock do objeto = Habilitar loock do objeto
 ClickD Add to favorites = Adiciona nos favoritos
 Q = Visualiza objetos que estão nos favoritos
@@ -249,14 +249,20 @@ Shadow » [x] Hight Bitdeph
 
 ## Add-ons
 
-[x] Add mesh extra
+[x] Add Mesh: Extra Objects
 [x] Mesh: Loop Tools (cria círculos nas areas selecionadas)
+[x] Mesh: Auto Mirror
 [x] Rigging: Riggify
+[x] Object: Bool Tool (N aparece opção de boolean rápido)
 [x] Node: Node Wrangle = Ctrl + T na textura para abrir opções
 [x] Plane: Import image to plane
 [x] https://gumroad.com/l/fontselector
 [x] https://gumroad.com/l/PgyXc
 [x] https://gumroad.com/l/studiohdri
+
+### Sprytile
+Shift + Middle = Move Sprite
+S + Hold = Cursor
 
 ## Canais
 
