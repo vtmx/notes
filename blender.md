@@ -277,3 +277,4 @@ https://www.youtube.com/c/VideoVertigo
 
 O Blender aceita seus próprios atalhos no menu.
 Clique com o botão direito e adicione.
+Custom Ctrl+Enter Fullscreen.
