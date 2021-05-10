@@ -25,6 +25,8 @@ Ctrl + Shift + Esq = System Monitor
 Ctrl + Shift + N = Create Folder
 Meta + Ctrl + Right = Switch to Next Desktop
 Meta + Ctrl + Left = Switch to Prev Desktop
+Ctrl + Alt + Del = Tela para desligar
+Ctrl + Shift + Alt + PgDown = Desligar
 
 ## Custom Shortcuts
 Meta + O = Opera
