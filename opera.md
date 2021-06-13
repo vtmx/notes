@@ -47,3 +47,5 @@ Ctrl+Shift+E = Extensões
 Ctrl+Shift+R = Atualizar sem cache
 F12          = Ferramenta de desenvolvimento
 Ctrl+Shift+5 = Screenshot
+
+vivaldi-stable

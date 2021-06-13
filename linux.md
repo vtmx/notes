@@ -11,11 +11,6 @@ Font can use with folders.
 
 sudo fc-cache -f -v
 
-# Apps
-
-KRename
-KColorChooser
-
 # Folders Default
 
 /home/vitor/.config/user-dirs.dirs

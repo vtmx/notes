@@ -64,6 +64,12 @@ Fonts = Segoe UI Semibold 10pt
 Icons = Sensual-Breeze-Dark
 Cursor = We10XOS Cursors
 
+## Prograns
+- Subtitle Composer
+- KColor Chooser
+- Krusader
+- KRaname
+
 ### Global Themes
 /usr/share/plasma/look-and-feel/
 /home/vitor/.local/share/plasma/look-and-feel/
@@ -100,8 +106,8 @@ Cursor = We10XOS Cursors
 ~/.local/share/plasma/look-and-feel/
 
 ### Konsole
-Colors Scheme = Nuanced Dark One
-Font = Roboto Mono 11pt
+Colors Scheme = Dark One Nuanced
+Font = Fira Code 10pt
 
 ## Apps
 ### Inkscape Default
