@@ -1,5 +1,6 @@
 # terminal
 
+```
 ctrl + l = clear screen
 ctrl + u = clear line
 ctrl + a = jump to begin
@@ -14,6 +15,7 @@ alt + d = delete word in cursor
 ctrl + p = next command
 ctrl + n = prev command
 ctrl + d = close terminal
+```
 
 ## Links
-https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
+- https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
