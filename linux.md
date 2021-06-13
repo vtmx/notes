@@ -79,7 +79,5 @@ mhwd -li
 /usr/local/lib/node_modules/
 
 # batcat
-
 bat --list-themes
 export BAT_THEME="ansi"
-
