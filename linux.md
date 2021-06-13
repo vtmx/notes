@@ -84,13 +84,5 @@ mhwd -li
 /usr/local/lib/node_modules/
 
 # batcat
-
-# terminal
-ctrl + l = clear screen
-ctrl + u = clear line
-ctrl + a = jump to begin
-ctrl + e = jump to end
-ctrl + d = close terminal
 bat --list-themes
 export BAT_THEME="ansi"
-
