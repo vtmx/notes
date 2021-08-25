@@ -1,14 +1,13 @@
 # Blender
 
 ## Referência
-
 https://www.giudansky.com/illustration/infographics/blender-map
 
 ## Viewport
-
 T = Oculta e exibe barra de ferramentas
 N = Exibe a sidebar para editar valores
 N = View diminuir clipstart para evitar câmera entrar dentro do objeto
+Shift + Space = Orbital Menu principal
 Shift + Alt + Z = Desabilita todas as informações da viewport
 Esq = Sai do comando
 Delete or X = Deleta objetos selecionados
@@ -87,7 +86,7 @@ K = Knife (Resolver Ngons)
 V = Corta forma
 Alt + M = Merge (Unifica os vertices)
 Alt + R = Spin
-Shift + S = coloca o cursor 3D na área selecionada
+Shift + S = Orbital coloca o cursor 3D na área selecionada
 Ctrl + F = Exibe as transformações dos polígonos (Shade Smooth)
 Ctrl + R = Corte
 Ctrl + Del or Ctrl + X = Dissolve
@@ -170,7 +169,7 @@ Del (Numpad) = Centraliza a câmera nos objetos selecionados
 Alt + H (com o cursor no outline) = Reexibe todas as coleões escondidas com os números
 Alt + Z = Modo X-Ray (deixa objeto transparente)
 Shift + Z = Modo wireframe
-Z = Exibe os tipos de visualização dos objetos
+Z = Orbital exibe os tipos de visualização dos objetos
 Shift + C = Centraliza o 3D cursor
 Shift + C, Shift + S = Select to cursor para centralizar
 Shift + N = Recalcular normals para fora
@@ -215,7 +214,11 @@ Alt + R = Reseta escala
 Tirar time line, clica com o ícone de cruz, espera o ícone de seta e joga para baixo
 Câmera Seguindo = Colocar Empty, com câmera selecionada ir em Constraint e escolher Track To, e selecionar o objeto
 
-# Shading
+## UV Editing
+U = Unwrap
+U + Project from view = Projeta com a imagem
+
+## Shading
 
 Render Properties » Scene » Film » Alpha » Transparent
 Texture » Inviroment Texture = Selecione HDR

@@ -1,10 +1,33 @@
 # Vivaldi
 
 ## Theme
+
 ### One Dark
-- Background: #282c34
+
+- Background: #1e222a
 - Foreground: #abb2bf
 - Hightlight: #abb2bf
-- Accent: #1d2126
+- Accent: #394551 > opera
+- Background Custom Color: #1d2126
+
+### Opera
+
+- Background: #191d21
+- Foreground: #fafafa
+- Hightlight: #45b0e6
+- Accent: #394551
 
 ## Shortcuts
+
+vivaldi-stable
+
+## CSS
+
+/opt/vivaldi/resources/vivaldi/style/
+
+## Links
+
+vivaldi://experiments/
+vivaldi://settings/appearance/
+https://achekulaev.medium.com/darkopera-theme-for-vivaldi-browser-89f2998742e
+

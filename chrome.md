@@ -11,18 +11,13 @@ E = Next
 Shift + E = Prev
 
 ## Devtools
-
 Ctrl + Shift + I ou F = Devtools
 Ctrl + Shift + J = Console
 Ctrl + Shift + C = Entra no modo de seleção de elementos
 
-## Sites
-
 ### Youtube
-
 Shift + ; = Exibe atalhos
 
 ## Links
-
 - https://support.google.com/chrome/answer/157179?hlpt-BR
 - https://developers.google.com/web/tools/chrome-devtools/shortcuts?utm_source=devtools

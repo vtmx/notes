@@ -24,7 +24,7 @@ Baixa mudanças do repositório remoto<br>
 `git pull`
 
 fatal: refusing to merge unrelated histories - Força pull<br>
-`git pull origin branchname --allow-unrelated-histories`<br>
+`git pull origin branchname --allow-unrelated-histories`
 
 ## Soluções
 
@@ -36,7 +36,6 @@ Cria um novo branch e entra nele<br>
 `git checkout -b novo-branch`
 
 ## Netlify
-
 - `Branch deploy: dev`
 - `Build command: hugo`
 - `Publish directory: public`
@@ -95,11 +94,9 @@ no manjaro foi necessário instalar o x11-ssh-askpass
 https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
 
 ## Nomes de commit
-
 "Fix", "Add", "Change"
 
 ## Links
-
 https://www.conventionalcommits.org/en/v1.0.0/
 https://chris.beams.io/posts/git-commit/
 https://docs.github.com/pt/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
@@ -113,6 +110,5 @@ https://stackoverflow.com/questions/34400272/visual-studio-code-always-asking-fo
 https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely
 
 ## Helps
-
 https://github.com/joshnh/Git-Commands
 https://github.com/bpassos/git-commands

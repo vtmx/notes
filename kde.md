@@ -1,7 +1,6 @@
 # KDE
 
 ## Current Style
-
 Application Style: Lightly
 Plasma Style: Breeze AlphaBlack
 Colors: One Dark 2 (me)
@@ -11,13 +10,11 @@ Icons: Sensual-Breeze-Dark
 Cursors: We10xOS Cursors
 
 ## Terminal
-
-Dark One Nuanced
-Fira Code Retina 10pt
+Dark One Nuanced - bg #1e222a
+BlexMono Nerd Font Mono 11pt
 Miscellaneous - Margins: 8px
 
 ## Global
-
 Meta + , = System Settings
 Meta + . = Shortcuts
 Meta + I = System Settings
@@ -28,6 +25,7 @@ Meta = Kruner
 Meta + R = Kruner
 Alt + Space = Kruner
 Meta + R = Kruner
+Meta + Space = Rofi
 Ctrl + Esq = System Activity
 Ctrl + Shift + Esq = System Monitor
 Ctrl + Shift + N = Create Folder
@@ -37,7 +35,6 @@ Ctrl + Alt + Del = Tela para desligar
 Ctrl + Shift + Alt + PgDown = Desligar
 
 ## Custom Shortcuts
-
 Meta + B = Browser
 Meta + C = VS Code
 Meta + E = Dolphin
@@ -50,7 +47,6 @@ Meta + V = VLC
 Meta + Enter = Terminal
 
 ## Dolphin
-
 F3 = Open Side
 F4 = Open Pane Terminal
 Shift + F4 = Open Terminal
@@ -67,17 +63,14 @@ Ctrl + I = Filter
 Tabs = Like Chrome
 
 ## Comands
-
 kmenuedit = Shortcuts
 
 ## Configs
-
 Desktop Session = On Login: Start with an empty session
 Window Behavior = Advanced > Window placement: Centered
 General Behavior = Animation speed: Instant
 
 ## Prograns
-
 - Subtitle Composer
 - KColor Chooser
 - Krusader
@@ -86,51 +79,47 @@ General Behavior = Animation speed: Instant
 ## Paths
 
 ### Global Themes
-
 /usr/share/plasma/look-and-feel/
-/home/vitor/.local/share/plasma/look-and-feel/
+~/.local/share/plasma/look-and-feel/
 
 ### Plasma Style
-
 /usr/share/plasma/desktoptheme/
-/home/vitor/.local/share/plasma/desktoptheme/
+~/.local/share/plasma/desktoptheme/
 
 ### Window Decorations
-
-/home/vitor/.local/share/aurorae/themes/
+~/.local/share/aurorae/themes/
 
 ### Icons
-
 /usr/share/icons/
-/home/vitor/.local/share/icons/
+~/.local/share/icons/
 
 ### Colors
+~/.local/share/color-schemes/
 
-/usr/share/color-schemes/
-/home/vitor/.local/share/color-schemes/
-/home/vitor/.kde4/share/apps/color-schemes/
+### Global:
+~/.local/share/color-schemes/
+~/.kde4/share/apps/color-schemes/
+
+# konsole
+~/.local/share/konsole/
 
 ### Kvantum
-
 /usr/share/themes/
 /usr/share/Kvantum/
-/home/vitor/.config/Kvantum/
-/home/vitor/.local/share/plasma/desktoptheme/
+~/.config/Kvantum/
+~/.local/share/plasma/desktoptheme/
 
 ### Backgrounds
-
 /usr/share/backgrounds/
+/usr/share/wallpapers/
 
 ### SDDM
-
 /usr/share/sddm/themes/
 
 ### Splashscreen
-
 ~/.local/share/plasma/look-and-feel/
 
 ### Shortcuts
-
 ~/.config/kdeglobals
 ~/.config/kglobalshortcutsrc
 ~/.config/khotkeysrc
@@ -142,10 +131,8 @@ General Behavior = Animation speed: Instant
 ~/.local/share/kxmlgui5/kwrite/kwriteui.rc
 
 ### Kruner with Metakey
-
 kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,display"
 Restart
 
 ## Links
-
 https://store.kde.org/p/1281798/
