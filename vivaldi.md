@@ -25,9 +25,14 @@ vivaldi-stable
 
 /opt/vivaldi/resources/vivaldi/style/
 
+```
+body {
+	font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+```
+
 ## Links
 
 vivaldi://experiments/
 vivaldi://settings/appearance/
 https://achekulaev.medium.com/darkopera-theme-for-vivaldi-browser-89f2998742e
-
