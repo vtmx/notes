@@ -36,6 +36,7 @@ Cria um novo branch e entra nele<br>
 `git checkout -b novo-branch`
 
 ## Netlify
+
 - `Branch deploy: dev`
 - `Build command: hugo`
 - `Publish directory: public`
@@ -90,13 +91,28 @@ adiciona ssh para não pedir senha
 verifica se a chave no git está correta
 `ssh -T git@github.com`
 
+no fishshell
+https://gist.github.com/josh-padnick/c90183be3d0e1feb89afd7573505cab3
+https://stianlagstad.no/2020/03/learning-how-to-use-the-ssh-agent-with-fish/
+https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
+
+eval (ssh-agent c)
+
+não tenho certeza se isso funcionou nessa etapa:
+echo "set SSH_AUTH_SOCK \"$SSH_AUTH_SOCK\"; export SSH_AUTH_SOCK"
+echo "set SSH_AGENT_PID \"$SSH_AGENT_PID\"; export SSH_AGENT_PID"
+
+ssh-add ~/.ssh/id_ed25519
+
 no manjaro foi necessário instalar o x11-ssh-askpass
 https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
 
 ## Nomes de commit
+
 "Fix", "Add", "Change"
 
 ## Links
+
 https://www.conventionalcommits.org/en/v1.0.0/
 https://chris.beams.io/posts/git-commit/
 https://docs.github.com/pt/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
@@ -110,5 +126,6 @@ https://stackoverflow.com/questions/34400272/visual-studio-code-always-asking-fo
 https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely
 
 ## Helps
+
 https://github.com/joshnh/Git-Commands
 https://github.com/bpassos/git-commands

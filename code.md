@@ -29,10 +29,17 @@ Ctrl + Shift + G = Vai para barra lateral do Git
 Ctrl + Shift + G = Vai para barra lateral do Debug
 Ctrl + Shift + X = Vai para barra lateral de Extensões
 
+## Edição
+
+Ctrl + X = Recorta linha
+Ctrl + U = Desfaz última alteração
+
 ## Indentação
 
 Shift + Alt + F = Autoformat
+Ctrl + K + F = Auto format apenas na seleção
 Ctrl + ´ ou Ctrl + [ = Move identação no meio da palavra igual Tab
+Shift + Tab = Tab ao contrário
 
 ## Markdown
 
@@ -45,6 +52,9 @@ Ctrl + Enter = Insere linha abaixo
 Ctrl + Shift + Enter = Insere linha acima
 F2 = Após selecionar alguma palavra, altera todas ao mesmo tempo
 Ctrl + L = Seleciona toda linha
+Ctrl + Shift + L = seleciona todas as palavras que tiverem o cursor
+Ctrl + D = Seleciona uma palavra por vez que estão no cursor
+Ctrl + K = Vai removendo a seleção
 Shift + Alt + Down ou Shift + Alt + Up = Copia sentença para baixo ou cima igual Ctrl + D
 Alt + Down ou Alt + Up = Movimenta linha para cima ou para baixo
 Ctrl + Shift + L ou Alt + F3 = Seleciona todas as instâncias da palavra selecionada
@@ -54,6 +64,7 @@ Ctrl + Shift + ] = Vai até o início e final das chaves
 Deixar Alt pressionado para multi-cursor
 Shift + Alt + I = Selecionar várias linhas que ficam com multi-cursor
 Ctrl + Shift + Click = Seleciona coluna inteira
+Shift + Alt + Seta = Seleciona blocos conforme seta
 
 ## Ir
 
@@ -74,6 +85,7 @@ Ctrl + Shift + W = Fechar todas as guias
 Ctrl + Shift + T = Abrir última guia fechada
 Ctrl + Alt + Direita = Abre uma guia lado-a-lado
 Ctrl + ] = Abre o mesmo arquivo lado-a-lado
+Ctrl + d + ] = Lado a lado na vertical
 Scrollclick na guia = Fecha guia
 Ctrl + 1 = Foco na Janela 1
 Ctrl + P = Ctrl + Enter = Abre split

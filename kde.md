@@ -95,8 +95,8 @@ General Behavior = Animation speed: Instant
 
 ### Colors
 ~/.local/share/color-schemes/
-~/.local/.kde4/share/apps/color-schemes/
 /usr/share/color-schemes/
+~/.local/.kde4/share/apps/color-schemes/
 
 ### Global:
 ~/.local/share/color-schemes/

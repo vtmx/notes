@@ -1,1 +1,4 @@
 # Bat
+
+wine cmd
+

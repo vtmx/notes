@@ -1,5 +1,6 @@
 # Vim
 
+```
 ## Navegação
 hjkl = setas
 ^e = 1linha pra baixo
@@ -38,6 +39,7 @@ i = inserção
 a = inserção na frente
 r = substitui o carácter
 c = altera a letra
+ci' = altera tudo que está dentro de ' na linha
 I = inserção no início da linha
 A = inserção no final da linha
 o = inserção na linha de baixo
@@ -104,9 +106,14 @@ v( = seleciona até o final da sentença
 f = busca letra na linha
 F = busca letra no sentido inverso
 t = busca letra colocando o cursor antes da palavra buscada
+T = busca letra colocando o cursor depois
+; = repeat ação anterior pra frente
+, = repete ação anterio ao contrário
+
 - = busca palavra onde está o cursor
 
 # = busca palavra onde está o cursor na ordem inversa
+
 ?nome_palavra = pesquisa pra cima
 /nome_palavra = pesquisa pra baixo
 Dando ENTER
@@ -115,11 +122,11 @@ N = pesquisar pra trás
 :s/palavra_antiga/palavra_nova = substitui o primeiro encontrado
 :s/palavra_antiga/palavra_nova/g = substitui todos da linha
 :14,17s/palavra_antiga/palavra_nova = substitui todos da linha 14 a 17
-%s/palavra_antiga/palavra_nova = substitui palavras
+:%s/plavra_antiga/palvra_nova/gc = substitui todos no arquivo c usado para confirmar
+:%s/palavra_antiga/palavra_nova = substitui palavras
 :nhol = desmarca a pesquisa
 
 ## Múltiplos Arquivos
-
 vim arquivo1 arquivo2 = abre mais os dois arquivos
 :e = nome do arquivo
 :bn = ir para o próximo arquivo
@@ -146,7 +153,6 @@ o = abre arquivo do nerdree
 \b = Plugin Buffer Explorer
 
 ## Macro
-
 qa = começa a grava macro a
 q = termina de gravar
 @a = repete a macro
@@ -158,6 +164,8 @@ zo = abre método
 zc = fecha métodos
 zr = abre todas
 zm = fecha todas
+ma = marca local a
+Ma = vai ao local a
 :%norm! @a = executa em todas as macros
 
 :%normal Whd = % executa o comando em normal em todas as linhas
@@ -167,3 +175,8 @@ zm = fecha todas
 ## Links
 https://vim.rtorr.com
 r! comando = executar comando terminal
+
+set list = add marks
+set nolist = remove marks
+set list! toogle marks
+```

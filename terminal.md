@@ -14,8 +14,10 @@ ctrl + h = delete prev letter
 alt + d = delete word in cursor
 ctrl + p = next command
 ctrl + n = prev command
+ctrl + r = show last commands
 ctrl + d = close terminal
 ```
 
 ## Links
+
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
