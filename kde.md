@@ -8,6 +8,7 @@ Window Decorations = Lightly
 Fonts: Segoe UI Semibold 10pt
 Icons: Sensual-Breeze-Dark
 Cursors: We10xOS Cursors
+Shadow Window: 35% Small
 
 ## Terminal
 Dark One Nuanced - bg #1e222a
@@ -76,8 +77,17 @@ General Behavior = Animation speed: Instant
 - Krusader
 - KRaname
 
-## Paths
+## Widgets
+- Better inline clock
+- Virtual desktop bar
 
+```
+git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
+./scripts/install-dependencies-arch.sh
+./scripts/install-applet.sh
+```
+
+## Paths
 ### Global Themes
 /usr/share/plasma/look-and-feel/
 ~/.local/share/plasma/look-and-feel/
@@ -96,13 +106,12 @@ General Behavior = Animation speed: Instant
 ### Colors
 ~/.local/share/color-schemes/
 /usr/share/color-schemes/
-~/.local/.kde4/share/apps/color-schemes/
 
 ### Global:
 ~/.local/share/color-schemes/
-~/.kde4/share/apps/color-schemes/
+/usr/share/color-schemes/
 
-# konsole
+## konsole
 ~/.local/share/konsole/
 
 ### Kvantum
@@ -114,6 +123,12 @@ General Behavior = Animation speed: Instant
 ### Backgrounds
 /usr/share/backgrounds/
 /usr/share/wallpapers/
+
+### Plasmoids
+.local/share/plasma/plasmoids/
+- better inline clock
+- shutdown or switch
+- virtual desktop bar
 
 ### SDDM
 /usr/share/sddm/themes/
@@ -136,5 +151,14 @@ General Behavior = Animation speed: Instant
 kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,display"
 Restart
 
+### Remover Panel Shadow
+`xprop -remove _KDE_NET_WM_SHADOW`
+
+## Restart Plasma
+```
+kquitapp5 plasmashell
+kstart5 plasmashell
+```
+
 ## Links
-https://store.kde.org/p/1281798/
+htts://store.kde.org/p/1281798/

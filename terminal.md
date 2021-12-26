@@ -18,6 +18,34 @@ ctrl + r = show last commands
 ctrl + d = close terminal
 ```
 
+## fish
+```
+eval (ssh-agent -c)
+```
+
+## ranger
+
+```
+shift + s = it opens a new shell on the current directory
+ctrl + d = on the shell, it goes back to ranger
+sudo pacman -S w3m (to preview images)
+```
+
+## tmux
+```
+prefix+{ and } = move pane
+prefix+ctrl+o and alt+o = move pane
+```
+
+## pacman
+```
+pacman -S = install
+pacman -R = remove
+pacman -Qqe = list all packages
+pacman -Qqe > packages.txt = create a file with packages
+pacman -S --needed - < packages.txt = install all packages uniques packages
+```
+
 ## Links
 
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/

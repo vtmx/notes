@@ -95,6 +95,9 @@ no fishshell
 https://gist.github.com/josh-padnick/c90183be3d0e1feb89afd7573505cab3
 https://stianlagstad.no/2020/03/learning-how-to-use-the-ssh-agent-with-fish/
 https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
+https://www.rockyourcode.com/ssh-agent-could-not-open-a-connection-to-your-authentication-agent-with-fish-shell/
+
+---
 
 eval (ssh-agent c)
 
@@ -103,6 +106,8 @@ echo "set SSH_AUTH_SOCK \"$SSH_AUTH_SOCK\"; export SSH_AUTH_SOCK"
 echo "set SSH_AGENT_PID \"$SSH_AGENT_PID\"; export SSH_AGENT_PID"
 
 ssh-add ~/.ssh/id_ed25519
+
+---
 
 no manjaro foi necessário instalar o x11-ssh-askpass
 https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
