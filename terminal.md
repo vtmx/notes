@@ -21,6 +21,7 @@ ctrl + d = close terminal
 ## fish
 ```
 eval (ssh-agent -c)
+ssh-add ~/.ssh/id_rsa
 ```
 
 ## ranger
