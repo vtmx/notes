@@ -22,6 +22,13 @@ ctrl + d = close terminal
 ```
 eval (ssh-agent -c)
 ssh-add ~/.ssh/id_rsa
+
+ou
+
+ssh-add
+ssh-keygen -p -f ~/.ssh/id_ed25519
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases
 ```
 
 ## ranger
@@ -45,6 +52,13 @@ pacman -R = remove
 pacman -Qqe = list all packages
 pacman -Qqe > packages.txt = create a file with packages
 pacman -S --needed - < packages.txt = install all packages uniques packages
+```
+
+## python selenium
+```
+pip install selenium
+download google drive
+sudo mv /download/chromedriver /user/local/bin
 ```
 
 ## Links
