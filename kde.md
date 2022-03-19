@@ -162,3 +162,17 @@ kstart5 plasmashell
 
 ## Links
 htts://store.kde.org/p/1281798/
+
+## Bugs
+
+### Cursor muda em cada área
+- Copiar o cursor atual ./local/share/icons para /usr/share/icons
+- Alterar o arquivo default/index.theme com o nome da pasta do seu cursor
+```
+[icon theme]
+Inherits=We10XOS-cursors
+```
+
+### Painel volta a versão anterior ao reiniciar
+- Ir alterando o arquivo: /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
+- E executando o comando para ver as modificações `kquitapp5 plasmashell && kstart plasmashell`
