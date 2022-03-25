@@ -1,5 +1,8 @@
 # KDE
 
+## Configuration Files
+- https://opensourcelibs.com/lib/kde-configuration-files
+
 ## Current Style
 Application Style: Lightly
 Plasma Style: Breeze AlphaBlack
@@ -176,3 +179,10 @@ Inherits=We10XOS-cursors
 ### Painel volta a versão anterior ao reiniciar
 - Ir alterando o arquivo: /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
 - E executando o comando para ver as modificações `kquitapp5 plasmashell && kstart plasmashell`
+
+## Panel não fixa modo opaco
+Editar arquivo: /usr/share/plasma/desktoptheme/default/metadata.desktop
+```
+[AdaptiveTransparency]
+enabled=false
+```
