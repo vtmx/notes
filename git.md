@@ -85,7 +85,7 @@ remove mensagem de erro CRLF
 `git config --global core.autocrlf false`
 
 adiciona ssh para não pedir senha
-`eval "$(ssh-agent -s)"`
+`eval (ssh-agent -c)`
 `ssh-add ~/.ssh/id_rsa`
 
 verifica se a chave no git está correta
@@ -96,6 +96,11 @@ https://gist.github.com/josh-padnick/c90183be3d0e1feb89afd7573505cab3
 https://stianlagstad.no/2020/03/learning-how-to-use-the-ssh-agent-with-fish/
 https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
 https://www.rockyourcode.com/ssh-agent-could-not-open-a-connection-to-your-authentication-agent-with-fish-shell/
+
+
+`ssh -l`
+Exibe a hash para poder comparar com as do github.
+https://github.com/settings/keys
 
 ---
 

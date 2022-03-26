@@ -2,7 +2,7 @@
 
 ```
 ctrl + l = clear screen
-ctrl + u = clear line
+ctrl + u = clear line back
 ctrl + a = jump to begin
 ctrl + e = jump to end
 ctrl + f = move next letter
@@ -32,7 +32,6 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-
 ```
 
 ## ranger
-
 ```
 shift + s = it opens a new shell on the current directory
 ctrl + d = on the shell, it goes back to ranger
@@ -43,6 +42,7 @@ sudo pacman -S w3m (to preview images)
 ```
 prefix+{ and } = move pane
 prefix+ctrl+o and alt+o = move pane
+ctrl+b active copy mode
 ```
 
 ## pacman
@@ -59,6 +59,11 @@ pacman -S --needed - < packages.txt = install all packages uniques packages
 pip install selenium
 download google drive
 sudo mv /download/chromedriver /user/local/bin
+```
+
+## libera acessos
+```
+chmod -R a+rX *
 ```
 
 ## Links
