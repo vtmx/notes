@@ -173,6 +173,7 @@ Ma = vai ao local a
 !comando = executar comando terminal
 
 ## Links
+xclip usado para coletar ctrl+c do vim
 https://vim.rtorr.com
 r! comando = executar comando terminal
 

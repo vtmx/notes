@@ -66,6 +66,11 @@ sudo mv /download/chromedriver /user/local/bin
 chmod -R a+rX *
 ```
 
+## Wine configuração
+```
+winecfg
+```
+
 ## Links
 
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
