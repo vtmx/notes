@@ -1,5 +1,4 @@
 # terminal
-
 ```
 ctrl + l = clear screen
 ctrl + u = clear line back
@@ -66,9 +65,27 @@ sudo mv /download/chromedriver /user/local/bin
 chmod -R a+rX *
 ```
 
-## Wine configuração
+## iso
 ```
+sudo mkdir /mnt/iso
+sudo mount -o loop ubuntu-16.10-server-amd64.iso /mnt/iso
+ls /mnt/iso/
+sudo umount /mnt/iso/
+```
+
+## wine config
+```
+config:
 winecfg
+
+restart
+mv ~/.wine ~/.wine.old
+winebot -u
+```
+
+## Rofi itens
+```
+~/.local/share/applications/
 ```
 
 ## Links
