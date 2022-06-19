@@ -90,4 +90,16 @@ winebot -u
 
 ## Links
 
+## Kitty
+ctrl+shift+t = new tab
+ctrl+shift+w = close tab
+ctrl+shift+q = close tab 
+ctrl+shift+right = next tab 
+ctrl+shift+left = previous tab 
+ctrl+shift+f5 = reload
+ctrl+shift+enter = new window 
+ctrl+shift+w = close window 
+ctrl+shift+] = next window 
+ctrl+shift+[ = previous window 
+
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/

@@ -159,6 +159,9 @@ Restart
 
 ## Restart Plasma
 ```
+killall plasmashell
+kstart plasmashell
+
 kquitapp5 plasmashell
 kstart5 plasmashell
 ```
@@ -185,4 +188,23 @@ Editar arquivo: /usr/share/plasma/desktoptheme/default/metadata.desktop
 ```
 [AdaptiveTransparency]
 enabled=false
+```
+
+## Comandos opções
+```
+https://www.reddit.com/r/kde/comments/m0nj54/how_to_open_kde_plasma_system_settings_using
+
+# exibe opções completo
+systemsettings5
+
+# exibe apenas a janela da opção
+kcmshell5
+
+systemsettings5 -h
+systemsettings5 --list
+kcmshell5 -h
+kcmshell5 --list
+
+systemsettings5 kcm_keys
+kcmshell5 kcm_keys
 ```
