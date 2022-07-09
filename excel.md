@@ -7,6 +7,7 @@ shift+space = seleciona linha
 esc = cancela seleção
 ctrl+shift seta esq = extende seleção até última a esquerda
 ctrl+shift seta dir = extende seleção até última a direita
+ctrl+shift+end = seleciona toda a tabela
 
 ## Navegação
 

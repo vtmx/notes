@@ -19,6 +19,7 @@ BlexMono Nerd Font Mono 11pt
 Miscellaneous - Margins: 8px
 
 ## Global
+Meta + Drag = Arrasta a janela
 Meta + , = System Settings
 Meta + . = Shortcuts
 Meta + I = System Settings
@@ -207,4 +208,10 @@ kcmshell5 --list
 
 systemsettings5 kcm_keys
 kcmshell5 kcm_keys
+```
+
+## Atualiza Kwin e Plasma
+```
+kwin_x11 --replace &
+plasmashell --replace &
 ```
