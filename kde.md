@@ -215,3 +215,8 @@ kcmshell5 kcm_keys
 kwin_x11 --replace &
 plasmashell --replace &
 ```
+
+## App para adicionar apps no autostart
+```
+kcmshell5 autostart
+```
