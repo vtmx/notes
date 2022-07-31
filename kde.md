@@ -220,3 +220,9 @@ plasmashell --replace &
 ```
 kcmshell5 autostart
 ```
+
+## Remove KwinScript
+```
+kpackagetool5 -r script-id
+~/.local/share/kservices5/
+```

@@ -15,6 +15,7 @@ ctrl + p = next command
 ctrl + n = prev command
 ctrl + r = show last commands
 ctrl + d = close terminal
+!! = repeat last command
 ```
 
 ## fish
