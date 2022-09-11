@@ -87,6 +87,7 @@ winebot -u
 ## Rofi itens
 ```
 ~/.local/share/applications/
+rofi -show keys
 ```
 
 ## Links

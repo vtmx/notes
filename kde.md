@@ -226,3 +226,7 @@ kcmshell5 autostart
 kpackagetool5 -r script-id
 ~/.local/share/kservices5/
 ```
+
+## Dolphin
+Systemsettings > Application Appearance >Style Configure...->Views->Draw focus indicator.
+Systemsettings > preview uncheck folder
