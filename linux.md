@@ -1,6 +1,5 @@
 # Linux
 
-```sh
 # fonts
 /usr/share/fonts/TTF/
 /home/vitor/.config/user-dirs.dirs
@@ -84,4 +83,8 @@ ll /snap or readlink -f /snap
 
 # remove
 sudo rm /snap
-```
+
+# fstab
+/etc/fstab
+
+após a edição rodar: systemctl daemon-reload

@@ -1,19 +1,22 @@
 # terminal
 ```
 ctrl + l = clear screen
-ctrl + u = clear line back
-ctrl + a = jump to begin
-ctrl + e = jump to end
-ctrl + f = move next letter
+ctrl + a = move to begin
+ctrl + e = move to end
+alt + b  = move prev word
+alt + f  = move next word
 ctrl + b = move prev letter
-alt + f = jump next word
-alt + b = jump prev word
-ctrl + d = delete next letter
+ctrl + f = move next letter
+ctrl + u = delete all back
+ctrl + k = delete all front
+ctrl + w = delete prev word
+ald + d  = delete next word
 ctrl + h = delete prev letter
-alt + d = delete word in cursor
+ctrl + d = delete next letter
 ctrl + p = next command
 ctrl + n = prev command
 ctrl + r = show last commands
+ctrl + t = fzf
 ctrl + d = close terminal
 !! = repeat last command
 ```
@@ -29,6 +32,19 @@ ssh-add
 ssh-keygen -p -f ~/.ssh/id_ed25519
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases
+```
+
+## fzf
+```
+# custom
+https://minsw.github.io/fzf-color-picker
+https://github.com/junegunn/fzf/issues/1051
+fish example
+    set -gx FZF_DEFAULT_OPTS '
+   --color=fg:#abb2bf,bg:#23272e,hl:#61afef
+   --color=fg+:#abb2bf,bg+:#2c313c,hl+:#61afef,gutter:#23272e
+   --color=info:#5c6370,prompt:#98c379,pointer:#abb2bf
+   --color=marker:#abb2bf,spinner:#abb2bf,header:#abb2bf'
 ```
 
 ## ranger
