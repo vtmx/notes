@@ -180,4 +180,7 @@ r! comando = executar comando terminal
 set list = add marks
 set nolist = remove marks
 set list! toogle marks
+
+M.base_16
+base00 = '#23272e'
 ```

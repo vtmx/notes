@@ -9,10 +9,9 @@ ctrl+shift seta esq = extende seleção até última a esquerda
 ctrl+shift seta dir = extende seleção até última a direita
 ctrl+shift+end = seleciona toda a tabela
 
-## Navegação
-
 ## Tabelas e filtros
 alt+c = limpar filtro
+ctrl+shit+l = desabilita filtro
 ctrl+shift+t = selecionar todas as linhas
 
 

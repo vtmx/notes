@@ -1,4 +1,5 @@
 # terminal
+
 ```
 ctrl + l = clear screen
 ctrl + a = move to begin
@@ -19,6 +20,26 @@ ctrl + r = show last commands
 ctrl + t = fzf
 ctrl + d = close terminal
 !! = repeat last command
+```
+
+## Apps
+- cmus = player
+- entr = hot reload file
+- ncdu = show size space
+- ranger = file manager
+
+## entr
+```sh
+# http://eradman.com/entrproject/
+
+# with file exec
+echo filename.sh | entr ./filename.sh
+
+# celar terminal
+echo filename.sh | entr -c ./filename.sh
+
+# no file exec:
+echo ls *.sh | entr /bin/bash filename.sh
 ```
 
 ## fish
@@ -105,8 +126,6 @@ winebot -u
 ~/.local/share/applications/
 rofi -show keys
 ```
-
-## Links
 
 ## Kitty
 ctrl+shift+t = new tab
