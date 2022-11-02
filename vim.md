@@ -33,6 +33,8 @@ gi = volta para a última linha em inserção
 :[num] = vai ao número da linha
 num_linha+G = vai para linha num_linha
 50% = vai para 50% do texto
+^o = salto pra frente
+^i = salto pra trás
 
 ## Inserção
 i = inserção
