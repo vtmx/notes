@@ -35,6 +35,11 @@ num_linha+G = vai para linha num_linha
 50% = vai para 50% do texto
 ^o = salto pra frente
 ^i = salto pra trás
+* = pesquisa palavra em fico
+# = pesquisa palavra em foco pra trás
+^x + c-n = completa
+^x + c-l = completa linha inteira
+^y = no insert mode completa com o que tem em cima
 
 ## Inserção
 i = inserção
