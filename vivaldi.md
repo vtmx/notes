@@ -3,9 +3,11 @@
 ## Enable experiments
 - vivaldi://experiments
 - [x] Allow for using CSS modifications.
+
+## Test
 - vivaldi://inspect/#apps
 
-## Import CSS
+## Import css
 Settings > Custom IU Modifications
 
 ## Style location
@@ -17,6 +19,9 @@ vivaldi://settings/languages
 
 ## Reset buttons toolbar
 Aparearance > Window Appearance > Tollbar customization: Reset Navigation Toolbar
+
+## Add custom css
+Aparearance > Window Appearance > Custom UI Modification...
 
 ## OneDarkV
 - Background: #1e2227
@@ -42,7 +47,6 @@ F2, Ctrl+E
 
 ## Commands
 `sudo cp logo-vitormelo.svg /opt/vivaldi/resources/vivaldi/resources`
-
 
 ## Links
 vivaldi://experiments

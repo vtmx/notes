@@ -37,9 +37,14 @@ num_linha+G = vai para linha num_linha
 ^i = salto pra trás
 * = pesquisa palavra em fico
 # = pesquisa palavra em foco pra trás
-^x + c-n = completa
-^x + c-l = completa linha inteira
+^x = exibe auto complete
+^e = fecha popup do auto complete
+^n = próximo item do autocomplete
+^p = item anterior do autocomplete
+^x + ^l = completa linha inteira
 ^y = no insert mode completa com o que tem em cima
+:!hostname -i = recebe resposta do comando
+:r!hostname -i = recebe resposta do comando no arquivo
 
 ## Inserção
 i = inserção
