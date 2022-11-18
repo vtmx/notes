@@ -33,18 +33,6 @@ gi = volta para a última linha em inserção
 :[num] = vai ao número da linha
 num_linha+G = vai para linha num_linha
 50% = vai para 50% do texto
-^o = salto pra frente
-^i = salto pra trás
-* = pesquisa palavra em fico
-# = pesquisa palavra em foco pra trás
-^x = exibe auto complete
-^e = fecha popup do auto complete
-^n = próximo item do autocomplete
-^p = item anterior do autocomplete
-^x + ^l = completa linha inteira
-^y = no insert mode completa com o que tem em cima
-:!hostname -i = recebe resposta do comando
-:r!hostname -i = recebe resposta do comando no arquivo
 
 ## Inserção
 i = inserção
@@ -65,10 +53,14 @@ S = deleta linha e entra no modo de inserção igual cc
 ^j = adiciona linha no modo de inserção
 ^a = incremento
 ^i = decremento
+^n = próximo item do autocomplete
+^p = item anterior do autocomplete
+^x = exibe auto complete
 ^x ^n = auto-completa palavra
 ^n ^l = auto-completa linha
 ^x ^f = auto-completa arquivos
 ^x ^k = auto-completa dicionários
+^e = fecha popup do auto complete
 
 ## Delete
 dd = deleta linha inteira
@@ -94,6 +86,11 @@ P = cola pra baixo
 ^n = auto completa próximo
 ^p = auto completa anterior
 
+## Terminal
+:!hostname -i = recebe resposta do comando
+:r!hostname -i = recebe resposta do comando no arquivo
+set language in file - comment: vim: ft=sass
+
 ## Visual
 v = modo visual
 ^v = modo visual em bloco
@@ -114,18 +111,19 @@ vu = torna minúsculo o caracter/seleção
 vU = torna maiúsculo o caracter/seleção
 v( = seleciona até o final da sentença
 
-## Pesquisa e Substituição
+## Pesquisa
 f = busca letra na linha
 F = busca letra no sentido inverso
 t = busca letra colocando o cursor antes da palavra buscada
 T = busca letra colocando o cursor depois
 ; = repeat ação anterior pra frente
 , = repete ação anterio ao contrário
-
-- = busca palavra onde está o cursor
-
+* = busca palavra onde está o cursor
 # = busca palavra onde está o cursor na ordem inversa
+^o = salto pra frente
+^i = salto pra trás
 
+## Substituição
 ?nome_palavra = pesquisa pra cima
 /nome_palavra = pesquisa pra baixo
 Dando ENTER
@@ -179,7 +177,6 @@ zm = fecha todas
 ma = marca local a
 Ma = vai ao local a
 :%norm! @a = executa em todas as macros
-
 :%normal Whd = % executa o comando em normal em todas as linhas
 :norm = ||
 !comando = executar comando terminal

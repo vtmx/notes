@@ -19,3 +19,7 @@ about:config
 ## Enable toolbox para selecionar classes
 https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
 
+## Config portal KDE
+about:config
+search for: widget.use-xdg-desktop-portal
+set to 1

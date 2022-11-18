@@ -230,3 +230,9 @@ kpackagetool5 -r script-id
 ## Dolphin
 Systemsettings > Application Appearance >Style Configure...->Views->Draw focus indicator.
 Systemsettings > preview uncheck folder
+
+## Add bookmarks gnome
+```
+~/.config/gtk-3.0/bookmarks
+file://name-folder name-icon
+```
