@@ -236,3 +236,5 @@ Systemsettings > preview uncheck folder
 ~/.config/gtk-3.0/bookmarks
 file://name-folder name-icon
 ```
+
+## Manter clipborad habilitado para continuar colando após software for fechado.

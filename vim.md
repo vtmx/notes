@@ -61,6 +61,13 @@ S = deleta linha e entra no modo de inserção igual cc
 ^x ^f = auto-completa arquivos
 ^x ^k = auto-completa dicionários
 ^e = fecha popup do auto complete
+ysiw" = adicionar aspas entre as palavras
+
+## Multiplo cursor
+* em cima de uma palavra
+cgn = para alterála, n para próxima depois . para repetir
+http://vimcasts.org/episodes/operating-on-search-matches-using-gn/
+... só usando o c também pega
 
 ## Delete
 dd = deleta linha inteira

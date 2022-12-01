@@ -44,6 +44,8 @@ echo ls *.sh | entr /bin/bash filename.sh
 
 ## fish
 ```
+cdh = exibe o histórico
+
 eval (ssh-agent -c)
 ssh-add ~/.ssh/id_rsa
 
