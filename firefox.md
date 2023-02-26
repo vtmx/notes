@@ -8,8 +8,14 @@
 ## Debug shortcut:
 ctrl+shift+alt+i
 
+## Create a Theme
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme
+
 ## Habilita customização
 about:config
+
+## Test extensions
+about:debugging#/runtime/this-firefox
 
 <table>
   <tr>

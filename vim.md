@@ -96,7 +96,8 @@ P = cola pra baixo
 ## Terminal
 :!hostname -i = recebe resposta do comando
 :r!hostname -i = recebe resposta do comando no arquivo
-set language in file - comment: vim: ft=sass
+set language in file - comment: vim: ft=sass:
+end of line = # set ft=fileformat:
 
 ## Visual
 v = modo visual
@@ -199,4 +200,6 @@ set list! toogle marks
 
 M.base_16
 base00 = '#23272e'
+
+nvim --startuptime log.txt
 ```

@@ -4,14 +4,14 @@
 ctrl + l = clear screen
 ctrl + a = move to begin
 ctrl + e = move to end
-alt + b  = move prev word
-alt + f  = move next word
+alt  + b  = move prev word
+alt  + f  = move next word
 ctrl + b = move prev letter
 ctrl + f = move next letter
 ctrl + u = delete all back
 ctrl + k = delete all front
 ctrl + w = delete prev word
-ald + d  = delete next word
+ald  + d  = delete next word
 ctrl + h = delete prev letter
 ctrl + d = delete next letter
 ctrl + p = next command
@@ -84,6 +84,16 @@ prefix+ctrl+o and alt+o = move pane
 ctrl+b active copy mode
 ```
 
+## folder
+```
+# Create dir with path not exist
+mkdir -p /path/path
+
+# Create dir and enter in dir
+mkdir dir && cd $_
+```
+
+
 ## pacman
 ```
 pacman -S = install
@@ -142,3 +152,6 @@ ctrl+shift+] = next window
 ctrl+shift+[ = previous window 
 
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
+
+## Softwares
+- screenkey
