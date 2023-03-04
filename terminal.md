@@ -4,14 +4,15 @@
 ctrl + l = clear screen
 ctrl + a = move to begin
 ctrl + e = move to end
-alt  + b  = move prev word
-alt  + f  = move next word
+alt  + b = move prev word
+alt  + f = move next word
+alt  + t  = inverte os argumentos
 ctrl + b = move prev letter
 ctrl + f = move next letter
 ctrl + u = delete all back
 ctrl + k = delete all front
 ctrl + w = delete prev word
-ald  + d  = delete next word
+ald  + d = delete next word
 ctrl + h = delete prev letter
 ctrl + d = delete next letter
 ctrl + p = next command
@@ -19,7 +20,8 @@ ctrl + n = prev command
 ctrl + r = show last commands
 ctrl + t = fzf
 ctrl + d = close terminal
-!! = repeat last command
+!!       = repeat last command
+!*       = repete os argumentos do comando anterior
 ```
 
 ## Apps
@@ -27,6 +29,7 @@ ctrl + d = close terminal
 - entr = hot reload file
 - ncdu = show size space
 - ranger = file manager
+- live-server = npm install -g live-server (elcio): https://github.com/tapio/live-server
 
 ## entr
 ```sh
