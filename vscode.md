@@ -122,6 +122,10 @@ Ctrl + Shift + P = Select Default Shell
 
 C:\Users\vitor\AppData\Roaming\npm\node_modules
 
+## KDE File Picker
+
+env GTK_USE_PORTAL=1 code
+
 ## Links
 
 - https://youtu.be/3yxwz_4O4yc

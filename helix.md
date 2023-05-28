@@ -24,6 +24,8 @@ ctrl+s = Jump
 ctrl-o = Next jump
 ctrl-i = Prev jump
 
+space + ? = show commands
+
 # Theme Location
 /var/lib/helix/runtime/themes/
 

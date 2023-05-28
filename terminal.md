@@ -158,3 +158,6 @@ ctrl+shift+[ = previous window
 
 ## Softwares
 - screenkey
+
+## Temp
+yayi woeusb-ng

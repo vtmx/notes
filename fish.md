@@ -6,5 +6,8 @@ if test -z "$var"
 
 # Verifica se a variável não está vazia
 if test -n "$var"
+
+# Adiciona valor em $PATH
+fish_add_path /usr/local/bin
 ```
 
