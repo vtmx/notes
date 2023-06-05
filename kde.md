@@ -92,6 +92,7 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ```
 
 ## Paths
+
 ### Global Themes
 /usr/share/plasma/look-and-feel/
 ~/.local/share/plasma/look-and-feel/
@@ -111,11 +112,7 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ~/.local/share/color-schemes/
 /usr/share/color-schemes/
 
-### Global:
-~/.local/share/color-schemes/
-/usr/share/color-schemes/
-
-## konsole
+## Konsole
 ~/.local/share/konsole/
 
 ### Kvantum
