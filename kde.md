@@ -109,20 +109,23 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ~/.local/share/icons/
 
 ### Colors
-~/.local/share/color-schemes/
 /usr/share/color-schemes/
+~/.local/share/color-schemes/
 
 ## Konsole
+/usr/share/konsole/
 ~/.local/share/konsole/
 
-
 ## Kate
+/usr/share/org.kde.syntax-highlighting/syntax-bundled/
 ~/.local/share/org.kde.syntax-highlighting/themes/
 
 ### Kvantum
-/usr/share/themes/
 /usr/share/Kvantum/
 ~/.config/Kvantum/
+
+## Theme
+/usr/share/themes/
 ~/.local/share/plasma/desktoptheme/
 
 ### Backgrounds
