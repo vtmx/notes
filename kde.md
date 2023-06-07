@@ -115,6 +115,10 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ## Konsole
 ~/.local/share/konsole/
 
+
+## Kate
+~/.local/share/org.kde.syntax-highlighting/themes/
+
 ### Kvantum
 /usr/share/themes/
 /usr/share/Kvantum/
