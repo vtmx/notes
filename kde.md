@@ -119,6 +119,7 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ## Kate
 /usr/share/org.kde.syntax-highlighting/syntax-bundled/
 ~/.local/share/org.kde.syntax-highlighting/themes/
+~/.config/katerc
 
 ### Kvantum
 /usr/share/Kvantum/
