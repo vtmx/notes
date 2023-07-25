@@ -59,3 +59,6 @@ Oculta qualquer tipo de erro
 ```sh
 comando &>/dev/null
 ```
+
+Descobrir variável PS1
+printf "%q\n" "$PS1"

@@ -22,5 +22,6 @@ f3 = toggle fps
 f4 = load state
 f6 = save slot +
 f7 = save slot -
+f8 = screenshot
 f  = fullscreen
 space = aumenta velocidade
