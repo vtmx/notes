@@ -17,6 +17,13 @@ about:config
 ## Test extensions
 about:debugging#/runtime/this-firefox
 
+## Change hightlight search
+about:config
+ui.textHighlightBackground: #abb2bf
+ui.textHighlightForeground: #23272e
+ui.textSelectAttentionBackground: #23272e 
+ui.textSelectAttentionForeground: #23272e
+
 <table>
   <tr>
     <th>Config</th>

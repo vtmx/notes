@@ -242,4 +242,4 @@ Systemsettings > preview uncheck folder
 file://name-folder name-icon
 ```
 
-## Manter clipborad habilitado para continuar colando após software for fechado.
+## Manter clipborad habilitado para continuar colando após software for fechado
