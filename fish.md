@@ -1,6 +1,5 @@
-# Fishshell
+# Fish
 
-```
 # Verifica está vazia
 if test -z "$var"
 
@@ -21,5 +20,3 @@ nvm ls
 
 # Use
 nvm use v19.9.0
-```
-
