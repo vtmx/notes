@@ -29,6 +29,9 @@ whereis chromium
 which flutter
 vivaldi-stable
 
+# enviroment login
+/usr/share/xsessions
+
 # var
 whereis firefox
 echo $BROWSER

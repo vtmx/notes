@@ -70,6 +70,12 @@ Tabs = Like Chrome
 ## Comands
 kmenuedit = Shortcuts
 
+# Execute command kwin
+qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Window Close"
+
+# Execute command bismuth
+qdbus org.kde.kglobalaccel /component/bismuth org.kde.kglobalaccel.Component.invokeShortcut focus_left_window
+
 ## Configs
 Desktop Session = On Login: Start with an empty session
 Window Behavior = Advanced > Window placement: Centered
