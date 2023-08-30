@@ -5,25 +5,20 @@
 - Density compact
 - Settings > Colors > Manager Colors... (Override the colors...: Always)
 
-## Debug shortcut:
+## Local da pasta config
+~/.mozilla/firefox/.default-release/chrome/userChrome.css
+
+## Debug shortcut
+```
 ctrl+shift+alt+i
-
-## Create a Theme
-https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme
-
-## Habilita customização
-about:config
+```
 
 ## Test extensions
+```
 about:debugging#/runtime/this-firefox
+```
 
-## Change hightlight search
-about:config
-ui.textHighlightBackground: #abb2bf
-ui.textHighlightForeground: #23272e
-ui.textSelectAttentionBackground: #23272e 
-ui.textSelectAttentionForeground: #23272e
-
+## about:config
 <table>
   <tr>
     <th>Config</th>
@@ -46,14 +41,25 @@ ui.textSelectAttentionForeground: #23272e
     <td>true</td>
   </tr>
   <tr>
+    <td>ui.textHighlightBackground</td>
+    <td>#abb2bf</td>
+  </tr>
+  <tr>
+    <td>ui.textHighlightForeground</td>
+    <td>#23272e</td>
+  </tr>
+    <td>ui.textSelectAttentionBackground</td>
+    <td>#23272e</td>
+  </tr>
+    <td>ui.textSelectAttentionForeground</td>
+    <td>#23272e</td>
+  </tr>
+  <tr>
     <td>widget.use-xdg-desktop-portal (portal kde)</td>
     <td>1</td>
   </tr>
 </table>
 
-## Local da pasta config
-~/.mozilla/firefox/.default-release/chrome/userChrome.css
-~/.mozilla/firefox/.default-release/chrome/userContent.css
-
-## Enable toolbox para selecionar classes
-https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
+## Links
+- https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
+- https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme

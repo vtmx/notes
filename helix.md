@@ -1,33 +1,38 @@
 # Helix
 
-x = select all line if press other lines
-s = search word when line select
-; = deselect one cursor
-alt + ; = change location of select
+## Shortcuts
+```
+x = Select all line if press other lines
+s = Search word when line select
+; = Deselect one cursor
+Alt + ; = Change location of select
 
-C = multiple cursors
-, = deselect multiple-cursor
+C = Multiple cursors
+, = Deselect multiple-cursor
 
-& = align multiple line when multiple cursor
+& = Align multiple line when multiple cursor
 
 . = repeat
-alt + . = repeat f / t
+Alt + . = Repeat f / t
 
-y = copy
-p = paste
-r = replace
-R = replace clipboard
+y = Copy
+p = Paste
+r = Replace
+R = Replace clipboard
 
 * = In text select, change same word with n/N
 
-ctrl+s = Jump
-ctrl-o = Next jump
-ctrl-i = Prev jump
+Ctrl + s = Jump
+Ctrl + o = Next jump
+Ctrl + i = Prev jump
 
-space + ? = show commands
+Space + ? = Show commands
+```
 
-# Theme Location
+## Theme Location
+```
 /var/lib/helix/runtime/themes/
+```
 
-# Install Languages
-https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers
+## Links
+- https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers

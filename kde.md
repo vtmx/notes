@@ -1,9 +1,7 @@
 # KDE
 
-## Configuration Files
-- https://opensourcelibs.com/lib/kde-configuration-files
-
 ## Current Style
+```
 Application Style: Lightly
 Plasma Style: Breeze AlphaBlack
 Colors: One Dark 2 (me)
@@ -12,13 +10,17 @@ Fonts: Segoe UI Semibold 10pt
 Icons: Sensual-Breeze-Dark
 Cursors: We10xOS Cursors
 Shadow Window: 35% Small
+```
 
 ## Terminal
+```
 Dark One Nuanced - bg #1e222a
 BlexMono Nerd Font Mono 11pt
 Miscellaneous - Margins: 8px
+```
 
 ## Global
+```
 Meta + Drag = Arrasta a janela
 Meta + , = System Settings
 Meta + . = Shortcuts
@@ -28,30 +30,34 @@ Meta + Tab = Show Desktop Grid
 Meta + Space = Kruner
 Meta = Kruner
 Meta + R = Kruner
-Alt + Space = Kruner
 Meta + R = Kruner
 Meta + Space = Rofi
+Meta + Ctrl + Right = Switch to Next Desktop
+Meta + Ctrl + Left = Switch to Prev Desktop
 Ctrl + Esq = System Activity
 Ctrl + Shift + Esq = System Monitor
 Ctrl + Shift + N = Create Folder
-Meta + Ctrl + Right = Switch to Next Desktop
-Meta + Ctrl + Left = Switch to Prev Desktop
 Ctrl + Alt + Del = Tela para desligar
 Ctrl + Shift + Alt + PgDown = Desligar
+Alt + Space = Kruner
+```
 
 ## Custom Shortcuts
+```
+Meta + Enter = Terminal
 Meta + B = Browser
-Meta + C = VS Code
 Meta + E = Dolphin
 Meta + G = Chromium
 Meta + K = KolorChose
+Meta + M = VLC
 Meta + O = Opera
 Meta + S = Steam
 Meta + T = QBitTorrent
-Meta + V = VLC
-Meta + Enter = Terminal
+Meta + V = VS Code
+```
 
 ## Dolphin
+```
 F3 = Open Side
 F4 = Open Pane Terminal
 Shift + F4 = Open Terminal
@@ -66,22 +72,31 @@ Ctrl + L = Go to Adress
 Ctrl + F = Search
 Ctrl + I = Filter
 Tabs = Like Chrome
+```
 
 ## Comands
+```
 kmenuedit = Shortcuts
+```
 
 # Execute command kwin
+```
 qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Window Close"
+```
 
 # Execute command bismuth
+```
 qdbus org.kde.kglobalaccel /component/bismuth org.kde.kglobalaccel.Component.invokeShortcut focus_left_window
+```
 
 ## Configs
+```
 Desktop Session = On Login: Start with an empty session
 Window Behavior = Advanced > Window placement: Centered
 General Behavior = Animation speed: Instant
+```
 
-## Prograns
+## Programs
 - Subtitle Composer
 - KColor Chooser
 - Krusader
@@ -100,19 +115,27 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ## Paths
 
 ### Global Themes
+```
 /usr/share/plasma/look-and-feel/
 ~/.local/share/plasma/look-and-feel/
+```
 
 ### Plasma Style
+```
 /usr/share/plasma/desktoptheme/
 ~/.local/share/plasma/desktoptheme/
+```
 
 ### Window Decorations
+```
 ~/.local/share/aurorae/themes/
+```
 
 ### Icons
+```
 /usr/share/icons/
 ~/.local/share/icons/
+```
 
 ### Colors
 /usr/share/color-schemes/
@@ -123,35 +146,49 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ~/.local/share/konsole/
 
 ## Kate
+```
 /usr/share/org.kde.syntax-highlighting/syntax-bundled/
 ~/.local/share/org.kde.syntax-highlighting/themes/
 ~/.config/katerc
+```
 
 ### Kvantum
+```
 /usr/share/Kvantum/
 ~/.config/Kvantum/
+```
 
 ## Theme
+```
 /usr/share/themes/
 ~/.local/share/plasma/desktoptheme/
+```
 
 ### Backgrounds
+```
 /usr/share/backgrounds/
 /usr/share/wallpapers/
+```
 
 ### Plasmoids
+```
 .local/share/plasma/plasmoids/
 - better inline clock
-- shutdown or switch
 - virtual desktop bar
+```
 
 ### SDDM
+```
 /usr/share/sddm/themes/
+```
 
 ### Splashscreen
+```
 ~/.local/share/plasma/look-and-feel/
+```
 
 ### Shortcuts
+```
 ~/.config/kdeglobals
 ~/.config/kglobalshortcutsrc
 ~/.config/khotkeysrc
@@ -161,13 +198,18 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ~/.local/share/kxmlgui5/konsole/konsoleui.rc
 ~/.local/share/kxmlgui5/konsole/sessionui.rc
 ~/.local/share/kxmlgui5/kwrite/kwriteui.rc
+```
 
 ### Kruner with Metakey
+```
 kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,display"
 Restart
+```
 
 ### Remover Panel Shadow
+```
 `xprop -remove _KDE_NET_WM_SHADOW`
+```
 
 ## Restart Plasma
 ```
@@ -232,6 +274,14 @@ plasmashell --replace &
 kcmshell5 autostart
 ```
 
+## qt5ct
+1. Install qt5ct (sudo pacman -S qt5ct)
+2. You might want to install a Qt theme, that can be done by sudo pacman -S breeze for example.
+3. Edit /etc/environment as root by sudo nano /etc/environment and add the line QT_QPA_PLATFORMTHEME=qt5ct and save.
+4. Log out and in (or reboot)
+5. Now in qt5ct you can change your theme and settings
+
+
 ## Remove KwinScript
 ```
 kpackagetool5 -r script-id
@@ -239,8 +289,10 @@ kpackagetool5 -r script-id
 ```
 
 ## Dolphin
-Systemsettings > Application Appearance >Style Configure...->Views->Draw focus indicator.
+```
+Systemsettings > Application Appearance > Style Configure... > Views > Draw focus indicator.
 Systemsettings > preview uncheck folder
+```
 
 ## Add bookmarks gnome
 ```
@@ -248,4 +300,8 @@ Systemsettings > preview uncheck folder
 file://name-folder name-icon
 ```
 
-## Manter clipborad habilitado para continuar colando após software for fechado
+## Clipboard
+Manter clipborad habilitado para continuar colando após software for fechado.
+
+## Links
+- https://opensourcelibs.com/lib/kde-configuration-files

@@ -1,7 +1,7 @@
 # Windows 10
 
 ## Explorer
-
+```
 Win + 1 = Primeiro programa na barra de tarefas
 Win + E = Abre o explorer
 Win + I = Abre configurações
@@ -32,19 +32,19 @@ Alt + F4 = Fecha janela
 Alt + Tab = Alterna entre os programas aberto
 Alt + Espaço + N = Minimiza
 Alt + Espaço + X = Maximiniza
+```
 
-## Múltiplos Desktop
-
+## ```Múltiplos Desktop
+```
 Ctrl + Win + D = Cria uma nova área de trabalho
 Ctrl + Win + Direita = vai para a área de trabalho a direita
 Ctrl + Win + Esquerda = vai para a área de trabalho a esquerda
 Ctrl + Win + Tab = Alterna entre as áreas de trabalhos abertas
 Ctrl + Win + F4 = fecha a área de trabalho atual
-
-## Executar
+```
 
 ## Programas
-
+```
 calc = Calculadora
 cmd = Prompt
 control = Painel de Controle
@@ -62,9 +62,10 @@ regedit = Registro
 Winver = Versão do Windows
 writer = Wordpad
 winword = Word
+```
 
-### CPL
-
+## CPL
+```
 appwiz.cpl = Adiciona e Remove Programas
 inetcpl.cpl = Propriedades da Internet
 firewall.cpl = Firewall
@@ -75,18 +76,20 @@ powercfg.cpl = Gerenciador de Energia
 timedate.cpl = Data e Hora
 sysdm.cpl = Propriedades do Sistema
 wscui.cpl = Segurança e Manutenção
+```
 
-### MSC
-
+## MSC
+```
 certmgr.msc = Gerencimaneto de Certificados
 compmgmt.msc = Gerenciamento do Computador
 devmgmt.msc = Gerenciamento de Hardware
 diskmgmt.msc = Gerenciamento de Disco
 gpedit.msc = Editor de Políticas
 services.msc = serviços
+```
 
-### Controles
-
+## Controles
+```
 control admintools = Ferramentas Administrativas
 control desktop = Gerenciamento da Área de Trabalho
 control mouse = Propriedades do Mouse
@@ -94,6 +97,7 @@ control netconnections = Gerenciamento de Redes
 control printers = Gerenciamento de Impressoras
 control userpasswords = Gerenciamento de Usuários
 control userpasswords2 = Gerencimento de Senhas de Usuários
+```
 
 ## Links
 

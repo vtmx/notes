@@ -1,7 +1,8 @@
-# subtitle compose
+# Subtitle compose
 
-c-a = select all
-s-- = atrasa
-s-+ = adianta
-
-qq coisa pode editar o atalho
+# Shortcuts
+```
+Ctrl + a  = Seleciona tudo
+Shift + - = Atrasa
+Shift + + = Adianta
+```

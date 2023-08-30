@@ -1,22 +1,32 @@
 # VLang
 
-```
-# adiciona link
+## Adiciona link
+```sh
 sudo ./v symlink
+```
 
-# remove link
+## Remove link
+```sh
 unlink v
+```
 
-# executa
+## Executa
+```sh
 v run hello.v
+```
 
-# hot-reload
+## Hot-reload
+```sh
 v watch run hello.v
+```
 
-# vigia
+## Vigia
+```sh
 v watch hello.v
+```
 
-# compila
+## Compila
+```sh
 v hello.v
 ./hello
 ```

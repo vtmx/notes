@@ -1,5 +1,8 @@
 # LazyGit
 
-? = show all shortcuts
-a = stage all files
-c = commit
+## Shortcuts
+```
+? = Show all shortcuts
+a = Stage all files
+c = Commit
+```

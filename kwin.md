@@ -1,31 +1,32 @@
 # kwin
 
+## Shortcuts
 ```
-# other console
+# Other console
 ctrl+alt+f#
 
-# maximize
+# Maximize
 meta+up
 
-# minimize
+# Minimize
 meta+down
 
-# show desktop
+# Show desktop
 meta+d
 
-# switch to next destktop
+# Switch to next destktop
 meta+ctrl+right
 meta+ctrl+l
 
-# switch to previous destktop
+# Switch to previous destktop
 meta+ctrl+left
 meta+ctrl+h
 
-# windows to next desktop
+# Windows to next desktop
 meta+shift+right
 meta+shift+l
 
-# windows to previuous desktop
+# Windows to previuous desktop
 meta+shift+left
 meta+shift+h
 ```

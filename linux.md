@@ -1,93 +1,135 @@
 # Linux
 
-# fonts
-/usr/share/fonts/TTF/
-/home/vitor/.config/user-dirs.dirs
-~/.local/share/fonts/source-code/
+## Fonts
+```
+/usr/share/fonts/
+~/.local/share/fonts/
+~/.config/user-dirs.dirs/
+```
 
-# clear cache
+## Clear cache
+```
 sudo fc-cache -f -v
 sudo rm -f /var/cache/fontconfig/_
 rm -f ~/.cache/fontconfig/_
+```
 
-# access partition
+## Access partition
+```
 sudo chown -hR vitor /run/media/vitor/db5d4111-906e-4fc2-881a-b8f703167c16/
+```
 
-# mount partition on boot
+## Mount partition on boot
+```
 sudo fdisk /dev/sdb
+```
 
-# show color system terminal
+## Show color system terminal
+```
 echo "$TERM"
+```
 
-# kill tmux
+## Kill tmux
+```
 tmux kill-server && tmux
 prefix + alt + arrow to resize pannel
+```
 
-# start process
+## Start process
+```
 chromium &
 whereis chromium
 which flutter
 vivaldi-stable
+```
 
-# enviroment login
+## Enviroment login
+```
 /usr/share/xsessions
+```
 
-# var
+## Env
+```
 whereis firefox
 echo $BROWSER
 env
 printenv
 export BROWSER=/usr/bin/opera
+```
 
-# fish
+## fish
+```
 fish_config
+```
 
-# zsh
+## zsh
+```
 ^u = clear line
 ^w = clear before word
+```
 
-# show all drivers
+## Show all drivers
+```
 mhwd -l
+```
 
-# list driver installed
+## List driver installed
+```
 mhwd -li
+```
 
-# folders
-
-# path folder
+## Path folder
+```
 /usr/local/bin/
+```
 
-# npm folder
+## npm folder
+```
 /usr/local/lib/node_modules/
+```
 
-# mirrors list
+## Mirrors list
+```
 /etc/pacman.conf
+```
 
-# batcat
+## batcat
+```
 bat --list-themes
 export BAT_THEME="ansi"
+```
 
 ## app-image
+```
 chmod a+x program*.AppImage
 ./program*.AppImage
+```
 
-# change shell
+## Change shell
+```
 cat /etc/shells
 chsh
 /usr/bin/fish
 su - yourid
+```
 
-# simbolic-link
-# create
+## Create simbolic link
+```
 sudo ln -s /var/lib/snapd/snap /snap
+```
 
-# show
+## Show
+```
 ll /snap or readlink -f /snap
+```
 
-# remove
+## Remove
+```
 sudo rm /snap
+```
 
-# fstab
+## fstab
+```
 /etc/fstab
-
-após a edição rodar: systemctl daemon-reload
+# Após a edição rodar: systemctl daemon-reload
+```
