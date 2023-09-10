@@ -80,3 +80,12 @@ comando &>/dev/null
 ```sh
 printf "%q\n" "$PS1"
 ```
+
+## Ligar e desligar opções
+```sh
+# Ligar
+shopt -s globasciiranges
+
+# Ligar
+shopt -u globasciiranges
+```

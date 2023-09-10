@@ -7,19 +7,19 @@
 ~/.config/user-dirs.dirs/
 ```
 
-## Clear cache
+## Limpa cache de fontes
 ```
 sudo fc-cache -f -v
 sudo rm -f /var/cache/fontconfig/_
 rm -f ~/.cache/fontconfig/_
 ```
 
-## Access partition
+## Acesso partição
 ```
 sudo chown -hR vitor /run/media/vitor/db5d4111-906e-4fc2-881a-b8f703167c16/
 ```
 
-## Mount partition on boot
+## Monta partição no boot
 ```
 sudo fdisk /dev/sdb
 ```
@@ -60,12 +60,6 @@ export BROWSER=/usr/bin/opera
 ## fish
 ```
 fish_config
-```
-
-## zsh
-```
-^u = clear line
-^w = clear before word
 ```
 
 ## Show all drivers
@@ -128,8 +122,13 @@ ll /snap or readlink -f /snap
 sudo rm /snap
 ```
 
-## fstab
+## Editar montagem das partições
 ```
+# Editar o arquivo como root:
 /etc/fstab
-# Após a edição rodar: systemctl daemon-reload
+
+# Exemplo
+/media/hd1
+
+# Após a edição rodar: systemctl daemon-reload (não lembro)
 ```
