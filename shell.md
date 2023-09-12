@@ -5,6 +5,11 @@
 $?
 ```
 
+## Exibe a quantidade de shells
+```sh
+$SHLVL
+```
+
 ## Cria um arquivo novo ou excluí o conteúdo de um existente
 ```sh
 ls >teste.txt

@@ -25,7 +25,11 @@ Alt  + T = Inverte os argumentos
 Ctrl + I = Simule tab
 Ctrl + D = Close terminal
 
+Ctrl + C = Finaliza programa
+Ctrl + Z = Deixa program em segundo plano
+
 Ctrl + T = fzf
+Ctrl + R = fzf show history
 Alt  + C = fzf change dir
 
 !!       = Repeat last command
@@ -164,4 +168,4 @@ rofi -show keys
 yayi woeusb-ng
 
 # Links
-- https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
+- https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc

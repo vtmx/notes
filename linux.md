@@ -14,6 +14,28 @@ sudo rm -f /var/cache/fontconfig/_
 rm -f ~/.cache/fontconfig/_
 ```
 
+## Lista processos
+```sh
+pstree
+```
+
+## Lista processos
+```sh
+ctrl + z = deixa job rodar em segundo plano
+```
+
+## Manual
+```sh
+# Abre manual em pt
+man -L pt_BR.UTF-8 command
+
+# Exibe resumo dos manuais 
+man -k
+
+# Pesquisa manual
+man -f command
+```
+
 ## Acesso partição
 ```sh
 sudo chown -hR vitor /run/media/vitor/db5d4111-906e-4fc2-881a-b8f703167c16/
