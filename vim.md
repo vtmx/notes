@@ -129,6 +129,7 @@ dit = Apaga entre a tag
 vu = Torna minúsculo o caracter/seleção
 vU = Torna maiúsculo o caracter/seleção
 v( = Seleciona até o final da sentença
+gv = Repete seleção anterior
 ```
 
 ## Pesquisa
@@ -207,6 +208,7 @@ Ma = Vai ao local a
 :%normal Whd = % executa o comando em normal em todas as linhas
 :norm = ||
 !comando = Executar comando terminal
+.!bash = Executa linha selecionada com o bash
 ```
 
 ## Verificar log de inicialização

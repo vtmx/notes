@@ -1,5 +1,6 @@
-# PKGBUILD
+# pacman
 
+## pkgbuild
 - Crie diretório pkgbuild e entre nele
 - Crie arquivo PKGBUILD
 - `makepkg` cria o pacote

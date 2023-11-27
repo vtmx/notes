@@ -1,74 +1,100 @@
 # Shell
 
 ## Recebe último resposta recebida
-```sh
+```bash
 $?
 ```
 
 ## Exibe a quantidade de shells
-```sh
+```bash
+$0
+$$
+$BASHPID
 $SHLVL
 ```
 
+# Comparar se está ou não em um subshell
+```bash
+$$ vs $BASHPID
+```
+
 ## Cria um arquivo novo ou excluí o conteúdo de um existente
-```sh
+```bash
 ls >teste.txt
 ```
 
 ## Adiciona o conteúdo em algum arquivo existente
-```sh
+```bash
 ls >>teste.txt
 ```
 
+## Redirecionamento
+```bash
+teste < arquivo
+
+cat << eof
+teste
+eof
+
+grep 'teste' <<< teste
+```
+
 ## Executa o segundo enquanto o primeiro ainda está em execução
-```sh
+```bash
 comando1 & comando2
 ```
 
 ## Trás o processo de segundo plano para o primeiro
-```sh
+```bash
 fg comando
 ```
 
 ## Leva o comando para o segundo plano
-```sh
+```bash
 ctrl-z
 ```
 
 ## Executa o segundo comando caso o primeiro seja ok
-```sh
+```bash
 comando1 && comando2
 ```
 
+## Repete var
+```bash
+echo ${var}{,}
+vida vida
+echo ${var}{,,,}
+vida vida vida vida
+```
 ## Executa o segundo caso o primeiro falhe
-```sh
+```bash
 comando1 || comando2
 ```
 
 ## Expandi variaǘel
-```sh
+```bash
 var="banana laranja"
 ctrl+alt+e = expandi as variáveis no terminal
 ```
 
 ## Executa o segundo sem está em uma nova linha
-```sh
+```bash
 comando1; comando2
 ```
 
 ## Recebe argumento de entrada
-```sh
+```bash
 local entrada1=$1
 local entrada2=$2
 ```
 
 ## Recebe valor de entrada
-```sh
+```bash
 read -rp "Digite um valor: " nome_var
 ```
 
 ## Testa saída do comando
-```sh
+```bash
 if ls; then
   echo "comando executado com sucesso"
 else
@@ -77,20 +103,32 @@ fi
 ```
 
 ## Oculta qualquer tipo de erro
-```sh
+```bash
 comando &>/dev/null
 ```
 
 ## Descobrir variável PS1
-```sh
+```bash
 printf "%q\n" "$PS1"
 ```
 
 ## Ligar e desligar opções
-```sh
+```bash
 # Ligar
 shopt -s globasciiranges
 
 # Ligar
 shopt -u globasciiranges
+```
+
+## Parâmetros expansão
+```bash
+$0 $1 $2 $3 $4 $5 $6 $7 $8 $9
+```
+
+## Alternativa ao /dev/null
+```bash
+# Tranca a saída de erro, mais rápido
+ls -la  2>&-
+# Ligar
 ```

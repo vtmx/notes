@@ -34,6 +34,10 @@ Alt  + C = fzf change dir
 
 !!       = Repeat last command
 !*       = Repete os argumentos do comando anterior
+
+Ctrl + Shift + C = Paste
+Shift + Insert   = Paste
+Middle Mouse     = Paste
 ```
 
 ## Apps
@@ -91,6 +95,21 @@ fish example
 Shift + S = It opens a new shell on the current directory
 Ctrl + D = On the shell, it goes back to ranger
 sudo pacman -S w3m (to preview images)
+```
+
+## rsync
+```
+rsync -azP src/ dest/
+
+Using / in end save all files,
+not using copy dir to another dir.
+
+-a recursivo
+-z comprimi os arquivos para transferência
+-P exibe progresso
+
+https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization
+https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-pt
 ```
 
 ## tmux
@@ -164,8 +183,20 @@ winebot -u
 rofi -show keys
 ```
 
+## Ffmpeg
+```
+ffmpeg -i videogrande.mp4 videopequeno.mp4
+$ ls -lh videogrande.mp4 videopequeno.mp4
+-rw-rw-r-- 1 queiroz queiroz 88M jun 28 11:56 videogrande.mp4
+-rw-rw-r-- 1 queiroz queiroz 24M jun 28 12:15 videopequeno.mp4
+```
+
 ## Temp
 yayi woeusb-ng
+
+## Vim
+ctrl + z = vai para segundo plano
+fg       = volta para primeiro plano
 
 # Links
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc

@@ -17,6 +17,7 @@ rm -f ~/.cache/fontconfig/_
 ## Lista processos
 ```sh
 pstree
+ps --forest
 ```
 
 ## Lista processos
@@ -215,3 +216,56 @@ sed 's/a/b/g;s/c/d/g'
 ll | sort -h
 ```
 
+## rsync
+```sh
+rsync -arzP src/ dest
+a = mantém permissões
+r = sincroniza
+z = comprime durante a transferência
+P = exibe progresso
+```
+
+## find
+```sh
+find . -name "name.txt"
+find . -name "*.txt"
+find . -type f -name "*.jpg"
+
+# para remover todos os arquivos .txt
+find . -f -name "*.txt" | xargs rm
+```
+
+## Info
+```sh
+whereis
+which
+who
+whoami
+```
+## Permissões
+```sh
+chomod +x
+chomod 775 
+1 = x
+2 = w
+4 = r
+
+owner, group, others
+```
+
+# Hardware
+```sh
+lsblk
+lscpu
+lsmod
+lspci
+lsusb
+modprobe
+```
+
+## Usuários
+```sh
+useadd
+groupadd
+getent
+```
