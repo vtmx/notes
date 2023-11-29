@@ -23,6 +23,27 @@ $$ vs $BASHPID
 ls >teste.txt
 ```
 
+
+## Diretório de execução
+```bash
+script_dir=${0%/*}
+```
+
+## Verifica se programa existe
+```bash
+type firefox
+echo $?
+```
+
+## Habilita opções
+```bash
+# Ativa e desativa opção
+shopt -s extglob
+
+# Exibe a opção se está ativa ou não
+extglob
+```
+
 ## Adiciona o conteúdo em algum arquivo existente
 ```bash
 ls >>teste.txt
@@ -124,6 +145,11 @@ shopt -u globasciiranges
 ## Parâmetros expansão
 ```bash
 $0 $1 $2 $3 $4 $5 $6 $7 $8 $9
+```
+## Repetindo parâmetros
+```bash
+echo {left,right}{,}
+echo go_to {left,right,up,down}{,,,}
 ```
 
 ## Alternativa ao /dev/null
