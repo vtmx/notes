@@ -24,4 +24,19 @@ makepkg
 
 --noconfirm
   Sem confirmação.
+
+# Instala
+pacman -S
+
+# Remove
+pacman -R
+
+# Lista pacotes
+pacman -Qqe
+
+# Cria um arquivo com a lista de pacotes instalados
+pacman -Qqe > packages.txt 
+
+# Instala todos os pacotse usando um arquivo com listagem
+pacman -S --needed - < packages.txt 
 ```

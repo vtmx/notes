@@ -34,3 +34,19 @@ nvm ls
 ```
 nvm use v19.9.0
 ```
+
+## Histórico
+```
+# Exibe o histórico
+cdh
+
+# ssh
+eval (ssh-agent -c)
+ssh-add ~/.ssh/id_rsa
+
+ou
+
+ssh-add
+ssh-keygen -p -f ~/.ssh/id_ed25519
+```
+
