@@ -1,44 +1,96 @@
 # Terminal
 
-## Shortcuts
-```
-Ctrl + A = Move to begin
-Ctrl + E = Move to end
-Alt  + B = Move prev word
-Alt  + F = Move next word
-Ctrl + B = Move prev letter
-Ctrl + F = Move next letter
+## Todos
+| Atalho | Descrição
+| ---                | ---                                                            |
+| `Alt  + c`         | fzf change dir                                                 |
+| `Alt  + d`         | Delete next word                                               |
+| `Alt  + b`         | Move prev word                                                 |
+| `Alt  + f`         | Move next word                                                 |
+| `Alt  + t`         | Inverte os argumentos                                          |
+| `Ctrl + a`         | Move cursor para início da linha                               |
+| `Ctrl + b`         | Move cursor para própxima caractér                             |
+| `Ctrl + c`         | Finaliza programa                                              |
+| `Ctrl + d`         | Delete próxima letra                                           |
+| `Ctrl + d`         | Finaliza terminal                                              |
+| `Ctrl + e`         | Move cursor para o final da linha                              |
+| `Ctrl + i`         | Simule tab                                                     |
+| `Ctrl + f`         | Move cursor para próxima caractér                              |
+| `Ctrl + h`         | Delete prev letter                                             |
+| `Ctrl + k`         | Delete all front                                               |
+| `Ctrl + l`         | Clear screen                                                   |
+| `Ctrl + n`         | Prev command                                                   |
+| `Ctrl + p`         | Next command                                                   |
+| `Ctrl + r`         | Show last commands                                             |
+| `Ctrl + r`         | fzf show history                                               |
+| `Ctrl + t`         | fzf                                                            |
+| `Ctrl + u`         | Delete all back                                                |
+| `Ctrl + w`         | Delete prev word                                               |
+| `Ctrl + z`         | Deixa program em segundo plano                                 |
+| `fg`               | Retorna ao primeiro plano                                      |
+| `Ctrl + Shift + c` | Paste                                                          |
+| `Shift + Insert  ` | Paste                                                          |
+| `Middle Mouse    ` | Paste                                                          |
+| `!!      `         | Repeat last command                                            |
+| `!*      `         | Repete os argumentos do comando anterior                       |
 
-Ctrl + U = Delete all back
-Ctrl + K = Delete all front
-Ctrl + W = Delete prev word
-Alt  + D = Delete next word
-Ctrl + H = Delete prev letter
-Ctrl + D = Delete next letter
+## Move
+| Atalho | Descrição
+| --- | --- |
+| `Ctrl + a` | Move to begin |
+| `Ctrl + e` | Move to end |
+| `Alt  + b` | Move prev word |
+| `Alt  + f` | Move next word |
+| `Ctrl + b` | Move prev letter |
+| `Ctrl + f` | Move next letter |
 
-Ctrl + P = Next command
-Ctrl + N = Prev command
+## Delete
+| Atalho | Descrição
+| --- | --- |
+| `Ctrl + u` | Delete all back |
+| `Ctrl + k` | Delete all front |
+| `Ctrl + w` | Delete prev word |
+| `Alt  + d` | Delete next word |
+| `Ctrl + h` | Delete prev letter |
+| `Ctrl + d` | Delete next letter |
 
-Ctrl + R = Show last commands
-Ctrl + L = Clear screen
-Alt  + T = Inverte os argumentos
-Ctrl + I = Simule tab
-Ctrl + D = Close terminal
+## History
+| Atalho | Descrição
+| --- | --- |
+| `Ctrl + p` | Next command |
+| `Ctrl + n` | Prev command |
+| `Ctrl + r` | Show last commands |
+| `Ctrl + l` | Clear screen |
+| `Alt  + t` | Inverte os argumentos |
+| `Ctrl + i` | Simule tab |
+| `Ctrl + d` | Close terminal |
 
-Ctrl + C = Finaliza programa
-Ctrl + Z = Deixa program em segundo plano
+## Kill
+| Atalho | Descrição
+| --- | --- |
+| `Ctrl + c` | Finaliza programa |
+| `Ctrl + z` | Deixa program em segundo plano |
+| `fg` | Retorna ao primeiro plano |
 
-Ctrl + T = fzf
-Ctrl + R = fzf show history
-Alt  + C = fzf change dir
+## fzf
+| Atalho | Descrição
+| --- | --- |
+| `Ctrl + t` | fzf |
+| `Ctrl + r` | fzf show history |
+| `Alt  + c` | fzf change dir |
 
-!!       = Repeat last command
-!*       = Repete os argumentos do comando anterior
+## Shell
+| Atalho | Descrição
+| --- | --- |
+| `!!      ` | Repeat last command |
+| `!*      ` | Repete os argumentos do comando anterior |
 
-Ctrl + Shift + C = Paste
-Shift + Insert   = Paste
-Middle Mouse     = Paste
-```
+## Paste
+| Atalho | Descrição
+| --- | --- |
+| `Ctrl + Shift + C` | Paste |
+| `Shift + Insert  ` | Paste |
+| `Middle Mouse    ` | Paste |
 
 ## Apps
 - cmus = player
