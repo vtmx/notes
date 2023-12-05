@@ -72,6 +72,9 @@ Ctrl + L = Go to Adress
 Ctrl + F = Search
 Ctrl + I = Filter
 Tabs = Like Chrome
+Systemsettings > Application Appearance > Style Configure... > Views > Draw focus indicator.
+Systemsettings > preview uncheck folder
+~/.config/dolphinrc
 ```
 
 ## Comands
@@ -286,12 +289,6 @@ kcmshell5 autostart
 ```
 kpackagetool5 -r script-id
 ~/.local/share/kservices5/
-```
-
-## Dolphin
-```
-Systemsettings > Application Appearance > Style Configure... > Views > Draw focus indicator.
-Systemsettings > preview uncheck folder
 ```
 
 ## Add bookmarks gnome

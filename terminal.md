@@ -1,63 +1,20 @@
 # Terminal
 
-## Todos
-| Atalho | Descrição
-| ---                  | ---                                                                                                                                                                                                                       |
-| `Alt + b`            | Move cursor para palavra anterior                                                                                                                                                                                         |
-| `Alt + c`            | Muda de diretório usando fzf                                                                                                                                                                                              |
-| `Alt + d`            | Deleta próxima palavra                                                                                                                                                                                                    |
-| `Alt + f`            | Move cursor para próxima palavra                                                                                                                                                                                          |
-| `Alt + t`            | Inverte palavra atual pela anterior                                                                                                                                                                                       |
-| `Ctrl + a`           | Move cursor para início da linha                                                                                                                                                                                          |
-| `Ctrl + b`           | Move cursor para própxima caractere                                                                                                                                                                                       |
-| `Ctrl + c`           | Finaliza programa                                                                                                                                                                                                         |
-| `Ctrl + d`           | Deleta próxima letra ou finaliza terminal caso não tenha linha                                                                                                                                                            |
-| `Ctrl + e`           | Move cursor para o final da linha                                                                                                                                                                                         |
-| `Ctrl + f`           | Move cursor para próxima caractere                                                                                                                                                                                        |
-| `Ctrl + g`           | Sai do modo de pesquisa de histórico                                                                                                                                                                                      |
-| `Ctrl + h`           | Deleta próximo caractere                                                                                                                                                                                                  |
-| `Ctrl + i`           | Simula tab                                                                                                                                                                                                                |
-| `Ctrl + k`           | Deleta todo texto a frente                                                                                                                                                                                                |
-| `Ctrl + l`           | Limpa tela                                                                                                                                                                                                                |
-| `Ctrl + n`           | Comando anterior usado down                                                                                                                                                                                               |
-| `Ctrl + p`           | Próximo comando usado up                                                                                                                                                                                                  |
-| `Ctrl + q`           | Retorna saída do terminal após ter sido pausado                                                                                                                                                                           |
-| `Ctrl + r`           | Exibe últimos comando sou exibe histórico usando fzf                                                                                                                                                                      |
-| `Ctrl + s`           | Pausa saída do terminal                                                                                                                                                                                                   |
-| `Ctrl + t`           | Troque os dois últimos caracteres antes do cursor ou executa fzf                                                                                                                                                          |
-| `Ctrl + u`           | Deleta todo o texto pra trás                                                                                                                                                                                              |
-| `Ctrl + w`           | Deleta próxima palavra                                                                                                                                                                                                    |
-| `Ctrl + x`           | Move cursor entre o início e final da linha                                                                                                                                                                               |
-| `Ctrl + y`           | Cole o que foi cortado pelo último comando de corte                                                                                                                                                                       |
-| `Ctrl + z`           | Deixa programa em segundo plano                                                                                                                                                                                           |
-| `fg`                 | Retorna ao primeiro plano                                                                                                                                                                                                 |
-| `Ctrl + Shift + -`   | Desfaz última ação
-| `Ctrl + Shift + v`   | Colar
-| `Shift + Insert  `   | Colar
-| `Middle Mouse    `   | Colar
-| `!*`                 | Repete os argumentos do comando anterior                                                                                                                                                                                  |
-| `!!`                 | Repete último commando                                                                                                                                                                                                    |
-| `!$`                 | Imprime a última palavra do comando executado anteriormente                                                                                                                                                               |
-| `!*:p`               | Imprime um possível substituto para !*                                                                                                                                                                                    |
-| `!$:p`               | Imprime a palavra substituta para !$                                                                                                                                                                                      |
-| `!ping`              | Executa um comando executado recentemente começando com a palavra ping                                                                                                                                                    |
-| `!ping:p`            | Imprime o comando executado anteriormente associado ao ping e torna-o a última adição no histórico de comandos                                                                                                            |
-
-## Movimetação do cursor
+## Movimetação
 | Atalho | Descrição
 | --- | --- |
-| `Ctrl + a` | Move para o início da linha |
-| `Ctrl + e` | Move para o final da linha |
-| `Alt  + b` | Move para palavra anterior |
-| `Alt  + f` | Move próxima palavra |
-| `Ctrl + b` | Move caractere anterior |
-| `Ctrl + f` | Move próximo caractere |
+| `Ctrl + a` | Move cursor para o início da linha |
+| `Ctrl + e` | Move cursor para o final da linha |
+| `Alt  + b` | Move cursor para palavra anterior |
+| `Alt  + f` | Move cursor próxima palavra |
+| `Ctrl + b` | Move cursor para o caractere anterior |
+| `Ctrl + f` | Move cursor para o próximo caractere |
 
 ## Deleta
 | Atalho | Descrição
 | --- | --- |
-| `Ctrl + u` | Deleta todo texto para trás |
-| `Ctrl + k` | Deleta todo texto a frente |
+| `Ctrl + u` | Deleta todo texto atrás do cursor |
+| `Ctrl + k` | Deleta todo texto a frente do cursor |
 | `Ctrl + w` | Deleta palavra anterior |
 | `Alt  + d` | Deleta próxima palavra |
 | `Ctrl + h` | Deleta caractere anterior |
@@ -90,17 +47,6 @@
 | `Ctrl + r` | Exibe histórico |
 | `Alt  + c` | Lista diretórios e entra |
 
-## Bash
-| Atalho | Descrição
-| --- | --- |
-| `!*` | Repete os argumentos do comando anterior |
-| `!!` | Repete último commando |
-| `!$` | Imprime a última palavra do comando executado anteriormente |
-| `!*:p` Imprime um possível substituto para !* |
-| `!$:p` Imprime a palavra substituta para !$ |
-| `!ping`Executa um comando executado recentemente começando com a palavra ping |
-| `!ping:p`prime o comando executado anteriormente associado ao ping e torna-o a última adição no histórico de comandos |
-
 ## Copia e Cola
 | Atalho | Descrição
 | --- | --- |
@@ -108,6 +54,61 @@
 | `Shift + Insert  ` | Cola |
 | `Middle Mouse    ` | Cola |
 
+## Bash
+| Atalho | Descrição
+| --- | --- |
+| `!*` | Repete os argumentos do comando anterior |
+| `!!` | Repete último commando |
+| `!$` | Imprime a última palavra do comando executado anteriormente |
+| `!*:p` |  Imprime um possível substituto para !* |
+| `!$:p` | Imprime a palavra substituta para !$ |
+| `!ping` | Executa um comando executado recentemente começando com a palavra ping |
+| `!ping:p` | Imprime o comando executado anteriormente associado ao ping e torna-o a última adição no histórico de comandos |
+
+## Ordenado
+| Atalho | Descrição
+| ---                  | ---                                                                                                                                                                                                                       |
+| `Alt + b`            | Move cursor para palavra anterior                                                                                                                                                                                         |
+| `Alt + c`            | Muda de diretório usando fzf                                                                                                                                                                                              |
+| `Alt + d`            | Deleta próxima palavra                                                                                                                                                                                                    |
+| `Alt + f`            | Move cursor para próxima palavra                                                                                                                                                                                          |
+| `Alt + t`            | Inverte palavra atual pela anterior                                                                                                                                                                                       |
+| `Ctrl + a`           | Move cursor para início da linha                                                                                                                                                                                          |
+| `Ctrl + b`           | Move cursor para própxima caractere                                                                                                                                                                                       |
+| `Ctrl + c`           | Finaliza programa                                                                                                                                                                                                         |
+| `Ctrl + d`           | Deleta próxima letra ou finaliza terminal caso não tenha linha                                                                                                                                                            |
+| `Ctrl + e`           | Move cursor para o final da linha                                                                                                                                                                                         |
+| `Ctrl + f`           | Move cursor para próxima caractere                                                                                                                                                                                        |
+| `Ctrl + g`           | Sai do modo de pesquisa de histórico                                                                                                                                                                                      |
+| `Ctrl + h`           | Deleta próximo caractere                                                                                                                                                                                                  |
+| `Ctrl + i`           | Simula tab                                                                                                                                                                                                                |
+| `Ctrl + k`           | Deleta todo texto a frente                                                                                                                                                                                                |
+| `Ctrl + l`           | Limpa tela                                                                                                                                                                                                                |
+| `Ctrl + n`           | Comando anterior usado down                                                                                                                                                                                               |
+| `Ctrl + p`           | Próximo comando usado up                                                                                                                                                                                                  |
+| `Ctrl + q`           | Retorna saída do terminal após ter sido pausado                                                                                                                                                                           |
+| `Ctrl + r`           | Exibe últimos comando sou exibe histórico usando fzf                                                                                                                                                                      |
+| `Ctrl + s`           | Pausa saída do terminal                                                                                                                                                                                                   |
+| `Ctrl + t`           | Troque os dois últimos caracteres antes do cursor ou executa fzf                                                                                                                                                          |
+| `Ctrl + u`           | Deleta todo o texto pra trás                                                                                                                                                                                              |
+| `Ctrl + w`           | Deleta próxima palavra                                                                                                                                                                                                    |
+| `Ctrl + x`           | Move cursor entre o início e final da linha                                                                                                                                                                               |
+| `Ctrl + y`           | Cole o que foi cortado pelo último comando de corte                                                                                                                                                                       |
+| `Ctrl + z`           | Deixa programa em segundo plano                                                                                                                                                                                           |
+| `Ctrl + Shift + -`   | Desfaz última ação
+| `Ctrl + Shift + t`   | Abre novo terminal
+| `Ctrl + Shift + t`   | Abre nova aba no terminal
+| `Ctrl + Shift + v`   | Colar
+| `Ctrl + Tab`         | Navega entre as abas
+| `Ctrl + PageDown`    | Navega entre as abas
+| `Shift + Insert  `   | Colar
+| `Tab`                | Auto completa comando
+| `Up`                 | Exibe comando anterior do histórico
+| `Dow`                | Exibe comando anterior do histórico
+| `Click scroll mouse` | Colar
+| `fg`                 | Retorna ao primeiro plano                                                                                                                                                                                                 |
+
 ## Links
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc
 - https://keycombiner.com/collections/terminal
+- https://itsfoss.com/linux-terminal-shortcuts

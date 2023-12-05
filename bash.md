@@ -1,56 +1,39 @@
 # Shell
 
-## Recebe último resposta recebida
 ```bash
+# Recebe último resposta recebida
 $?
-```
 
-## Exibe a quantidade de shells
-```bash
+# Exibe a quantidade de shells
 $0
 $$
 $BASHPID
 $SHLVL
-```
 
 # Comparar se está ou não em um subshell
-```bash
 $$ vs $BASHPID
-```
 
-## Cria um arquivo novo ou excluí o conteúdo de um existente
-```bash
+# Cria um arquivo novo ou excluí o conteúdo de um existente
 ls >teste.txt
-```
 
-
-## Diretório de execução
-```bash
+# Diretório de execução
 script_dir=${0%/*}
-```
 
-## Verifica se programa existe
-```bash
+# Verifica se programa existe
 type firefox
 echo $?
-```
 
-## Habilita opções
-```bash
+# Habilita opções
 # Ativa e desativa opção
 shopt -s extglob
 
 # Exibe a opção se está ativa ou não
 extglob
-```
 
-## Adiciona o conteúdo em algum arquivo existente
-```bash
+# Adiciona o conteúdo em algum arquivo existente
 ls >>teste.txt
-```
 
-## Redirecionamento
-```bash
+# Redirecionamento
 teste < arquivo
 
 cat << eof
@@ -58,103 +41,68 @@ teste
 eof
 
 grep 'teste' <<< teste
-```
 
-## Executa o segundo enquanto o primeiro ainda está em execução
-```bash
+# Executa o segundo enquanto o primeiro ainda está em execução
 comando1 & comando2
-```
 
-## Trás o processo de segundo plano para o primeiro
-```bash
-fg comando
-```
-
-## Leva o comando para o segundo plano
-```bash
-ctrl-z
-```
-
-## Executa o segundo comando caso o primeiro seja ok
-```bash
+# Executa o segundo comando caso o primeiro seja ok
 comando1 && comando2
-```
 
-## Repete var
-```bash
+# Repete var
 echo ${var}{,}
 vida vida
 echo ${var}{,,,}
 vida vida vida vida
-```
-## Executa o segundo caso o primeiro falhe
-```bash
-comando1 || comando2
-```
 
-## Expandi variaǘel
-```bash
+# Executa o segundo caso o primeiro falhe
+comando1 || comando2
+
+# Expandi variável
 var="banana laranja"
 ctrl+alt+e = expandi as variáveis no terminal
-```
 
-## Executa o segundo sem está em uma nova linha
-```bash
+# Executa o segundo sem está em uma nova linha
 comando1; comando2
-```
 
-## Recebe argumento de entrada
-```bash
+# Recebe argumento de entrada
 local entrada1=$1
 local entrada2=$2
-```
 
-## Recebe valor de entrada
-```bash
+# Recebe valor de entrada
 read -rp "Digite um valor: " nome_var
-```
 
-## Testa saída do comando
-```bash
+# Testa saída do comando
 if ls; then
   echo "comando executado com sucesso"
 else
   echo "comando terminado com falha"
 fi
-```
 
-## Oculta qualquer tipo de erro
-```bash
+# Oculta qualquer tipo de erro
 comando &>/dev/null
-```
 
-## Descobrir variável PS1
-```bash
+# Descobrir variável PS1
 printf "%q\n" "$PS1"
-```
 
-## Ligar e desligar opções
-```bash
+# Ligar e desligar opções
 # Ligar
 shopt -s globasciiranges
 
 # Ligar
 shopt -u globasciiranges
-```
 
-## Parâmetros expansão
-```bash
+# Parâmetros expansão
 $0 $1 $2 $3 $4 $5 $6 $7 $8 $9
-```
-## Repetindo parâmetros
-```bash
+# Repetindo parâmetros
 echo {left,right}{,}
 echo go_to {left,right,up,down}{,,,}
-```
 
-## Alternativa ao /dev/null
-```bash
-# Tranca a saída de erro, mais rápido
+# Tranca a saída de erro, mais rápido que /dev/null
 ls -la  2>&-
-# Ligar
+
+# Exemplo imagem do kernel
+url='https://www.kernel.org'
+while read; do
+    wget -O /tmp/${REPLY##*/} "$url/$REPLY"
+done < <(wget -qO- "$url"|grep -oP 'src="\K.*(png|jpg)(?=")')
 ```
