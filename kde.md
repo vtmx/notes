@@ -266,10 +266,14 @@ systemsettings5 kcm_keys
 kcmshell5 kcm_keys
 ```
 
-## Atualiza Kwin e Plasma
+## Reload Kwin e Plasma
 ```
 kwin_x11 --replace &
 plasmashell --replace &
+
+
+setsid kwin_x11 --replace &
+https://www.reddit.com/r/kde/comments/a5d2ly/how_do_you_properly_restart_kwin_and_plasmashell
 ```
 
 ## App para adicionar apps no autostart
