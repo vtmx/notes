@@ -105,4 +105,8 @@ url='https://www.kernel.org'
 while read; do
     wget -O /tmp/${REPLY##*/} "$url/$REPLY"
 done < <(wget -qO- "$url"|grep -oP 'src="\K.*(png|jpg)(?=")')
+
+# Declara variáveis inteiras 
+declare -i a+=b
+let a+=b
 ```

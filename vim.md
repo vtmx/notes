@@ -2,6 +2,7 @@
 
 ## Navegação
 ```
+esc, ctrl+c = sair do insert mode
 hjkl = Setas
 ^e = 1linha pra baixo
 ^y = 1 linha pra cima
