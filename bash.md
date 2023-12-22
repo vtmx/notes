@@ -1,13 +1,23 @@
 # Shell
 
 ```bash
-# Recebe último resposta recebida
+# Recebe última saída recebida
 $?
 
 # Exibe a quantidade de shells
 $0
 $$
+$_ pega último parâmetro passado
+$* todas as expansões unificadas
+$@ todas as expansões
 $BASHPID
+$BASHREMATCH
+$CDPATH
+$PIPESTATUS[@]
+$PROMPT_COMMAND = executa o conteúdo antes de devolver ao prompt
+$RANDOM = gera número aleatório $((RANDOM%6+1)) dado
+$REPLY = conteúdo do último campo válido
+$OLDPWD = último diretório visitado echo ~- mesmo resultado ~+ igual PWD
 $SHLVL
 
 # Comparar se está ou não em um subshell

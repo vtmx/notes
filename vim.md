@@ -106,6 +106,8 @@ P = Cola pra baixo
 ```
 :!hostname -i = Recebe resposta do comando
 :r!hostname -i = Recebe resposta do comando no arquivo
+!! = Inicia modo de comando na linha atual
+:3,5! = Inicia modo de comando entre as linhas 3 até 5
 set language in file - comment: vim: ft=sass:
 end of line = # set ft=fileformat:
 ```
