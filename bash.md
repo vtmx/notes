@@ -1,12 +1,10 @@
 # Shell
 
 ```bash
-# Recebe última saída recebida
-$?
-
-# Exibe a quantidade de shells
-$0
+$? recebe última saída recebida
+$0 exibe shell atual
 $$
+!! exibe o último comando
 $_ pega último parâmetro passado
 $* todas as expansões unificadas
 $@ todas as expansões
