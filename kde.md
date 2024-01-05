@@ -77,18 +77,12 @@ Systemsettings > preview uncheck folder
 ~/.config/dolphinrc
 ```
 
-## Comands
-```
-kmenuedit = Shortcuts
-```
-
 # Execute command kwin
 ```
+# Comandos
 qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Window Close"
-```
 
 # Execute command bismuth
-```
 qdbus org.kde.kglobalaccel /component/bismuth org.kde.kglobalaccel.Component.invokeShortcut focus_left_window
 ```
 
@@ -209,12 +203,12 @@ kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.kr
 Restart
 ```
 
-### Remover Panel Shadow
+### remover panel shadow
 ```
-`xprop -remove _KDE_NET_WM_SHADOW`
+`xprop -remove _kde_net_wm_shadow`
 ```
 
-## Restart Plasma
+## restart plasma
 ```
 killall plasmashell
 kstart plasmashell
@@ -223,38 +217,42 @@ kquitapp5 plasmashell
 kstart5 plasmashell
 ```
 
-## Links
+## links
 htts://store.kde.org/p/1281798/
 
-## Bugs
+## bugs
 
-### Cursor muda em cada área
-- Copiar o cursor atual ./local/share/icons para /usr/share/icons
-- Alterar o arquivo default/index.theme com o nome da pasta do seu cursor
+### cursor muda em cada área
+- copiar o cursor atual ./local/share/icons para /usr/share/icons
+- alterar o arquivo default/index.theme com o nome da pasta do seu cursor
 ```
 [icon theme]
-Inherits=We10XOS-cursors
+inherits=we10xos-cursors
 ```
 
-### Painel volta a versão anterior ao reiniciar
-- Ir alterando o arquivo: /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
-- E executando o comando para ver as modificações `kquitapp5 plasmashell && kstart plasmashell`
+### painel volta a versão anterior ao reiniciar
+- ir alterando o arquivo: /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
+- e executando o comando para ver as modificações `kquitapp5 plasmashell && kstart plasmashell`
 
-## Panel não fixa modo opaco
-Editar arquivo: /usr/share/plasma/desktoptheme/default/metadata.desktop
+## panel não fixa modo opaco
+editar arquivo: /usr/share/plasma/desktoptheme/default/metadata.desktop
 ```
-[AdaptiveTransparency]
+[adaptivetransparency]
 enabled=false
 ```
 
-## Comandos opções
+
+## comandos opções
 ```
 https://www.reddit.com/r/kde/comments/m0nj54/how_to_open_kde_plasma_system_settings_using
 
-# exibe opções completo
+# Exibe opções completo
 systemsettings5
 
-# exibe apenas a janela da opção
+# Atalhos
+systemsettings5 kcm_keys
+
+# Exibe apenas a janela da opção
 kcmshell5
 
 systemsettings5 -h
@@ -270,7 +268,6 @@ kcmshell5 kcm_keys
 ```
 kwin_x11 --replace &
 plasmashell --replace &
-
 
 setsid kwin_x11 --replace &
 https://www.reddit.com/r/kde/comments/a5d2ly/how_do_you_properly_restart_kwin_and_plasmashell
