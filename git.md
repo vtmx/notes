@@ -37,6 +37,15 @@ git push --force origin master
 git checkout -b novo-branch
 ```
 
+## Push
+```
+git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin main
+```
+
 ## Netlify
 ```
 # Branch deploy

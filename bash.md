@@ -117,4 +117,9 @@ done < <(wget -qO- "$url"|grep -oP 'src="\K.*(png|jpg)(?=")')
 # Declara variáveis inteiras 
 declare -i a+=b
 let a+=b
+
+# Mover múltiplos arquivos
+for file in *.json; do
+  mv "$file" "${file%.json}.yml"
+done
 ```
