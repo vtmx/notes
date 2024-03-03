@@ -1,28 +1,39 @@
-# Shell
+# Bash
+
+## Variáveis
+| Variável | Descrição
+| --- | --- |
+| $? | Recebe última saída recebida |
+| $$ | Descrever |
+| !! | Exibe o último comando |
+| $_ | Pega último parâmetro passado |
+| $* | Todas as expansões unificadas |
+| $@ | Todas as expansões |
+| $0 | Exibe shell atual |
+| $BASHPID | Exibe o ID do bash |
+| $BASHREMATCH | Retorna o último padrão criado |
+| $CDPATH | |
+| $PIPESTATUS[@] | |
+| $PROMPT_COMMAND | Executa o conteúdo antes de devolver ao prompt |
+| $RANDOM | Gera número aleatório $((RANDOM%6+1)) dado |
+| $REPLY | Conteúdo do último campo válido |
+| $OLDPWD | Último diretório visitado echo ~- mesmo resultado ~+ igual PWD |
+| $SHLVL | Exibe a atual instância do shell |
 
 ```bash
-$? recebe última saída recebida
-$0 exibe shell atual
-$$
-!! exibe o último comando
-$_ pega último parâmetro passado
-$* todas as expansões unificadas
-$@ todas as expansões
-$BASHPID
-$BASHREMATCH
-$CDPATH
-$PIPESTATUS[@]
-$PROMPT_COMMAND = executa o conteúdo antes de devolver ao prompt
-$RANDOM = gera número aleatório $((RANDOM%6+1)) dado
-$REPLY = conteúdo do último campo válido
-$OLDPWD = último diretório visitado echo ~- mesmo resultado ~+ igual PWD
-$SHLVL
-
 # Comparar se está ou não em um subshell
 $$ vs $BASHPID
 
 # Cria um arquivo novo ou excluí o conteúdo de um existente
 ls >teste.txt
+
+# Adiciona texto no início da linha do arquivo
+echo "$(echo Meu texto; cat file)" > file
+text=$(cat - nums <<< 'I P'); echo "$text" > nums
+echo I P | cat /dev/stdin -
+cat - nums <<< 'I P' | tee nums
+sed -i '1i I P' nums
+echo "$(cat - nums <<< 'I P')" > nums
 
 # Diretório de execução
 script_dir=${0%/*}
@@ -48,7 +59,7 @@ cat << eof
 teste
 eof
 
-grep 'teste' <<< teste
+grep 'teste' <<< 'teste'
 
 # Executa o segundo enquanto o primeiro ainda está em execução
 comando1 & comando2
@@ -118,8 +129,39 @@ done < <(wget -qO- "$url"|grep -oP 'src="\K.*(png|jpg)(?=")')
 declare -i a+=b
 let a+=b
 
-# Mover múltiplos arquivos
+# Renomear múltiplas extednções
 for file in *.json; do
   mv "$file" "${file%.json}.yml"
 done
+
+# Receber resultado do grap em array
+readarray ids <<< $(grep -Eo '<Id>[[:digit:]]*</Id> file.xml)
+
+# Algumas vezes fica com um espaço a mais, para solucionar use o argumento -t
+readarray -t components_files <<< "$(ls ${components_dir}/*.html)"
+
+# Somar valor em xml
+sed -E "s|<Id>([[:digit:]])*)echo "</Id>|<Id>$((\1 + 2))</Id>"|ge
+
+# Rename pattern
+for file in pattern_*;
+  do mv "$file" "${file//*_/}";
+done
+
+# Debug
+set -x
+...code debug...
+set +x
+
+# Alinhando texto
+column -t arq.csv 
+
+# Exibe arquivo formatado com 60 colunas
+fold -sw 60 arq.txt
+
+# Curl install
+curl -sSL https://get.docker.com/ | sh
+sh -c "$(curl -sSL https://get.docker.com/)"
 ```
+
+

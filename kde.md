@@ -266,6 +266,8 @@ kcmshell5 kcm_keys
 
 ## Reload Kwin e Plasma
 ```
+Alt + Shift + F2 = Reload compositor
+
 kwin_x11 --replace &
 plasmashell --replace &
 

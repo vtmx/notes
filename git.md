@@ -136,6 +136,11 @@ https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
 "Fix", "Add", "Change"
 ```
 
+## Clone com o mínimo de commits
+```
+git clone --depth
+```
+
 ## Links
 - https://www.conventionalcommits.org/en/v1.0.0/
 - https://chris.beams.io/posts/git-commit/
