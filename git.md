@@ -141,6 +141,11 @@ https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
 git clone --depth
 ```
 
+## Clone com um único branch
+```
+git clone [url] --branch [branch] --single-branch
+```
+
 ## Links
 - https://www.conventionalcommits.org/en/v1.0.0/
 - https://chris.beams.io/posts/git-commit/
