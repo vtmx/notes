@@ -25,6 +25,7 @@ Win + Esquerda = Divide janela para a esquerda
 Win + Direita = Divide janela para a esquerda
 Win + Cima = Diminui janela
 Win + Cima + Cima = maximiza janela
+Win + Ctrl + O = Virtual Keyboard
 Ctrl + W = Fecha janela
 Ctrl + Shift + Esq = Gerenciador de tarefas
 Shift + F10 = botão direito
@@ -86,6 +87,7 @@ devmgmt.msc = Gerenciamento de Hardware
 diskmgmt.msc = Gerenciamento de Disco
 gpedit.msc = Editor de Políticas
 services.msc = serviços
+osk = Virtual keyboard
 ```
 
 ## Controles

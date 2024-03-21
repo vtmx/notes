@@ -24,6 +24,9 @@
 # Comparar se está ou não em um subshell
 $$ vs $BASHPID
 
+# Repete o mesmo comando anterior do usuário
+sudo !!
+
 # Cria um arquivo novo ou excluí o conteúdo de um existente
 ls >teste.txt
 
@@ -162,6 +165,13 @@ fold -sw 60 arq.txt
 # Curl install
 curl -sSL https://get.docker.com/ | sh
 sh -c "$(curl -sSL https://get.docker.com/)"
+
+# App exist
+if type firefox2 >& /dev/null; then  
+  echo Firefox existe
+else
+  echo Firefox não existe
+fi
 ```
 
 
