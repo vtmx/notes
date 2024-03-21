@@ -172,6 +172,7 @@ if type firefox2 >& /dev/null; then
 else
   echo Firefox não existe
 fi
+
+# Ir para a parte final do arquivo
+less +F arq
 ```
-
-
