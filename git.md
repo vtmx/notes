@@ -146,6 +146,15 @@ git clone --depth
 git clone [url] --branch [branch] --single-branch
 ```
 
+## Resolvendo problema arquivos grantes
+```
+# GH001: Large files detected. You may want to try Git Large File Storage
+# 2 número de commits para trás
+git rebase -i HEAD~2
+s no commmit que deseja remover, salva
+https://youtu.be/TXSmxtU2tOk?feature
+```
+
 ## Links
 - https://www.conventionalcommits.org/en/v1.0.0/
 - https://chris.beams.io/posts/git-commit/
