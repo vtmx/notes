@@ -153,6 +153,10 @@ git clone [url] --branch [branch] --single-branch
 git rebase -i HEAD~2
 s no commmit que deseja remover, salva
 https://youtu.be/TXSmxtU2tOk?feature
+
+ou
+
+git reset --soft HEAD^2
 ```
 
 ## Links
