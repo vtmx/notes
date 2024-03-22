@@ -175,4 +175,35 @@ fi
 
 # Ir para a parte final do arquivo
 less +F arq
+
+# Exibe texto com marcas de nova linha
+cat -et
+
+# Converter PascalCase para kebab-case
+
+# 1
+sed -E 's/([A-Z])/-\1/2g' <<< 'PalavraCruzadaAlinhada' | tr [[:upper:]] [[:lower:]]
+
+# 2
+converter_para_hifen() {
+    local palavra="$1"
+    palavra_convertida="${palavra//[A-Z]/-&}"
+    palavra_convertida="${palavra_convertida,,}"
+    palavra_convertida="${palavra_convertida#-}"
+    echo "$palavra_convertida"
+}
+
+entrada="$1"
+saida=$(converter_para_hifen "$entrada")
+echo "$saida"
+
+# 3
+foo="TestPascalCaseString"
+while [[ "$foo" =~ (.*[a-z0-9])([A-Z].*) ]] && foo="${BASH_REMATCH[1]}-${BASH_REMATCH[2]}"; do
+  :  # do nothing
+done
+echo "${foo,,}"
+
+# Exemplo exercício
+grep -E -A1 '^(Country|City|Bairro)$' <<< "$var" | paste - - | awk '{print $1 "\t-\t" $2}'
 ```
