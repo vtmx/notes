@@ -181,7 +181,7 @@ cat -et
 
 # Converter PascalCase para kebab-case
 
-# 1
+# Modo 1
 sed -E 's/([A-Z])/-\1/2g' <<< 'PalavraCruzadaAlinhada' | tr [[:upper:]] [[:lower:]]
 
 # 2
