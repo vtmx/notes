@@ -1,5 +1,12 @@
 # Firefox
 
+## Search bookmarks in bar
+```
+type * and search
+ctrl + b = Show bookmarks in sidebar
+ctrl + shift + o = show bookmarks in new window
+```
+
 ## Customizar menu
 - Disable titlebar
 - Density compact
@@ -16,6 +23,13 @@ ctrl+shift+alt+i
 ## Test extensions
 ```
 about:debugging#/runtime/this-firefox
+```
+
+## About
+```
+about:blank
+about:debugging
+about:preferences
 ```
 
 ## about:config
