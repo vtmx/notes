@@ -1,3 +1,3 @@
-# Lembretes de Atalhos
+# Notes
 
-Atalhos, dicas e lembretes.
+My notes.
