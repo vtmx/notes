@@ -28,4 +28,23 @@
 [data-value$="foo"] {
   /* Attribute value ends with this */
 }
+
+/* Multiple values */
+clamp(min, val, max)
+
+/* Multiple colors based color scheme */
+:root {
+  color-scheme: light dark;
+}
+body {
+  color: light-dark(#333b3c, #efefec);
+  background-color: light-dark(#efedea, #223a2c);
+}
+
+/* Color schemes */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme */
+
+/* System colors */
+/* https://drafts.csswg.org/css-color/#system-color */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/system-color */
 ```

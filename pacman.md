@@ -40,3 +40,6 @@ pacman -Qqe > packages.txt
 # Instala todos os pacotse usando um arquivo com listagem
 pacman -S --needed - < packages.txt 
 ```
+
+## Rereferências
+https://github.com/kretcheu/dicas/blob/master/pacman.md

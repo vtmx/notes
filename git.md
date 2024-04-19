@@ -11,6 +11,9 @@ git push -u origin branch
 # Faz upload das mudanças
 git push origin branch
 
+# Geralmente usado no início
+git push -u -f origin main
+
 # Visualiza repositórios remotos conectados
 git remote -v
 

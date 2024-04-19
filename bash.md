@@ -282,3 +282,8 @@ echo "${foo,,}"
 ```bash
 grep -E -A1 '^(Country|City|Bairro)$' <<< "$var" | paste - - | awk '{print $1 "\t-\t" $2}'
 ```
+
+## Comando date sem utilitário
+```bash
+printf '%(%d/%m/%y)T'
+```
