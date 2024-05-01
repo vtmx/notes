@@ -41,8 +41,16 @@ body {
   background-color: light-dark(#efedea, #223a2c);
 }
 
+p {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
 /* Color schemes */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme */
+
+/* Font sizes */
+/* https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight */
 
 /* System colors */
 /* https://drafts.csswg.org/css-color/#system-color */

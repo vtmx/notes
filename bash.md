@@ -287,3 +287,14 @@ grep -E -A1 '^(Country|City|Bairro)$' <<< "$var" | paste - - | awk '{print $1 "\
 ```bash
 printf '%(%d/%m/%y)T'
 ```
+
+## Nunca usei 
+```bash
+# Remove espaços e caracteres acentuados do nome do arquivo
+new_name=$(echo "$file" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | iconv -f utf8 -t ascii//TRANSLIT)
+```
+
+# Ytdlp download playlist
+```bash
+yt-dlp -x --audio-format mp3 "URL_DA_PLAYLIST"
+```
