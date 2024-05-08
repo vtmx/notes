@@ -32,6 +32,18 @@ about:debugging
 about:preferences
 ```
 
+## Disable cursor blink in buttons
+```
+https://support.mozilla.org/en-US/questions/974774
+
+In addition to the above:
+This is likely caused by switching on caret browsing and you can toggle caret browsing on/off by pressing F7 (Mac: fn + F7).
+http://kb.mozillazine.org/accessibility.browsewithcaret 
+
+Note that this is an accessibility feature of Firefox.
+Tools > Options > Advanced > General > Accessibility: [ ] "Always use the cursor keys to navigate within pages" 
+```
+
 ## about:config
 <table>
   <tr>

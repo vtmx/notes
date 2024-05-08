@@ -1,6 +1,7 @@
 # rsync
 
 ```
+# Usado para backup
 rsync -azP src/ dest/
 
 Using / in end save all files,
