@@ -241,15 +241,17 @@ editar arquivo: /usr/share/plasma/desktoptheme/default/metadata.desktop
 enabled=false
 ```
 
-
 ## comandos opções
 ```
 https://www.reddit.com/r/kde/comments/m0nj54/how_to_open_kde_plasma_system_settings_using
 
 # Exibe opções completo
-systemsettings5
+systemsettings
 
 # Atalhos
+systemsettings kcm_keys
+
+## Old plasma
 systemsettings5 kcm_keys
 
 # Exibe apenas a janela da opção
