@@ -11,16 +11,16 @@ set -gx FZF_DEFAULT_OPTS '
 # bash
 export FZF_DEFAULT_OPTS="\
   --height 50% --reverse \
-  --margin=0 --padding=0 \
   --border=none --preview-window=''\
-  --prompt '❯ ' --marker '❯ ' --pointer '❯' \
+  --prompt '❯ ' --marker '❯' --pointer '❯' \
   --color=bg:-1,fg:-1 \
   --color=bg+:bright-black,fg+:-1 \
   --color=hl:blue,hl+:blue \
   --color=info:-1,marker:blue \
-  --color=prompt:green,spinner:green \
+  --color=prompt:green,spinner:-1 \
   --color=pointer:-1,header:-1 \
   --color=gutter:-1,border:black"
+
 
 bindings
 Ctrl + T = LS
