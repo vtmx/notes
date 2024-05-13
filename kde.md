@@ -300,6 +300,20 @@ kpackagetool5 -r script-id
 file://name-folder name-icon
 ```
 
+## Force style
+```
+dolphin -stylesheet=/home/user/Downloads/theme.css
+https://doc.qt.io/qt-6/stylesheet-examples.html
+QFrame {
+  background: #111;
+}
+
+QPushButton {
+  background-color: #1e2227;
+  border-radius: 4px;
+}
+```
+
 ## Clipboard
 Manter clipborad habilitado para continuar colando após software for fechado.
 
