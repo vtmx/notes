@@ -248,8 +248,11 @@ https://www.reddit.com/r/kde/comments/m0nj54/how_to_open_kde_plasma_system_setti
 # Exibe opções completo
 systemsettings
 
-# Atalhos
+# Abre os atalhos na tela de configuração
 systemsettings kcm_keys
+
+# Exibe somente a janela de atalhos
+kcmshell6 kcm_keys
 
 ## Old plasma
 systemsettings5 kcm_keys
