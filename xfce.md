@@ -12,6 +12,13 @@ GTK_DEBUG=interactive your-app
 https://gtkthemingguide.surajmandal.in/#/getting_started
 ```
 
+## xfce-panel
+```
+# Number of desktop
+sh -c "echo $(wmctrl -d | awk '/\*/ { print $NF }')"
+sh -c "echo $(($(xdotool get_desktop) + 1 ))"
+```
+
 ## Reload theme
 
 ```

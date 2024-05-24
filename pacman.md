@@ -1,14 +1,28 @@
 # pacman
 
-## pkgbuild
-- Crie diretório pkgbuild e entre nele
-- Crie arquivo PKGBUILD
-- `makepkg` cria o pacote
-- `makepkg -si` cria e instala o pacote
-- `sudo pacman -U --noconfirm packagename-any.pkg.tar.zst`
-- `pacman -R --noconfirm packagename`
+# Instala
+pacman -S
 
-## Comandos
+# Remove
+pacman -R
+
+# Lista pacotes
+pacman -Qqe
+
+# Lista pacotes não usados
+pacman -Qtdq
+
+# Verifica dependência do pacote
+pacman -Qi package
+
+# Cria um arquivo com a lista de pacotes instalados
+pacman -Qqe > packages.txt 
+
+# Instala todos os pacotse usando um arquivo com listagem
+pacman -S --needed - < packages.txt 
+
+## Criando pacotes
+
 ```
 makepkg
   Cria o pacote.
@@ -24,22 +38,15 @@ makepkg
 
 --noconfirm
   Sem confirmação.
-
-# Instala
-pacman -S
-
-# Remove
-pacman -R
-
-# Lista pacotes
-pacman -Qqe
-
-# Cria um arquivo com a lista de pacotes instalados
-pacman -Qqe > packages.txt 
-
-# Instala todos os pacotse usando um arquivo com listagem
-pacman -S --needed - < packages.txt 
 ```
+
+## pkgbuild
+- Crie diretório pkgbuild e entre nele
+- Crie arquivo PKGBUILD
+- `makepkg` cria o pacote
+- `makepkg -si` cria e instala o pacote
+- `sudo pacman -U --noconfirm packagename-any.pkg.tar.zst`
+- `pacman -R --noconfirm packagename`
 
 ## Rereferências
 https://github.com/kretcheu/dicas/blob/master/pacman.md
