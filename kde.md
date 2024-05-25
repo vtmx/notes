@@ -3,8 +3,8 @@
 ## Current Style
 ```
 Application Style: Lightly
-Plasma Style: Breeze AlphaBlack
-Colors: One Dark 2 (me)
+Plasma Style: Oxygen
+Colors: OneDarkV
 Window Decorations = Lightly
 Fonts: Segoe UI Semibold 10pt
 Icons: Sensual-Breeze-Dark
@@ -40,20 +40,6 @@ Ctrl + Shift + N = Create Folder
 Ctrl + Alt + Del = Tela para desligar
 Ctrl + Shift + Alt + PgDown = Desligar
 Alt + Space = Kruner
-```
-
-## Custom Shortcuts
-```
-Meta + Enter = Terminal
-Meta + B = Browser
-Meta + E = Dolphin
-Meta + G = Chromium
-Meta + K = KolorChose
-Meta + M = VLC
-Meta + O = Opera
-Meta + S = Steam
-Meta + T = QBitTorrent
-Meta + V = VS Code
 ```
 
 ## Dolphin
@@ -135,12 +121,16 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ```
 
 ### Colors
+```
 /usr/share/color-schemes/
 ~/.local/share/color-schemes/
+```
 
 ## Konsole
+```
 /usr/share/konsole/
 ~/.local/share/konsole/
+```
 
 ## Kate
 ```
@@ -165,13 +155,6 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ```
 /usr/share/backgrounds/
 /usr/share/wallpapers/
-```
-
-### Plasmoids
-```
-.local/share/plasma/plasmoids/
-- better inline clock
-- virtual desktop bar
 ```
 
 ### SDDM
@@ -203,12 +186,12 @@ kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.kr
 Restart
 ```
 
-### remover panel shadow
+### Remover panel shadow
 ```
 `xprop -remove _kde_net_wm_shadow`
 ```
 
-## restart plasma
+## Restart plasma
 ```
 killall plasmashell
 kstart plasmashell
@@ -217,12 +200,9 @@ kquitapp5 plasmashell
 kstart5 plasmashell
 ```
 
-## links
-htts://store.kde.org/p/1281798/
+## Bugs
 
-## bugs
-
-### cursor muda em cada área
+### Cursor muda em cada área
 - copiar o cursor atual ./local/share/icons para /usr/share/icons
 - alterar o arquivo default/index.theme com o nome da pasta do seu cursor
 ```
@@ -230,18 +210,18 @@ htts://store.kde.org/p/1281798/
 inherits=we10xos-cursors
 ```
 
-### painel volta a versão anterior ao reiniciar
+### Painel volta a versão anterior ao reiniciar
 - ir alterando o arquivo: /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
 - e executando o comando para ver as modificações `kquitapp5 plasmashell && kstart plasmashell`
 
-## panel não fixa modo opaco
+## Panel não fixa modo opaco
 editar arquivo: /usr/share/plasma/desktoptheme/default/metadata.desktop
 ```
 [adaptivetransparency]
 enabled=false
 ```
 
-## comandos opções
+## Comandos opções
 ```
 https://www.reddit.com/r/kde/comments/m0nj54/how_to_open_kde_plasma_system_settings_using
 
@@ -324,3 +304,5 @@ Manter clipborad habilitado para continuar colando após software for fechado.
 
 ## Links
 - https://opensourcelibs.com/lib/kde-configuration-files
+- https://store.kde.org/p/1281798
+
