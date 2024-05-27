@@ -6,6 +6,9 @@ pacman -S
 # Remove
 pacman -R
 
+# Remove remove with dependencies not used
+pacman -Rs
+
 # Lista pacotes
 pacman -Qqe
 
