@@ -15,6 +15,8 @@ sudo systemctl status libvirtd.service
 ## Prevent always ask password
 ```
 sudo usermod -a -G libvirt $(whoami)
+# or
+add user myuser libvirg
 sudo systemctl restart libvirtd.service
 ```
 

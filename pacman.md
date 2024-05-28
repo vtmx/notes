@@ -1,19 +1,29 @@
 # pacman
 
+```
 # Instala
-pacman -S
+pacman -S package
+
+# Instala sem confirmar
+pacman --no-confirm -S package
 
 # Remove
-pacman -R
+pacman -R package
+
+# Remove sem confirmar
+pacman --no-confirm -R package
 
 # Remove remove with dependencies not used
-pacman -Rs
+pacman -Rs package
+
+# Pesquisar se pacotes existe nos respositórios
+pacman -Fy package
 
 # Lista pacotes
-pacman -Qqe
+pacman -Qqe package
 
 # Lista pacotes não usados
-pacman -Qtdq
+pacman -Qtdq package
 
 # Verifica dependência do pacote
 pacman -Qi package
@@ -23,6 +33,14 @@ pacman -Qqe > packages.txt
 
 # Instala todos os pacotse usando um arquivo com listagem
 pacman -S --needed - < packages.txt 
+```
+
+## Repostório
+```
+/etc/pacman.conf
+
+color
+```
 
 ## Criando pacotes
 
