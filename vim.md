@@ -225,6 +225,8 @@ r! comando = Executar comando terminal
 :set list = Add marks
 :set nolist = Remove marks
 :set list! = Toogle marks
+gx = Open text in xgd-open
+:InspectTree = Show Treesitie
 ```
 
 ## Auxliares

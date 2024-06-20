@@ -20,6 +20,14 @@ add user myuser libvirg
 sudo systemctl restart libvirtd.service
 ```
 
+## Solution
+KVM guest: "network 'default' is not active"
+
+First, confirm that the default network is indeed inactive:
+`sudo virsh net-list --all`
+
+If so, start the default network:
+`sudo virsh net-start default`
 
 ## Links
 ```
