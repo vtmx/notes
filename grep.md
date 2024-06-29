@@ -17,6 +17,9 @@ chopes? = chope | chopes
 
 cat -et
 Exibe final dal linha com o $
+
+-r
+Exibe caminho do arquivo.
 ```
 
 ## Remove linhas vazias
