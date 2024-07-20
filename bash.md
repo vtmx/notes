@@ -148,6 +148,17 @@ comando &>/dev/null
 printf "%q\n" "$PS1"
 ```
 
+## Alinhamento com print
+```bash
+printf "%9s:\n" "$file"
+#      teste: 
+# mais teste:
+
+printf "%-9s:\n" "$file"
+# teste     : 
+# mais teste:
+```
+
 ## Parâmetros expansão
 ```bash
 $0 $1 $2 $3 $4 $5 $6 $7 $8 $9

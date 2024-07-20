@@ -302,6 +302,13 @@ QPushButton {
 ## Clipboard
 Manter clipborad habilitado para continuar colando após software for fechado.
 
+## Desabilitando kwalet
+Editar o arquivo: `~/.config/kwaletrc`
+```
+[Wallet]
+Enabled=false
+```
+
 ## Links
 - https://opensourcelibs.com/lib/kde-configuration-files
 - https://store.kde.org/p/1281798
