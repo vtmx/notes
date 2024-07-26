@@ -1,6 +1,6 @@
 # cut
 
-```
-# Remove delimitador >
+Remove delimitador:
+```bash
 cut -d '>' -f1
 ```

@@ -1,15 +1,25 @@
 # jq
 
+Use curl:
+
 ```bash
-# Use curl
 curl -s <url> | jq
+```
 
-# Get list of results
+Get list of results:
+
+```bash
 jq .results[] <file>
+````
 
-# Get name of results
+Get name of results:
+
+```bash
 jq .results[].name
+```
 
-# Get only values without ""
+Get only values without "":
+
+```bash
 jq -r .results[].name
 ```

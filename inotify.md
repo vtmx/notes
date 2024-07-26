@@ -1,6 +1,6 @@
 # inotify
 
-# Commands
+Commands:
 
 ```bash
 # Package: inotify-tools
@@ -8,7 +8,7 @@ inotifywatch
 inotifywait
 ```
 
-# Loop in file change
+Loop in file change:
 
 ```bash
 while true; do
@@ -19,7 +19,7 @@ while true; do
 done
 ```
 
-## Loop in file change and show what file
+Loop in file change and show what file:
 
 ```bash
 while true; do

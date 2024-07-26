@@ -1,11 +1,13 @@
 # Godot
 
 ## Definir um nome de classe
+
 ```gd
 class_name Name
 ```
 
 ## Variáveis
+
 ```gd
 # Definir tipo da variável
 var speed: int = 5
@@ -15,6 +17,7 @@ export (int) var speed
 ```
 
 ## Funções nativas
+
 ```gd
 # Função quando a cena estiver carregada
  _ready():

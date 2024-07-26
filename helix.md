@@ -1,6 +1,7 @@
 # Helix
 
 ## Shortcuts
+
 ```
 x = Select all line if press other lines
 s = Search word when line select
@@ -30,9 +31,11 @@ Space + ? = Show commands
 ```
 
 ## Theme Location
+
 ```
 /var/lib/helix/runtime/themes/
 ```
 
 ## Links
+
 - https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers

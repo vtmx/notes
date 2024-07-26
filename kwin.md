@@ -1,6 +1,7 @@
 # kwin
 
 ## Shortcuts
+
 ```
 # Other console
 ctrl+alt+f#

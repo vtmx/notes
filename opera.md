@@ -1,6 +1,7 @@
 # Opera
 
 ## Shortcuts
+
 ```
 Ctrl + D = Add to bookmarks
 Ctrl + Shift + O = Manager bookmarks
@@ -15,6 +16,7 @@ F12 = Devtools
 ```
 
 ## Flags
+
 ```
 opera://flags
 Smooth Scrolling = Disable
@@ -22,16 +24,19 @@ settings/powerSettingsOverlay
 ```
 
 ## Pesquisar Speed
+
 ```
 https://www.youtube.com/watch?v=hr8arUD5rSs
 ```
 
 ## Pesquisar Tab
+
 ```
 Desabilitar espaçamento da barra superior.
 ```
 
 ## Extensões
+
 - Dashlane
 - Download Chrome Extension
 - Google Tradutor by instranslator
@@ -39,6 +44,7 @@ Desabilitar espaçamento da barra superior.
 - Youtube Downloader
 
 ## Links
+
 - https://addons.opera.com/pt-br/extensions/details/google-translate/
 - https://about.imtranslator.net/tutorials/presentations/google-translate-for-opera/
 - https://www.hongkiat.com/blog/opera-flags-better-browsing-experience/

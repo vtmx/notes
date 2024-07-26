@@ -1,6 +1,6 @@
 # fzf
 
-```
+```bash
 #fish
 set -gx FZF_DEFAULT_OPTS '
   --color=fg:#abb2bf,bg:#23272e,hl:#61afef
@@ -30,5 +30,6 @@ Ctrl + R = History
 ```
 
 ## Links
+
 - https://minsw.github.io/fzf-color-picker
 - https://github.com/junegunn/fzf/issues/1051

@@ -1,6 +1,7 @@
 # Blender
 
 ## Viewport
+
 ```
 T = Oculta e exibe barra de ferramentas
 N = Exibe a sidebar para editar valores
@@ -17,6 +18,7 @@ ClickD = Cancela ação feita
 ```
 
 ## Navegação
+
 ```
 1 = Ir para collection 1
 2 = Ir para collection 2
@@ -30,6 +32,7 @@ Scroll = Gira viewport
 ```
 
 ## Visualizações Pré-Definidas
+
 ```
 1 = Visualiza o eixo Y(frente)
 Ctrl + 1 = Visualiza o contrário do eixo Y (costa)
@@ -46,6 +49,7 @@ Home = Enquadra todo os objetos da viewport
 ```
 
 ## Seleção
+
 ```
 A = Seleciona todos os objetos da cena
 Alt + A / A + A = Tira seleção de todos os objetos
@@ -69,6 +73,7 @@ Click = No ponto quando estiver no modo faces para selecionar
 ```
 
 ## Edit Mode
+
 ```
 Tab = Entra no modo de edit mode
 1 = Vertice
@@ -113,6 +118,7 @@ Ctrl + Shift + Tab = Exibe exibe menu do snap
 ```
 
 ## Movimentação, Rotação e Escalonamento
+
 ```
 G = Movimenta objeto
 G2x = Movimenta pela forma
@@ -147,6 +153,7 @@ ClickD = No momento da movimentação cancela ação
 ```
 
 ## Object Mode
+
 ```
 Y = Clona mesh selecionado
 V = Solta edge selecionado também
@@ -163,6 +170,7 @@ ClickD » Set Origim » Object Origin = Alinha cursor 3D
 ```
 
 ## Visualização e Organização
+
 ```
 ; ou / (Numpad) = Isola seleção (exibe somente o objeto selecionado)
 Delete (Numpad) = Fixa edição no objeto
@@ -183,17 +191,20 @@ Overlay » Normals » 3º Botão = Corrigi em Mesh » Normals » Flip
 ```
 
 ## Pose Mode
+
 ```
 Ctrl + Tab = Entra no pose mode
 ```
 
 ## Modificadores
+
 ```
 Shift + N = Ordena os lados(normas)
 Ctrl + M + Y = Mirror
 ```
 
 ## Organização
+
 ```
 1..9 = Ativa coleções
 P = Separa parte selecionada para coleção
@@ -205,12 +216,14 @@ F3 = Pesquisa (Bridge Edge Loop)
 ```
 
 ## Overlay
+
 ```
 Geometry » Wireframe = Exibe o wireframe do objeto
 Edit Mode » Edge Lenght = Mostra a distância entre os vértices
 ```
 
 ## Animação
+
 ```
 I = Inserir keyframe
 SetaL/R = Pula início e fim
@@ -226,12 +239,14 @@ Câmera Seguindo = Colocar Empty, com câmera selecionada ir em Constraint e esc
 ```
 
 ## UV Editing
+
 ```
 U = Unwrap
 U + Project from view = Projeta com a imagem
 ```
 
 ## Shading
+
 ```
 Render Properties » Scene » Film » Alpha » Transparent
 Texture » Inviroment Texture = Selecione HDR
@@ -243,6 +258,7 @@ Ctrl + Shift + T = Abrir todas as texturas do site
 ```
 
 ## Render
+
 ```
 0 (Numpad) = Vizualizar câmera
 Ctrl + Alt + 0 = Envia a câmera para o modo atual de visualização
@@ -256,6 +272,7 @@ Disable blend1 = Preferences » Save & Load » Save Versions = 0
 ```
 
 ### Render Properties
+
 ```
 [x] Ambient Oclusion
 [x] Bloom
@@ -267,6 +284,7 @@ Shadow » [x] Hight Bitdeph
 ```
 
 ## Add-ons
+
 ```
 [x] Add Mesh: Extra Objects
 [x] Mesh: Loop Tools (cria círculos nas areas selecionadas)
@@ -281,12 +299,14 @@ Shadow » [x] Hight Bitdeph
 ```
 
 ## Sprytile
+
 ```
 Shift + Middle = Move Sprite
 S + Hold = Cursor
 ```
 
 ## Canais
+
 ```
 https://www.youtube.com/channel/UCdEKHCpwH39lca6v-BzRROA/videos
 https://www.youtube.com/user/Danielfc10
@@ -296,6 +316,7 @@ https://www.youtube.com/c/VideoVertigo
 ```
 
 ## Obs
+
 ```
 O Blender aceita seus próprios atalhos no menu.
 Clique com o botão direito e adicione.
@@ -303,4 +324,5 @@ Custom Ctrl+Enter Fullscreen.
 ```
 
 ## Links
+
 - https://www.giudansky.com/illustration/infographics/blender-map

@@ -1,6 +1,7 @@
 # KDE
 
 ## Current Style
+
 ```
 Application Style: Lightly
 Plasma Style: Oxygen
@@ -13,6 +14,7 @@ Shadow Window: 35% Small
 ```
 
 ## Terminal
+
 ```
 Dark One Nuanced - bg #1e222a
 BlexMono Nerd Font Mono 11pt
@@ -20,6 +22,7 @@ Miscellaneous - Margins: 8px
 ```
 
 ## Global
+
 ```
 Meta + Drag = Arrasta a janela
 Meta + , = System Settings
@@ -43,6 +46,7 @@ Alt + Space = Kruner
 ```
 
 ## Dolphin
+
 ```
 F3 = Open Side
 F4 = Open Pane Terminal
@@ -64,6 +68,7 @@ Systemsettings > preview uncheck folder
 ```
 
 # Execute command kwin
+
 ```
 # Comandos
 qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Window Close"
@@ -73,6 +78,7 @@ qdbus org.kde.kglobalaccel /component/bismuth org.kde.kglobalaccel.Component.inv
 ```
 
 ## Configs
+
 ```
 Desktop Session = On Login: Start with an empty session
 Window Behavior = Advanced > Window placement: Centered
@@ -80,12 +86,14 @@ General Behavior = Animation speed: Instant
 ```
 
 ## Programs
+
 - Subtitle Composer
 - KColor Chooser
 - Krusader
 - KRaname
 
 ## Widgets
+
 - Better inline clock
 - Virtual desktop bar
 
@@ -98,41 +106,48 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ## Paths
 
 ### Global Themes
+
 ```
 /usr/share/plasma/look-and-feel/
 ~/.local/share/plasma/look-and-feel/
 ```
 
 ### Plasma Style
+
 ```
 /usr/share/plasma/desktoptheme/
 ~/.local/share/plasma/desktoptheme/
 ```
 
 ### Window Decorations
+
 ```
 ~/.local/share/aurorae/themes/
 ```
 
 ### Icons
+
 ```
 /usr/share/icons/
 ~/.local/share/icons/
 ```
 
 ### Colors
+
 ```
 /usr/share/color-schemes/
 ~/.local/share/color-schemes/
 ```
 
 ## Konsole
+
 ```
 /usr/share/konsole/
 ~/.local/share/konsole/
 ```
 
 ## Kate
+
 ```
 /usr/share/org.kde.syntax-highlighting/syntax-bundled/
 ~/.local/share/org.kde.syntax-highlighting/themes/
@@ -140,34 +155,40 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ```
 
 ### Kvantum
+
 ```
 /usr/share/Kvantum/
 ~/.config/Kvantum/
 ```
 
 ## Theme
+
 ```
 /usr/share/themes/
 ~/.local/share/plasma/desktoptheme/
 ```
 
 ### Backgrounds
+
 ```
 /usr/share/backgrounds/
 /usr/share/wallpapers/
 ```
 
 ### SDDM
+
 ```
 /usr/share/sddm/themes/
 ```
 
 ### Splashscreen
+
 ```
 ~/.local/share/plasma/look-and-feel/
 ```
 
 ### Shortcuts
+
 ```
 ~/.config/kdeglobals
 ~/.config/kglobalshortcutsrc
@@ -181,17 +202,20 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ```
 
 ### Kruner with Metakey
+
 ```
 kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,display"
 Restart
 ```
 
 ### Remover panel shadow
+
 ```
 `xprop -remove _kde_net_wm_shadow`
 ```
 
 ## Restart plasma
+
 ```
 killall plasmashell
 kstart plasmashell
@@ -203,25 +227,31 @@ kstart5 plasmashell
 ## Bugs
 
 ### Cursor muda em cada área
+
 - copiar o cursor atual ./local/share/icons para /usr/share/icons
 - alterar o arquivo default/index.theme com o nome da pasta do seu cursor
+
 ```
 [icon theme]
 inherits=we10xos-cursors
 ```
 
 ### Painel volta a versão anterior ao reiniciar
+
 - ir alterando o arquivo: /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
 - e executando o comando para ver as modificações `kquitapp5 plasmashell && kstart plasmashell`
 
 ## Panel não fixa modo opaco
+
 editar arquivo: /usr/share/plasma/desktoptheme/default/metadata.desktop
+
 ```
 [adaptivetransparency]
 enabled=false
 ```
 
 ## Comandos opções
+
 ```
 https://www.reddit.com/r/kde/comments/m0nj54/how_to_open_kde_plasma_system_settings_using
 
@@ -250,6 +280,7 @@ kcmshell5 kcm_keys
 ```
 
 ## Reload Kwin e Plasma
+
 ```
 Alt + Shift + F2 = Reload compositor
 
@@ -261,31 +292,35 @@ https://www.reddit.com/r/kde/comments/a5d2ly/how_do_you_properly_restart_kwin_an
 ```
 
 ## App para adicionar apps no autostart
+
 ```
 kcmshell5 autostart
 ```
 
 ## qt5ct
+
 1. Install qt5ct (sudo pacman -S qt5ct)
 2. You might want to install a Qt theme, that can be done by sudo pacman -S breeze for example.
 3. Edit /etc/environment as root by sudo nano /etc/environment and add the line QT_QPA_PLATFORMTHEME=qt5ct and save.
 4. Log out and in (or reboot)
 5. Now in qt5ct you can change your theme and settings
 
-
 ## Remove KwinScript
+
 ```
 kpackagetool5 -r script-id
 ~/.local/share/kservices5/
 ```
 
 ## Add bookmarks gnome
+
 ```
 ~/.config/gtk-3.0/bookmarks
 file://name-folder name-icon
 ```
 
 ## Force style
+
 ```
 dolphin -stylesheet=/home/user/Downloads/theme.css
 https://doc.qt.io/qt-6/stylesheet-examples.html
@@ -300,16 +335,27 @@ QPushButton {
 ```
 
 ## Clipboard
+
 Manter clipborad habilitado para continuar colando após software for fechado.
 
 ## Desabilitando kwalet
+
 Editar o arquivo: `~/.config/kwaletrc`
+
 ```
+# Comigo não funcionou
 [Wallet]
 Enabled=false
+
+Só funcionou desabilitando pela própria configuração do KDE.
 ```
 
+## Requisitando senha de Wifi
+
+Esse erro está associado ao kwalet, após desabilitar ele.
+Remova as redes conectatas e reconecte-as.
+
 ## Links
+
 - https://opensourcelibs.com/lib/kde-configuration-files
 - https://store.kde.org/p/1281798
-

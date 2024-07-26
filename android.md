@@ -1,12 +1,12 @@
 # Android
 
-## Habilitar modo desenvoledor
+Habilitar modo desenvoledor:
 ```
 Entrar em modo desenvolvedor Óreo
 Sistema » Sobre o dispositivo » Número da versão (toque sem parar)
 ```
 
-## Desabilitar animações
+Desabilitar animações:
 ```
 Sistema » Opção do desenvolvedor » Desenho (Retirar escala de animação de tudo)
 ```

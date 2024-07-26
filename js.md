@@ -1,7 +1,8 @@
 # JS
 
+Create a method for String:
+
 ```js
-// Create a method for String
 String.prototype.capitalize = function() {
   if typeof('String') {
     if (this.length === 0) {

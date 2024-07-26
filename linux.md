@@ -1,36 +1,41 @@
 # Linux
 
 ## Fonts
-```sh
+
+```bash
 /usr/share/fonts/
 ~/.local/share/fonts/
 ~/.config/user-dirs.dirs/
 ```
 
 ## Limpa cache de fontes
-```sh
+
+```bash
 sudo fc-cache -f -v
 sudo rm -f /var/cache/fontconfig/_
 rm -f ~/.cache/fontconfig/_
 ```
 
 ## Lista processos
-```sh
+
+```bash
 pstree
 ps --forest
 ```
 
 ## Lista processos
-```sh
+
+```bash
 ctrl + z = deixa job rodar em segundo plano
 ```
 
 ## Manual
-```sh
+
+```bash
 # Abre manual em pt
 man -L pt_BR.UTF-8 command
 
-# Exibe resumo dos manuais 
+# Exibe resumo dos manuais
 man -k
 
 # Pesquisa manual
@@ -38,28 +43,33 @@ man -f command
 ```
 
 ## Acesso partição
-```sh
+
+```bash
 sudo chown -hR vitor /run/media/vitor/db5d4111-906e-4fc2-881a-b8f703167c16/
 ```
 
 ## Monta partição no boot
-```sh
+
+```bash
 sudo fdisk /dev/sdb
 ```
 
 ## Show color system terminal
-```sh
+
+```bash
 echo "$TERM"
 ```
 
 ## Kill tmux
-```sh
+
+```bash
 tmux kill-server && tmux
 prefix + alt + arrow to resize pannel
 ```
 
 ## Start process
-```sh
+
+```bash
 chromium &
 whereis chromium
 which flutter
@@ -67,12 +77,14 @@ vivaldi-stable
 ```
 
 ## Enviroment login
-```sh
+
+```bash
 /usr/share/xsessions
 ```
 
 ## Env
-```sh
+
+```bash
 whereis firefox
 echo $BROWSER
 env
@@ -81,49 +93,58 @@ export BROWSER=/usr/bin/opera
 ```
 
 ## fish
-```sh
+
+```bash
 fish_config
 ```
 
 ## Show all drivers
-```sh
+
+```bash
 mhwd -l
 ```
 
 ## List driver installed
-```sh
+
+```bash
 mhwd -li
 ```
 
 ## Path folder
-```sh
+
+```bash
 /usr/local/bin/
 ```
 
 ## npm folder
-```sh
+
+```bash
 /usr/local/lib/node_modules/
 ```
 
 ## Mirrors list
-```sh
+
+```bash
 /etc/pacman.conf
 ```
 
 ## batcat
-```sh
+
+```bash
 bat --list-themes
 export BAT_THEME="ansi"
 ```
 
 ## app-image
-```sh
+
+```bash
 chmod a+x program*.AppImage
 ./program*.AppImage
 ```
 
 ## Change shell
-```sh
+
+```bash
 cat /etc/shells
 chsh
 /usr/bin/fish
@@ -131,22 +152,26 @@ su - yourid
 ```
 
 ## Create simbolic link
-```sh
+
+```bash
 sudo ln -s /var/lib/snapd/snap /snap
 ```
 
 ## Show
-```sh
+
+```bash
 ll /snap or readlink -f /snap
 ```
 
 ## Remove
-```sh
+
+```bash
 sudo rm /snap
 ```
 
 ## Editar montagem das partições
-```sh
+
+```bash
 # Editar o arquivo como root:
 /etc/fstab
 
@@ -157,67 +182,80 @@ sudo rm /snap
 ```
 
 ## Grub
-```sh
+
+```bash
 pegar curso linux
 ```
 
 ## Exibe o tamanho
-```sh
+
+```bash
 df
 ```
 
 ## Exibe linhas iniciais
-```sh
+
+```bash
 header -n arq
 ```
 
 ## Exibe linhas finais
-```sh
+
+```bash
 tail -n arq
 ```
 
 ## Exibe linhas finais em termpo real
-```sh
+
+```bash
 tail -f -no arq
 ```
 
 ## Substitui resultados do comando
-```sh
+
+```bash
 ls | tr design documents
 ```
 
 ## Exibe e executa comando ao mesmo tempo
-```sh
+
+```bash
 ls | tee -a arq
 ```
 
 ## Executa antes
-```sh
+
+```bash
 ls | xargs -a arq
 ```
 
 ## Exibe informações do arquivo
-```sh
+
+```bash
 wc arq
 ```
 
 ## Exibe status do arquivo
-```sh
+
+```bash
 stat arq
 ```
 
 ## Multiplo sed
-```sh
+
+```bash
 sed 's/a/b/g;s/c/d/g'
 ```
 
 ## Organiza pelo tamanho
-```sh
+
+```bash
 ll | sort -h
 ```
 
 ## rsync
-```sh
+
+```bash
 rsync -arzP src/ dest
 a = mantém permissões
 r = sincroniza
@@ -226,7 +264,8 @@ P = exibe progresso
 ```
 
 ## find
-```sh
+
+```bash
 find . -name "name.txt"
 find . -name "*.txt"
 find . -type f -name "*.jpg"
@@ -236,16 +275,19 @@ find . -f -name "*.txt" | xargs rm
 ```
 
 ## Info
-```sh
+
+```bash
 whereis
 which
 who
 whoami
 ```
+
 ## Permissões
-```sh
+
+```bash
 chomod +x
-chomod 775 
+chomod 775
 1 = x
 2 = w
 4 = r
@@ -254,7 +296,8 @@ owner, group, others
 ```
 
 # Hardware
-```sh
+
+```bash
 lsblk
 lscpu
 lsmod
@@ -264,7 +307,8 @@ modprobe
 ```
 
 ## Usuários
-```sh
+
+```bash
 useadd
 groupadd
 getent

@@ -1,6 +1,7 @@
-# Subtitle compose
+# Subtitle Compose
 
 # Shortcuts
+
 ```
 Ctrl + a  = Seleciona tudo
 Shift + - = Atrasa

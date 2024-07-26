@@ -1,7 +1,13 @@
 # GTK
 
-## Debug mode
-`GTK_DEBUG=interactive yad --text "Oi."`
+Debug mode:
 
-## Shortcut
-`Control + Shift + I or Control + Shift + D`
+```bash
+GTK_DEBUG=interactive yad --text "Oi."
+```
+
+Shortcut:
+
+```bash
+Control + Shift + I or Control + Shift + D
+```

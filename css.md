@@ -5,27 +5,27 @@
   /* Attribute exists */
 }
 
-[data-value="foo"] {
+[data-value='foo'] {
   /* Attribute has this exact value */
 }
 
-[data-value*="foo"] {
+[data-value*='foo'] {
   /* Attribute value contains this value somewhere in it */
 }
 
-[data-value~="foo"] {
+[data-value~='foo'] {
   /* Attribute has this value in a space-separated list somewhere */
 }
 
-[data-value^="foo"] {
+[data-value^='foo'] {
   /* Attribute value starts with this */
 }
 
-[data-value|="foo"] {
+[data-value|='foo'] {
   /* Attribute value starts with this in a dash-separated list */
 }
 
-[data-value$="foo"] {
+[data-value$='foo'] {
   /* Attribute value ends with this */
 }
 
@@ -44,7 +44,9 @@ body {
 
 /* Reset */
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -58,12 +60,22 @@ body {
   line-height: 1.5;
 }
 
-img, canvas, picture, svg, video {
+img,
+canvas,
+picture,
+svg,
+video {
   display: block;
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   overflow-wrap: break-word;
   hyphens: auto;
 }

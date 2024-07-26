@@ -1,6 +1,7 @@
 # Windows 10
 
 ## Explorer
+
 ```
 Win + 1 = Primeiro programa na barra de tarefas
 Win + E = Abre o explorer
@@ -36,6 +37,7 @@ Alt + Espaço + X = Maximiniza
 ```
 
 ## ```Múltiplos Desktop
+
 ```
 Ctrl + Win + D = Cria uma nova área de trabalho
 Ctrl + Win + Direita = vai para a área de trabalho a direita
@@ -45,6 +47,7 @@ Ctrl + Win + F4 = fecha a área de trabalho atual
 ```
 
 ## Programas
+
 ```
 calc = Calculadora
 cmd = Prompt
@@ -66,6 +69,7 @@ winword = Word
 ```
 
 ## CPL
+
 ```
 appwiz.cpl = Adiciona e Remove Programas
 inetcpl.cpl = Propriedades da Internet
@@ -80,6 +84,7 @@ wscui.cpl = Segurança e Manutenção
 ```
 
 ## MSC
+
 ```
 certmgr.msc = Gerencimaneto de Certificados
 compmgmt.msc = Gerenciamento do Computador
@@ -91,6 +96,7 @@ osk = Virtual keyboard
 ```
 
 ## Controles
+
 ```
 control admintools = Ferramentas Administrativas
 control desktop = Gerenciamento da Área de Trabalho

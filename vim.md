@@ -1,6 +1,7 @@
 # Vim
 
 ## Navegação
+
 ```
 esc, ctrl+c = sair do insert mode
 hjkl = Setas
@@ -37,6 +38,7 @@ num_linha+G = Vai para linha num_linha
 ```
 
 ## Inserção
+
 ```
 i = Inserção
 a = Inserção na frente
@@ -68,6 +70,7 @@ ysiw" = Adicionar aspas entre as palavras
 ```
 
 ## Multiplo cursor
+
 ```
 * em cima de uma palavra
 cgn = Para alterála, n para próxima depois . para repetir
@@ -75,6 +78,7 @@ só usando o c também pega
 ```
 
 ## Delete
+
 ```
 dd = Deleta linha inteira
 dit = Deleta o que está entre tag
@@ -88,6 +92,7 @@ X = Deleta antes do cursor
 ```
 
 ## Editar
+
 ```
 u = Desfaz
 ^r = Em alguns casos ctrl+shift+r = Refaz
@@ -103,6 +108,7 @@ P = Cola pra baixo
 ```
 
 ## Terminal
+
 ```
 :!hostname -i = Recebe resposta do comando
 :r!hostname -i = Recebe resposta do comando no arquivo
@@ -113,6 +119,7 @@ end of line = # set ft=fileformat:
 ```
 
 ## Visual
+
 ```
 v = Modo visual
 ^v = Modo visual em bloco
@@ -136,6 +143,7 @@ gv = Repete seleção anterior
 ```
 
 ## Pesquisa
+
 ```
 f = Busca letra na linha
 F = Busca letra no sentido inverso
@@ -150,6 +158,7 @@ T = Busca letra colocando o cursor depois
 ```
 
 ## Substituição
+
 ```
 ?nome_palavra = Pesquisa pra cima
 /nome_palavra = Pesquisa pra baixo
@@ -165,6 +174,7 @@ N = Pesquisar pra trás
 ```
 
 ## Múltiplos Arquivos
+
 ```
 vim arquivo1 arquivo2 = Abre mais os dois arquivos
 :e = Nome do arquivo
@@ -193,6 +203,7 @@ o = Abre arquivo do nerdree
 ```
 
 ## Macro
+
 ```
 qa = Começa a grava macro a
 q = Termina de gravar
@@ -215,11 +226,13 @@ Ma = Vai ao local a
 ```
 
 ## Verificar log de inicialização
+
 ```
 nvim --startuptime log.txt
 ```
 
 ## Extras
+
 ```
 r! comando = Executar comando terminal
 :set list = Add marks
@@ -230,10 +243,12 @@ gx = Open text in xgd-open
 ```
 
 ## Auxliares
+
 ```
 xclip = Usado para coletar ctrl+c do vim
 ```
 
 ## Links
+
 - https://vim.rtorr.com
 - http://vimcasts.org/episodes/operating-on-search-matches-using-gn

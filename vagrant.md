@@ -1,12 +1,19 @@
-# Vagrant
+# vagrant
 
-```
-# Desligar
+Desligar:
+
+```bash
 vagrant halt
+```
 
-# Ligar
+Ligar:
+
+```bash
 vagrant up
+```
 
-# SSH
+SSH:
+
+```bash
 vagrant up
 ```

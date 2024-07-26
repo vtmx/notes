@@ -1,17 +1,20 @@
 # VS Code
 
 ## Executa sem extensões
+
 ```
 code --disable-extensions
 ```
 
 ## Opções
+
 ```
 Ctrl + , = Vá em opções do usuário
 Ctrl + K Ctrl + S = Vá em atalhos
 ```
 
 ## Utilitários
+
 ```
 Ctrl + P = Pesquisa arquivo
 Ctrl + Shift + P = Pesquisa comando interno do VS Code
@@ -19,11 +22,13 @@ Ctrl + Space = Auto-completa possíveis resultados
 ```
 
 ## Cursor
+
 ```
 Ctrl + Click = Múltiplos cursores
 ```
 
 ## Barra Lateral
+
 ```
 Ctrl + B = Abre e fecha barra lateral
 Ctrl + K E = Ir para barra lateral
@@ -35,12 +40,14 @@ Ctrl + Shift + X = Vai para barra lateral de Extensões
 ```
 
 ## Edição
+
 ```
 Ctrl + X = Recorta linha
 Ctrl + U = Desfaz última alteração
 ```
 
 ## Indentação
+
 ```
 Shift + Alt + F = Autoformat
 Ctrl + K + F = Auto format apenas na seleção
@@ -49,12 +56,14 @@ Shift + Tab = Tab ao contrário
 ```
 
 ## Markdown
+
 ```
 Ctrl + K V = Ver arquivo modo markdown lado-a-lado
 Ctrl + Shift + V = Ver arquivo markdown em outra guia
 ```
 
 ## Seleção
+
 ```
 Ctrl + Enter = Insere linha abaixo
 Ctrl + Shift + Enter = Insere linha acima
@@ -76,6 +85,7 @@ Shift + Alt + Seta = Seleciona blocos conforme seta
 ```
 
 ## Ir
+
 ```
 Home = Início da linha
 End = Fim da linha
@@ -86,6 +96,7 @@ Alt + PageUp ou Alt + PageDown = Move scroll para o início ou final
 ```
 
 ## Janelas
+
 ```
 Ctrl + N = Nova guia
 Ctrl + Shift + N = Nova janela
@@ -102,6 +113,7 @@ Ctrl + P = Ctrl + Enter = Abre split
 ```
 
 ## Pesquisa
+
 ```
 Ctrl + F = Pesquisa
 Ctrl + H = Pesquisar e substituir
@@ -110,6 +122,7 @@ Ctrl + Shift + O = Pesquisa símbolos e funções
 ```
 
 ## Comentários
+
 ```
 Ctrk+K Ctrl + C = Inicia com comentário
 Ctrl + \ = Cria um comentário em linha da seleção
@@ -118,11 +131,13 @@ Shift + Alt + A = Comentar conteúdo selecionado
 ```
 
 ## Remove Recents
+
 ```
 Ctrl + Shift + P = Clear Editor History
 ```
 
 ## Terminal Integrated
+
 ```
 Ctrl + ' = Abre terminal
 Ctrl + Shift + ` = Abre mais terminais
@@ -134,16 +149,19 @@ Ctrl + Shift + P = Select Default Shell
 ```
 
 ## Node Modules
+
 ```
 C:\Users\vitor\AppData\Roaming\npm\node_modules
 ```
 
 ## KDE File Picker
+
 ```
 env GTK_USE_PORTAL=1 code
 ```
 
 ## Links
+
 - https://youtu.be/3yxwz_4O4yc
 - https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9#file-vscode_shortcuts-md
 - https://code.visualstudio.com/docs/getstarted/keybindings#_editorwindow-management

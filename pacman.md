@@ -1,6 +1,6 @@
 # pacman
 
-```
+```bash
 # Instala
 pacman -S package
 
@@ -29,22 +29,22 @@ pacman -Qtdq package
 pacman -Qi package
 
 # Cria um arquivo com a lista de pacotes instalados
-pacman -Qqe > packages.txt 
+pacman -Qqe > packages.txt
 
 # Instala todos os pacotse usando um arquivo com listagem
-pacman -S --needed - < packages.txt 
+pacman -S --needed - < packages.txt
 ```
 
 ## Repostório
-```
-/etc/pacman.conf
 
+```bash
+/etc/pacman.conf
 color
 ```
 
 ## Criando pacotes
 
-```
+```bash
 makepkg
   Cria o pacote.
 
@@ -62,6 +62,7 @@ makepkg
 ```
 
 ## pkgbuild
+
 - Crie diretório pkgbuild e entre nele
 - Crie arquivo PKGBUILD
 - `makepkg` cria o pacote
@@ -70,4 +71,5 @@ makepkg
 - `pacman -R --noconfirm packagename`
 
 ## Rereferências
+
 https://github.com/kretcheu/dicas/blob/master/pacman.md

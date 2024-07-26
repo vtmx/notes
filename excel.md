@@ -1,6 +1,7 @@
 # Excel
 
 ## Seleção
+
 ```
 ctrl+a = seleciona tudo
 ctrl+space = seleciona coluna
@@ -12,6 +13,7 @@ ctrl+shift+end = seleciona toda a tabela
 ```
 
 ## Tabelas e filtros
+
 ```
 alt+c = limpar filtro
 ctrl+shit+l = desabilita filtro
@@ -20,4 +22,5 @@ ctrl+shift+t = selecionar todas as linhas
 ```
 
 ## Links
+
 - https://exceljet.net/keyboard-shortcuts

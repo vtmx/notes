@@ -3,7 +3,7 @@
 ## Posicionamento
 
 | Comando            | Descrição                                  |
-|---                 |---                                         |
+| ------------------ | ------------------------------------------ |
 | `lines`            | Retorna quantidade de linhas               |
 | `cols`             | Retorna quantidade de colunas              |
 | `el`               | Volta uma linha                            |
@@ -15,16 +15,15 @@
 ## Cores
 
 | Comando       | Descrição      |
-|---            |---             |
+| ------------- | -------------- |
 | `setab {1,8}` | Cor background |
 | `setaf {1,8}` | Cor foreground |
 | `rev`         | Cores reversas |
 
-
 ## Estilos
 
 | Comando | Descrição                               |
-|---      |---                                      |
+| ------- | --------------------------------------- |
 | `bold`  | Bold                                    |
 | `smul`  | Sublinhado                              |
 | `dim`   | Altera brilho                           |
@@ -32,4 +31,3 @@
 | `civis` | Deixa cursor invisível                  |
 | `rmul`  | Remove sublinhado                       |
 | `reset` | Reseta valores de bold, rev, sublinhado |
-

@@ -1,11 +1,13 @@
 # Yuzu
 
-## Keys
+Keys:
+
 ```
 ~/.local/share/yuzu/keys/prod.keyys
 ```
 
-## Firmware
+Firmware:
+
 ```
 ~/.local/share/yuzu/nand/user/Contents/registered
 ```

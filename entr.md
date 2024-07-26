@@ -1,15 +1,23 @@
+# entr
 
-## entr
+With file exec:
 
-```sh
-# http://eradman.com/entrproject
-
-# With file exec
+```bash
 echo filename.sh | entr ./filename.sh
+```
 
-# Clear terminal
+Clear terminal:
+
+```bash
 echo filename.sh | entr -c ./filename.sh
+```
 
-# No file exec
+No file exec:
+
+```bash
 echo ls *.sh | entr /bin/bash filename.sh
 ```
+
+## Links
+
+- http://eradman.com/entrproject

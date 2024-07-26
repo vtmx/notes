@@ -1,6 +1,7 @@
-# Tmux
+# tmux
 
 ## Comandos
+
 ```
 # Exibe opções atuais
 tmux show-options -g
@@ -11,14 +12,14 @@ tmux show-options -g status
 
 ## Atalhos
 
-| Atalho              | Descrição                    |
-|---                  |---                           |
-| `Prefix + Space`    | Change layout                |
-| `Prefix + ?`        | Show keybinds                |
-| `Prefix + z`        | Zen mode                     |
-| `Prefix + [`        | Entra no modo de cópia       |
-| `Prefix +{}`        | move pane                    |
-| `Prefix + ctrl + o` | move pane                    |
-| `Ctrl + b`          | active copy mode             |
-| `Ctrl + q`          | Show panels                  |
-| `Ctrl + q + 2`      | Go panel 2                   |
+| Atalho              | Descrição              |
+| ------------------- | ---------------------- |
+| `Prefix + Space`    | Change layout          |
+| `Prefix + ?`        | Show keybinds          |
+| `Prefix + z`        | Zen mode               |
+| `Prefix + [`        | Entra no modo de cópia |
+| `Prefix +{}`        | move pane              |
+| `Prefix + ctrl + o` | move pane              |
+| `Ctrl + b`          | active copy mode       |
+| `Ctrl + q`          | Show panels            |
+| `Ctrl + q + 2`      | Go panel 2             |
