@@ -2,7 +2,7 @@
 
 ## Comandos
 
-```
+```bash
 # Adicionar diretório remoto
 git remote add origin git@github.com:vtmx/repositorio.git
 
@@ -33,7 +33,7 @@ git pull origin branchname --allow-unrelated-histories
 
 ## Soluções
 
-```
+```bash
 # Rejeitar
 ! [rejected] master -> master (fetch first)
 git push --force origin master
@@ -44,7 +44,7 @@ git checkout -b novo-branch
 
 ## Push
 
-```
+```bash
 git init
 git add -A
 git commit -m 'Added my project'
@@ -54,7 +54,7 @@ git push -u -f origin main
 
 ## Netlify
 
-```
+```bash
 # Branch deploy
 dev
 
@@ -67,7 +67,7 @@ public
 
 ## Limpando cache
 
-```
+```bash
 # Remove cache
 git rm -r --cached .
 
@@ -86,7 +86,7 @@ git commit -am 'git cache cleared'
 
 ## Branch
 
-```
+```bash
 # Cria novo branch e vai para ele
 git checkout -b <branch_name>
 
@@ -116,17 +116,9 @@ ssh-add ~/.ssh/id_rsa
 ssh -T git@github.com
 ```
 
-## Fishshell
-
-- https://gist.github.com/josh-padnick/c90183be3d0e1feb89afd7573505cab3
-- https://stianlagstad.no/2020/03/learning-how-to-use-the-ssh-agent-with-fish/
-- https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
-- https://www.rockyourcode.com/ssh-agent-could-not-open-a-connection-to-your-authentication-agent-with-fish-shell/
-- https://github.com/settings/keys
-
 # Exibe a hash para poder comparar com as do github.
 
-```
+```bash
 ssh -l
 
 eval (ssh-agent c)
@@ -144,33 +136,33 @@ https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
 
 ## Nomes de commit
 
-```
+```bash
 "Fix", "Add", "Change"
 ```
 
 ## Clone com o mínimo de commits
 
-```
+```bash
 git clone --depth
 ```
 
 ## Clone com um único branch
 
-```
+```bash
 git clone [url] --branch [branch] --single-branch
 ```
 
 ## Resolvendo problema arquivos grantes
 
-```
+```bash
 # GH001: Large files detected. You may want to try Git Large File Storage
 # 2 número de commits para trás
 git rebase -i HEAD~2
-s no commmit que deseja remover, salva
-https://youtu.be/TXSmxtU2tOk?feature
 
-ou
+# s no commmit que deseja remover, salva
+# https://youtu.be/TXSmxtU2tOk?feature
 
+# Ou
 git reset --soft HEAD^2
 ```
 
@@ -189,3 +181,8 @@ git reset --soft HEAD^2
 - https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely
 - https://github.com/joshnh/Git-Commands
 - https://github.com/bpassos/git-commands
+- https://gist.github.com/josh-padnick/c90183be3d0e1feb89afd7573505cab3
+- https://stianlagstad.no/2020/03/learning-how-to-use-the-ssh-agent-with-fish/
+- https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
+- https://www.rockyourcode.com/ssh-agent-could-not-open-a-connection-to-your-authentication-agent-with-fish-shell/
+- https://github.com/settings/keys

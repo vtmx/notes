@@ -1,38 +1,56 @@
-# CSS
+# css
+
+Attribute exists:
 
 ```css
-[data-value] {
-  /* Attribute exists */
-}
+[data-value]
+```
 
-[data-value='foo'] {
-  /* Attribute has this exact value */
-}
+Attribute has this exact value:
 
-[data-value*='foo'] {
-  /* Attribute value contains this value somewhere in it */
-}
+```css
+[data-value='foo']
+```
 
-[data-value~='foo'] {
-  /* Attribute has this value in a space-separated list somewhere */
-}
+Attribute value contains this value somewhere in it:
 
-[data-value^='foo'] {
-  /* Attribute value starts with this */
-}
+```css
+[data-value*='foo']
+```
 
-[data-value|='foo'] {
-  /* Attribute value starts with this in a dash-separated list */
-}
+Attribute has this value in a space-separated list somewhere:
 
-[data-value$='foo'] {
-  /* Attribute value ends with this */
-}
+```css
+[data-value~='foo']
+```
 
-/* Multiple values */
+Attribute value starts with this:
+
+```css
+[data-value^='foo']
+```
+
+Attribute value starts with this in a dash-separated list:
+
+```css
+[data-value|='foo']
+```
+
+Attribute value ends with this:
+
+```css
+[data-value$='foo']
+```
+
+Multiple values:
+
+```css
 clamp(min, val, max)
+```
 
-/* Multiple colors based color scheme */
+Multiple colors based color scheme:
+
+```css
 :root {
   color-scheme: light dark;
 }
@@ -41,9 +59,11 @@ body {
   color: light-dark(#333b3c, #efefec);
   background-color: light-dark(#efedea, #223a2c);
 }
+```
 
-/* Reset */
+Reset:
 
+```css
 *,
 *::after,
 *::before {
@@ -60,8 +80,8 @@ body {
   line-height: 1.5;
 }
 
-img,
 canvas,
+img,
 picture,
 svg,
 video {
@@ -79,18 +99,13 @@ p {
   overflow-wrap: break-word;
   hyphens: auto;
 }
-
-/* Reset */
-/* https://www.youtube.com/watch?v=2lyDv0wOQuQ */
-/* https://www.joshwcomeau.com/css/custom-css-reset */
-
-/* Color schemes */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme */
-
-/* Font sizes */
-/* https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight */
-
-/* System colors */
-/* https://drafts.csswg.org/css-color/#system-color */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/system-color */
 ```
+
+# Links
+
+- https://www.youtube.com/watch?v=2lyDv0wOQuQ
+- https://www.joshwcomeau.com/css/custom-css-reset
+- https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme
+- https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight
+- https://drafts.csswg.org/css-color/#system-color
+- https://developer.mozilla.org/en-US/docs/Web/CSS/system-color

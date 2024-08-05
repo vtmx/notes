@@ -1,6 +1,5 @@
 # sed
 
-
 Substituição de palavras:
 
 ```bash
@@ -36,4 +35,5 @@ sed -r 's/([.,:;!?]) ([^ ])/\1 \2' file.txt
 ```
 
 ## Referências
+
 https://github.com/adrianlarion/useful-sed

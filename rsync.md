@@ -4,10 +4,11 @@ Usado para backup:
 
 ```bash
 rsync -azP src/ dest/
+```
 
-Using / in end save all files,
-not using copy dir to another dir.
+Using / in end save all files, not using copy dir to another dir
 
+```
 -a recursivo
 -z comprimi os arquivos para transferência
 -P exibe progresso

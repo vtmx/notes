@@ -16,5 +16,5 @@ String.prototype.capitalize = function() {
 }
 
 let text = 'teste de texto';
-console.log(text.capitalize())
+console.log(text.capitalize());
 ```
