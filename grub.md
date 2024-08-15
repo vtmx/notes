@@ -2,11 +2,11 @@
 
 ## Editando senha root
 
-### Habilitando atela do grub na incialização
+Habilitando tela do grub na incialização:
 
 Na inicialização do sistema quando surgir o logo do fabricante manter a tecla Esc pressionada no caso de UFEI, ou a tecla Shift para Bios.
 
-### Editar arquivo de configuração
+Editar arquivo de configuração:
 
 - Após a inicialização digite a tecla E para editar
 - Na linha onde estiver escrito linux /boot...
@@ -16,16 +16,19 @@ Na inicialização do sistema quando surgir o logo do fabricante manter a tecla 
 - O sistema irá inciar na tela de boot como root, digite o comando `passwd` e digite uma nova senha
 - Não precisa editar o grub novamente
 
-### Lembrete de algumas opções para não exibir tela
+Opções do grub:
 
 ```bash
 # /etc/default/grub
 GRUB_DEFAULT=saved
 GRUB_TIMEOUT=5
 GRUB_TIMEOUT_STYLE=hidden
+
+# Atualiza alterações na configuração
+sudo update-grub
 ```
 
-## Alterando a senha de outro usuário
+Alterando a senha de outro usuário:
 
 - Comando `su` para entrar como root
 - Comando `passwd <nome-usuario>` para alterar

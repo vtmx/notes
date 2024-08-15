@@ -29,3 +29,9 @@ Print all files with new line:
 ```bash
 find . -type f -name "*.mp3" -printf "\n%p "
 ```
+
+See all pkg for node_modules
+
+```bash
+du -sh ./node_modules/* | sort -nr | grep '\dM.*'
+```
