@@ -37,6 +37,9 @@ If so, start the default network:
 
 ```bash
 sudo virsh net-start default
+
+# Also solved
+Error starting domain: Requested operation is not valid: network 'default' is not active
 ```
 
 ## Links
