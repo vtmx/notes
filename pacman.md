@@ -29,13 +29,13 @@ sudo pacman --no-confirm -R package
 sudo pacman -Rs package
 
 # Verifica e remove pacotes órfãos:
-sudo pacman -Qtdq | pacman -Rns -
+pacman -Qtdq | sudo pacman -Rns -
 
 # Ou
-sudo pacman -Qtdq | sudo pacman -Rns -
+pacman -Qtdq | sudo pacman -Rns -
 
 # Ou
-sudo pacman -Qqd | pacman -Rsu -
+pacman -Qqd | sudo pacman -Rsu -
 ```
 
 ## Pesquisa

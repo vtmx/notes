@@ -178,7 +178,14 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 ### SDDM
 
 ```
-/usr/share/sddm/themes/
+# Themes
+/usr/share/sddm/themes
+
+# Config
+/etc/sddm.conf
+
+# Sessio order desktop file
+/usr/share/xsessions
 ```
 
 ### Splashscreen
