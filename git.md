@@ -2,32 +2,57 @@
 
 ## Comandos
 
+Adicionar diretório remoto:
+
 ```bash
-# Adicionar diretório remoto
 git remote add origin git@github.com:vtmx/repositorio.git
+```
 
-# Adiciona repositorio local para remoto
+Adiciona repositorio local para remoto:
+
+```bash
 git push -u origin branch
+```
 
-# Faz upload das mudanças
+Faz upload das mudanças:
+
+```bash
 git push origin branch
+```
 
-# Geralmente usado no início
+Geralmente usado no início:
+
+```bash
 git push -u -f origin main
+```
 
-# Visualiza repositórios remotos conectados
+Visualiza repositórios remotos conectados:
+
+```bash
 git remote -v
+```
 
-# Remove repositório remoto
+Remove repositório remoto:
+
+```bash
 git remote rm origin
+```
 
-# Faz upload para o branch principal
+Faz upload para o branch principal:
+
+```bash
 git push
+```
 
-# Baixa mudanças do repositório remoto
+Baixa mudanças do repositório remoto:
+
+```bash
 git pull
+```
 
-# fatal: refusing to merge unrelated histories - Força pull
+fatal: refusing to merge unrelated histories - Força pull:
+
+```bash
 git pull origin branchname --allow-unrelated-histories
 ```
 
@@ -143,7 +168,7 @@ https://archlinux.org/packages/community/x86_64/x11-ssh-askpass/
 ## Clone com o mínimo de commits
 
 ```bash
-git clone --depth
+git clone --depth 1
 ```
 
 ## Clone com um único branch

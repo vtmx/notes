@@ -7,7 +7,7 @@
 sudo pacman -S package
 
 # Sem confirmação
-sudo pacman --no-confirm -S package
+sudo pacman --noconfirm -S package
 
 # Cria um arquivo com a lista de pacotes instalados:
 pacman -Qqe > packages.txt
@@ -23,7 +23,7 @@ sudo pacman -S --needed - < packages.txt
 sudo pacman -R package
 
 # Sem confirmação
-sudo pacman --no-confirm -R package
+sudo pacman --noconfirm -R package
 
 # Remove com dependências
 sudo pacman -Rs package
@@ -84,6 +84,18 @@ sudo pacman -Scc
 
 # Mirrors
 /etc/pacman.d/mirrorlist
+
+# Corrupted PGP signature
+/etc/pacman.conf
+# Not recomended
+# SigLevel = Optional TrustedOnly
+SigLevel = Never
+
+
+sudo pacman -Syy
+sudo pacman-key --refresh-keys
+sudo pacman-key --populate archlinux manjaro
+https://forum.manjaro.org/t/howto-solve-keyring-related-issues-in-manjaro/96949
 ```
 
 ## Criação

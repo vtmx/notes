@@ -184,7 +184,14 @@ git clone https://github.com/wsdfhjxc/virtual-desktop-bar.git
 # Config
 /etc/sddm.conf
 
-# Sessio order desktop file
+# Autologin
+/etc/sddm.conf.d/autologin.conf
+
+[Autologin]
+User=john
+Session=plasma
+
+# Session order desktop file
 /usr/share/xsessions
 ```
 
