@@ -334,6 +334,7 @@ file://name-folder name-icon
 ```
 cat ~/.config/gtk-3.0/gtk.css
 tooltip {
+  visibility: hidden;
   opacity: 0;
 }
 ```
