@@ -3,7 +3,8 @@
 Remove linhas em branco:
 
 ```bash
-awk NF file.txt
+awk NF':' file.txt
+awk 'BEGIN{FS=","}
 ```
 Imprimi a linha inteira:
 

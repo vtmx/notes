@@ -209,10 +209,6 @@ Session=plasma
 ~/.config/khotkeysrc
 ~/.config/kwinrc
 ~/.config/plasma-org.kde.plasma.desktop-appletsrc
-~/.local/share/kxmlgui5/katepart/katepart5ui.rc
-~/.local/share/kxmlgui5/konsole/konsoleui.rc
-~/.local/share/kxmlgui5/konsole/sessionui.rc
-~/.local/share/kxmlgui5/kwrite/kwriteui.rc
 ```
 
 ### Kruner with Metakey
@@ -326,11 +322,20 @@ kpackagetool5 -r script-id
 ~/.local/share/kservices5/
 ```
 
-## Add bookmarks gnome
+## Add bookmarks gnome places
 
 ```
 ~/.config/gtk-3.0/bookmarks
 file://name-folder name-icon
+```
+
+## Disable tooltip gtk
+
+```
+cat ~/.config/gtk-3.0/gtk.css
+tooltip {
+  opacity: 0;
+}
 ```
 
 ## Force style
