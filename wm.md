@@ -1,6 +1,6 @@
 # WM
 
-Get attribute of window:
+Create cursor and get attribute of window:
 
 ```bash
 xprop | grep TYPE
