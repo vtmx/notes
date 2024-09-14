@@ -1,6 +1,6 @@
 # Firefox
 
-## Search bookmarks in bar
+Search bookmarks in bar:
 
 ```
 type * and search
@@ -8,37 +8,32 @@ ctrl + b = Show bookmarks in sidebar
 ctrl + shift + o = show bookmarks in new window
 ```
 
-## Customizar menu
+Customizar menu:
 
 - Disable titlebar
 - Density compact
 - Settings > Colors > Manager Colors... (Override the colors...: Always)
 
-## Local da pasta config
+Local da pasta config:
 
+```
 ~/.mozilla/firefox/.default-release/chrome/userChrome.css
+```
 
-## Debug shortcut
+Debug shortcut:
 
 ```
 ctrl+shift+alt+i
 ```
 
-## Test extensions
+xdg-portal kde integration:
 
 ```
-about:debugging#/runtime/this-firefox
+# https://wiki.archlinux.org/title/Firefox
+widget.use-xdg-desktop-portal.file-picker = 1
 ```
 
-## About
-
-```
-about:blank
-about:debugging
-about:preferences
-```
-
-## Disable cursor blink in buttons
+Disable cursor blink in buttons:
 
 ```
 https://support.mozilla.org/en-US/questions/974774
@@ -52,6 +47,14 @@ Tools > Options > Advanced > General > Accessibility: [ ] "Always use the cursor
 ```
 
 ## about:config
+
+```
+about:blank
+about:config
+about:debugging
+about:debugging#/runtime/this-firefox
+about:preferences
+```
 
 <table>
   <tr>
