@@ -375,3 +375,15 @@ else
     alias la='ls -A'
 fi
 ```
+
+List recent files:
+
+```bash
+ls ** -t | head
+```
+
+List recursive files with path
+
+```bash
+ls -R | grep png | xargs realpth
+```

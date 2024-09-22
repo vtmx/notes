@@ -30,3 +30,8 @@ Use awk:
 super + {equal,minus,0}
   amixer -q set Master {'10%+','10%-',toggle} && notify-send 'Volume' $(awk -F"[][]" '/Left:/ \{print $2\}' <(amixer sget Master))
 ```
+
+## Links
+- https://my-take-on.tech/2020/07/03/some-tricks-for-sxhkd-and-bspwm
+- https://github.com/Exodia-OS/exodia-bspwm/tree/master/src/config/bspwm
+

@@ -33,6 +33,15 @@ xdg-portal kde integration:
 widget.use-xdg-desktop-portal.file-picker = 1
 ```
 
+Pages:
+
+```
+~/.mozilla/firefox/<user>/places.sqlite
+chrome://browser/content/places/places.xhtml
+chrome://browser/content/places/bookmarksSidebar.xhtml
+chrome://browser/content/places/historySidebar.xhtml
+```
+
 Disable cursor blink in buttons:
 
 ```
