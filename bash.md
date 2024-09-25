@@ -101,6 +101,12 @@ Executa o segundo comando caso o primeiro seja ok:
 comando1 && comando2
 ```
 
+Pasta atual current dir:
+
+```bash
+cwd=$(dirname "$0")
+```
+
 Repete var:
 
 ```bash
