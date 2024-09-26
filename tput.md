@@ -4,6 +4,7 @@
 
 | Comando            | Descrição                                  |
 | ------------------ | ------------------------------------------ |
+| `colors`           | Exibe cores suportadas pelo terminal       |
 | `lines`            | Retorna quantidade de linhas               |
 | `cols`             | Retorna quantidade de colunas              |
 | `el`               | Volta uma linha                            |

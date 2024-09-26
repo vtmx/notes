@@ -171,6 +171,7 @@ N = Pesquisar pra trás
 :%s/plavra_antiga/palvra_nova/gc = Substitui todos no arquivo c usado para confirmar
 :%s/palavra_antiga/palavra_nova = Substitui palavras
 :nhol = Desmarca a pesquisa
+:Ctrl+R+" = Cola valor do clipboard
 ```
 
 ## Múltiplos Arquivos
@@ -246,6 +247,12 @@ gx = Open text in xgd-open
 
 ```
 xclip = Usado para coletar ctrl+c do vim
+```
+
+Arquivos padrões do nvim:
+
+```bash
+/usr/share/nvim/runtime
 ```
 
 ## Links
