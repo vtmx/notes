@@ -388,6 +388,12 @@ List recent files:
 ls ** -t | head
 ```
 
+Move to current dir:
+
+```bash
+mv <path> .
+```
+
 List recursive files with path
 
 ```bash
