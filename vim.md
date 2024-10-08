@@ -258,4 +258,11 @@ Arquivos padrões do nvim:
 ## Links
 
 - https://vim.rtorr.com
+- https://github.com/NvChad
+- https://github.com/LazyVim/LazyVim
+- https://github.com/LunarVim/LunarVim
+- https://github.com/AstroNvim/AstroNvim
+- https://bitbucket.org/sergio/mylazy-nvim
 - http://vimcasts.org/episodes/operating-on-search-matches-using-gn
+- https://stackoverflow.com/questions/18948491/running-python-code-in-vim
+- https://github.com/jdhao/nvim-config/blob/fc144e08957c39954927ae1f48ce70d8b464d258/core/mappings.lua
