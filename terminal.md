@@ -147,3 +147,5 @@
 - https://mehmandarov.com/navigating-and-editing-the-command-line
 - https://keycombiner.com/collections/terminal
 - https://itsfoss.com/linux-terminal-shortcuts
+- kitty + list-fonts --psnames | grep "BlexMono Nerd Font Medium"
+

@@ -394,6 +394,13 @@ Move to current dir:
 mv <path> .
 ```
 
+Edit file with sudo, with current config:
+
+```bash
+sudoedit <file>
+sudo -Es nvim <file>
+```
+
 List recursive files with path
 
 ```bash

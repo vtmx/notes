@@ -266,3 +266,7 @@ Arquivos padrões do nvim:
 - http://vimcasts.org/episodes/operating-on-search-matches-using-gn
 - https://stackoverflow.com/questions/18948491/running-python-code-in-vim
 - https://github.com/jdhao/nvim-config/blob/fc144e08957c39954927ae1f48ce70d8b464d258/core/mappings.lua
+- https://shapeshed.com/vim-netrw
+- https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua
+- https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer
+- https://github.com/echasnovski/nvim/blob/a3916554cb3cada94b7c4a1f7a1c4d6ab4e8b558/src/settings.lua
