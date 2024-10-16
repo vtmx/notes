@@ -426,3 +426,22 @@ List recursive files with path:
 ```bash
 ls -R | grep png | xargs realpth
 ```
+
+```bash
+# Links
+#
+# Alias
+# alias live="live-server"
+# alias live=" python -m http.server -b 127.0.0.1 8000 
+# alias xf="sassc -M -t expanded $HOME/.local/share/themes/Lightly/gtk-3.0/src/main.scss \
+#
+# Config
+# $HOME/.local/share/themes/Lightly/gtk-3.0/gtk.css && \
+# xfce reload theme
+# xfconf-query -c xsettings -p /Net/ThemeName -r && \
+# xfconf-query -c xsettings -p /Net/ThemeName -s Lightly"
+#
+# Links
+# https://www.npmjs.com/package/live-server
+# https://github.com/Browsersync/browser-sync
+```
