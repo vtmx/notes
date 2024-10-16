@@ -255,6 +255,56 @@ Arquivos padrões do nvim:
 /usr/share/nvim/runtime
 ```
 
+Inspecionar com o treesitter:
+
+```bash
+InspectTree
+```
+
+## Adicionando corretor ortográfico dicionário
+
+```bash
+mkdir /tmp/vero && cd /tmp/vero
+wget https://pt-br.libreoffice.org/assets/Uploads/PT-BR-Documents/VERO/VeroptBR3215AOC.oxt
+unzip VeroptBR3215AOC.oxt
+
+# Demora um bocadinho
+
+# Abra o vim no diretório do arquivo extraído
+nvim /tmp/vero
+
+# Execute o comando para compilar
+:mkspell pt pt_BR
+
+# Copiar arquivo gerado
+sudo cp /tmp/vero/pt.utf-8.spl /usr/share/nvim/runtime/spell
+
+# Em vim
+set spell spelllang=pt
+
+# Em Lua
+vim.opt.spell = true
+vim.opt.spelllang = "pt"
+
+# Atalhos
+z=  Vê as sugestões para uma palavra certa, e troca se você escolher alguma delas
+zg  Adiciona a palavra (no dicionario) em que o cursor está em cima
+zug Remove a última palavra adicionada no dicionario
+]s  Move o cursor para a próxima palavra "errada"
+[s  Move o cursor para a palavra "errada" anterior
+```
+
+# Janelas
+
+```bash
+<C-w> c = Fecha janela
+<C-w> x = Alterna janela
+<C-w> 10+ = Aumenta janela na horizontal 
+<C-w> 10- = Comprimi janela na horizontal 
+<C-w> 10> = Aumenta janela na vertical
+<C-w> 10< = Comprimi janela na vertical
+```
+
 ## Links
 
 - https://vim.rtorr.com

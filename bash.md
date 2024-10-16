@@ -401,7 +401,27 @@ sudoedit <file>
 sudo -Es nvim <file>
 ```
 
-List recursive files with path
+Size of files:
+
+```bash
+ls -sh | sort -hr
+```
+
+Show size of dirs:
+
+```bash
+du -h --max-depth=1 | sort -hr
+```
+
+Writing lists:
+
+```bash
+declare -c profs=(julio rubens)
+echo ${profs[@]}
+Julio Rubens
+```
+
+List recursive files with path:
 
 ```bash
 ls -R | grep png | xargs realpth
