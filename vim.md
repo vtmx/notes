@@ -240,7 +240,8 @@ r! comando = Executar comando terminal
 :set nolist = Remove marks
 :set list! = Toogle marks
 gx = Open text in xgd-open
-:InspectTree = Show Treesitie
+Inspect = Exibe estilo atual sobre o cursor
+InspectTree = Exibe pilha da linguagem
 ```
 
 ## Auxliares
@@ -256,10 +257,6 @@ Arquivos padrões do nvim:
 ```
 
 Inspecionar com o treesitter:
-
-```bash
-InspectTree
-```
 
 ## Adicionando corretor ortográfico dicionário
 

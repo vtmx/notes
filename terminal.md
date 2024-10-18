@@ -41,6 +41,7 @@
 | Atalho     | Descrição                      |
 | ---------- | ------------------------------ |
 | `Ctrl + c` | Finaliza programa              |
+| `Ctrl + j` | Executa tecla ao Enter         |
 | `Ctrl + z` | Deixa program em segundo plano |
 | `fg`       | Retorna ao primeiro plano      |
 
@@ -106,6 +107,7 @@
 | `Ctrl + h`                           | Deleta próximo caractere                                                                                                            |
 | `Ctrl + i`                           | Simula tab                                                                                                                          |
 | `Ctrl + k`                           | Deleta todo texto a frente                                                                                                          |
+| `Ctrl + j`                           | Executa a tecla Enter                                                                                                               |
 | `Ctrl + l`                           | Limpa tela                                                                                                                          |
 | `Ctrl + n`                           | Comando anterior usado down                                                                                                         |
 | `Ctrl + o`                           | Execute o comando encontrado via Ctrl+r ou Ctrl+s                                                                                   |

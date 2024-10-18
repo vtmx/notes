@@ -427,6 +427,18 @@ List recursive files with path:
 ls -R | grep png | xargs realpth
 ```
 
+Show cr ms:
+
+```bash
+cat -A file.dos
+
+# Solver ^M$
+tr -d '\r' < file.dos | cat -et
+```
+
+## Colors
+https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
+
 ```bash
 # Links
 #
