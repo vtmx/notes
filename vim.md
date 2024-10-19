@@ -291,7 +291,7 @@ zug Remove a última palavra adicionada no dicionario
 [s  Move o cursor para a palavra "errada" anterior
 ```
 
-# Janelas
+Janelas:
 
 ```bash
 <C-w> c = Fecha janela
@@ -301,6 +301,20 @@ zug Remove a última palavra adicionada no dicionario
 <C-w> 10> = Aumenta janela na vertical
 <C-w> 10< = Comprimi janela na vertical
 ```
+
+Mapeamento do Nvim:
+
+```lua
+-- Forcei a adição do silent=true,
+-- mas continuou piscando a tecla na status bar,
+-- por isso mantive o comando simplificado
+local function map(mode, lhs, rhs, opts)
+  opts = opts or {}
+  opts.silent = opts.silent ~= false
+  vim.keymap.set(mode, lhs, rhs, opts)
+end
+```
+
 
 ## Links
 
