@@ -302,6 +302,15 @@ Janelas:
 <C-w> 10< = Comprimi janela na vertical
 ```
 
+Tamanho da sidebar:
+
+```lua
+map(
+  'n', '<leader><leader>e', '<cmd>15Lex<cr>',
+  { desc = 'Lex' }
+)
+```
+
 Mapeamento do Nvim:
 
 ```lua
