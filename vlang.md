@@ -36,3 +36,14 @@ Compila:
 v hello.v
 ./hello
 ```
+
+Write a file:
+
+```v
+import os
+
+filename := './file.txt'
+os.create(filename) or { panic('error create $filename') }
+print(os.read_file(filename) or { panic('error read $filename') }
+os.rwite_file(filename, 'Simple text') or { panic('error write $filename') }
+```

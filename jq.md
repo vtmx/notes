@@ -23,3 +23,21 @@ Get only values without "":
 ```bash
 jq -r .results[].name
 ```
+
+Get all name of array:
+
+```bash
+jq -r '.[].name'
+```
+
+Get user name if name is Caramelo Melo:
+
+```bash
+jq -r '.[] | select (.name == "Caramelo Melo") | .username'
+```
+
+Get user name if name contains Caramelo:
+
+```bash
+jq -r '.[] | select (.name | contains("Caramelo") | .username'
+```
