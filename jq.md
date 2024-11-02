@@ -18,6 +18,18 @@ Get name of results:
 jq .results[].name
 ```
 
+Get two fields:
+
+```bash
+jq -r '.[].id, .[].name'
+```
+
+Concat only strings:
+
+```bash
+jq -r '.[].name + ": " + .[].username'
+```
+
 Get only values without "":
 
 ```bash

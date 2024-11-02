@@ -436,6 +436,18 @@ cat -A file.dos
 tr -d '\r' < file.dos | cat -et
 ```
 
+Type effect:
+
+```bash
+content='Esse é um texto'
+delay=0.01
+for((i = 0; i < ${#content}; i++)); do
+  echo -n "${content:$i:1}"
+  sleep $delay
+done
+echo
+```
+
 ## Colors
 https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
 
