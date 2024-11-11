@@ -53,3 +53,16 @@ Get user name if name contains Caramelo:
 ```bash
 jq -r '.[] | select (.name | contains("Caramelo") | .username'
 ```
+
+Format output:
+
+```bash
+jq -r '.[] | "ID: \(.id), Name: \(.name), Username: \(.username), Email: \(.email)\n"' users.json
+```
+
+Format other:
+
+```bash
+curl -s $url | jq -r '"Title: " + .title,"Author: " + .author_name'
+jq -r '"Nome: " + .name + "\nIdade: " + (.age | tostring) + "\nCidade: " + .city' data.json
+```
