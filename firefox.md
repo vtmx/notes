@@ -37,9 +37,17 @@ Pages:
 
 ```
 ~/.mozilla/firefox/<user>/places.sqlite
-chrome://browser/content/places/places.xhtml
+chrome://browser/content/browser.xhtml
+chrome://browser/content/downloads/contentAreaDownloadsView.xhtml
+chrome://browser/content/places/bookmarkProperties.xhtml
 chrome://browser/content/places/bookmarksSidebar.xhtml
 chrome://browser/content/places/historySidebar.xhtml
+chrome://browser/content/places/places.xhtml
+chrome://browser/content/safeMode.xhtml
+chrome://browser/content/syncedtabs/sidebar.xhtml
+chrome://devtools/content/framework/toolbox.xhtml
+chrome://global/content/commonDialog.xhtml
+chrome://global/content/pictureinpicture/player.xhtml
 ```
 
 Disable cursor blink in buttons:
@@ -63,6 +71,7 @@ about:config
 about:debugging
 about:debugging#/runtime/this-firefox
 about:preferences
+about:support
 ```
 
 <table>
@@ -87,6 +96,10 @@ about:preferences
     <td>true</td>
   </tr>
   <tr>
+    <td>devtools.debugger.remote-enabled</td>
+    <td>true</td>
+  </tr>
+  <tr>
     <td>ui.textHighlightBackground</td>
     <td>#abb2bf</td>
   </tr>
@@ -108,5 +121,7 @@ about:preferences
 
 ## Links
 
+- https://docs.zen-browser.app/guides/live-editing
 - https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme
+- https://github.com/QNetITQ/WaveFox

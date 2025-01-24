@@ -363,6 +363,14 @@ QPushButton {
 }
 ```
 
+Dolphin não funciona com qtct6:
+
+```ini
+~/.config/dolphinrc
+[UiSettings]
+ColorScheme=*
+```
+
 Clipboard:
 
 Manter clipborad habilitado para continuar colando após software for fechado.

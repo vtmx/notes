@@ -1,9 +1,27 @@
 # rsync
 
-Usado para backup:
+Backup espelhando diretório:
+
+```bash
+rsync -ahzP --delete --exclude '.*' src/ dst/
+```
+
+Usado para backup mantém arquivos:
 
 ```bash
 rsync -ahzP src/ dst/
+```
+
+Backup mas exclui o que for oculto:
+
+```bash
+rsync -ahzP --exclude '.*' src/ dst/
+```
+
+Espelha diretório, removendo caso não tenha em src:
+
+```bash
+rsync -av --delete src/ dst/
 ```
 
 Using / in end save all files, not using copy dir to another dir
