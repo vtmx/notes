@@ -343,11 +343,18 @@ Comando date sem utilitário:
 printf '%(%d/%m/%y)T'
 ```
 
-Nunca usei :
+Nunca usei:
 
 ```bash
 # Remove espaços e caracteres acentuados do nome do arquivo
 new_name=$(echo "$file" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | iconv -f utf8 -t ascii//TRANSLIT)
+```
+
+Remover todos os arquivos de uma determinada extensão:
+
+```bash
+find . -name "*.psd" -delete
+fd -e psd -x rm {}
 ```
 
 Head Tail:
@@ -411,6 +418,7 @@ Show size of dirs:
 
 ```bash
 du -h --max-depth=1 | sort -hr
+ncdu
 ```
 
 Writing lists:

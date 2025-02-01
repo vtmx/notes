@@ -18,6 +18,18 @@ Backup mas exclui o que for oculto:
 rsync -ahzP --exclude '.*' src/ dst/
 ```
 
+Copia todos os arquivos exceto os com a extensão .psd:
+
+```bash
+rsync -avz --exclude='*.psd' /src/ /dst/
+```
+
+Move todos os arquivos .psd mantendo a estrutura de pastas:
+
+```bash
+rsync -avz --include='*.psd' --exclude='*' /src/ /dst/
+```
+
 Espelha diretório, removendo caso não tenha em src:
 
 ```bash
