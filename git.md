@@ -191,6 +191,13 @@ git rebase -i HEAD~2
 git reset --soft HEAD^2
 ```
 
+# Lembrar credencial
+
+```bash
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=600'
+```
+
 ## Links
 
 - https://www.conventionalcommits.org/en/v1.0.0/

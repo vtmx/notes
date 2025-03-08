@@ -119,6 +119,14 @@ about:support
   </tr>
 </table>
 
+## ZenBrowser
+
+Old newtab behavior:
+
+```bash
+zen.urlbar.replace-newtab
+```
+
 ## Links
 
 - https://docs.zen-browser.app/guides/live-editing

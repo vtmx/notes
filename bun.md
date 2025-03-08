@@ -1,17 +1,27 @@
 # bun
 
+Install:
+
 ```
-# Install
-install | i -g (global)
-add
+bun install | i -g (global)
+bun add
+```
 
-# Remove
-remove
+Remove:
 
-# Execute
+```
+bun remove
+```
+
+Execute:
+
+```
 bunx
+```
 
-# List
-pm ls
-pm ls -g
+List:
+
+```
+bun pm ls
+bun pm ls -g
 ```
