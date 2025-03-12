@@ -465,6 +465,33 @@ tr -d '[[:space:]]'
 ## Colors
 https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
 
+# Shopts
+
+| Opção                     | Descrição                                                                                  |
+|---------------------------|--------------------------------------------------------------------------------------------|
+| `autocd`                  | Permite mudar de diretório digitando apenas o nome do diretório (sem o comando `cd`).     |
+| `cdspell`                 | Corrige automaticamente erros de digitação no comando `cd`.                               |
+| `checkhash`               | Verifica se os comandos no hash table ainda existem ao serem chamados.                    |
+| `checkjobs`               | Avisa sobre jobs em execução ou parados ao sair do shell.                                 |
+| `checkwinsize`            | Atualiza as variáveis `LINES` e `COLUMNS` após o redimensionamento do terminal.            |
+| `cmdhist`                 | Combina comandos multiline em uma única entrada no histórico.                             |
+| `dotglob`                 | Inclui arquivos/diretórios ocultos nos padrões glob (ex.: `*`).                          |
+| `expand_aliases`          | Expande aliases definidos antes da execução de comandos não-interativos.                  |
+| `extdebug`                | Habilita recursos adicionais para depuração de scripts.                                   |
+| `extglob`                 | Habilita padrões glob estendidos como `@(foo|bar)`.                                       |
+| `failglob`                | Faz com que padrões glob não correspondentes gerem erro em vez de retornar vazio.         |
+| `force_fignore`           | Força o uso de exclusão com a variável `FIGNORE` no auto-completar.                       |
+| `histappend`              | Adiciona comandos ao histórico em vez de sobrescrevê-lo ao encerrar o shell.              |
+| `hostcomplete`            | Habilita a conclusão de nomes de host no auto-completar.                                  |
+| `huponexit`               | Envia SIGHUP para jobs ao sair do shell.                                                  |
+| `lithist`                 | Salva comandos multiline com quebras de linha no histórico.                               |
+| `nocaseglob`              | Faz com que os padrões glob ignorem diferença de maiúsculas/minúsculas.                   |
+| `nocasematch`             | Faz com que comparações de padrões ignorem maiúsculas/minúsculas.                         |
+| `nullglob`                | Faz com que padrões glob não correspondentes expandam para nada (em vez de permanecerem). |
+| `progcomp`                | Habilita a conclusão programável de comandos.                                             |
+| `promptvars`              | Habilita a expansão de variáveis no prompt do shell.                                      |
+| `sourcepath`              | Procura arquivos para o comando `source` no `PATH`.                                      |
+
 ```bash
 # Links
 #

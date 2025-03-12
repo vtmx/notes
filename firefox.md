@@ -127,6 +127,12 @@ Old newtab behavior:
 zen.urlbar.replace-newtab
 ```
 
+Fail click bookmarks:
+
+```bash
+https://github.com/zen-browser/desktop/issues/5983
+```
+
 ## Links
 
 - https://docs.zen-browser.app/guides/live-editing
