@@ -473,9 +473,9 @@ https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
 | `cdspell`                 | Corrige automaticamente erros de digitação no comando `cd`.                               |
 | `checkhash`               | Verifica se os comandos no hash table ainda existem ao serem chamados.                    |
 | `checkjobs`               | Avisa sobre jobs em execução ou parados ao sair do shell.                                 |
-| `checkwinsize`            | Atualiza as variáveis `LINES` e `COLUMNS` após o redimensionamento do terminal.            |
+| `checkwinsize`            | Atualiza as variáveis `LINES` e `COLUMNS` após o redimensionamento do terminal.           |
 | `cmdhist`                 | Combina comandos multiline em uma única entrada no histórico.                             |
-| `dotglob`                 | Inclui arquivos/diretórios ocultos nos padrões glob (ex.: `*`).                          |
+| `dotglob`                 | Inclui arquivos/diretórios ocultos nos padrões glob (ex.: `*`).                           |
 | `expand_aliases`          | Expande aliases definidos antes da execução de comandos não-interativos.                  |
 | `extdebug`                | Habilita recursos adicionais para depuração de scripts.                                   |
 | `extglob`                 | Habilita padrões glob estendidos como `@(foo|bar)`.                                       |
@@ -490,7 +490,7 @@ https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
 | `nullglob`                | Faz com que padrões glob não correspondentes expandam para nada (em vez de permanecerem). |
 | `progcomp`                | Habilita a conclusão programável de comandos.                                             |
 | `promptvars`              | Habilita a expansão de variáveis no prompt do shell.                                      |
-| `sourcepath`              | Procura arquivos para o comando `source` no `PATH`.                                      |
+| `sourcepath`              | Procura arquivos para o comando `source` no `PATH`.                                       |
 
 ```bash
 # Links
