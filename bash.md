@@ -1,6 +1,6 @@
 # Bash
 
-# Variáveis
+Variáveis:
 
 | Variável        | Descrição                                                      |
 | --------------- | -------------------------------------------------------------- |
@@ -444,26 +444,29 @@ cat -A file.dos
 tr -d '\r' < file.dos | cat -et
 ```
 
-Type effect:
+Efeito de digitação:
 
 ```bash
-content='Esse é um texto'
-delay=0.01
+content='Esse é um texto'; delay=0.01
 for((i = 0; i < ${#content}; i++)); do
   echo -n "${content:$i:1}"
   sleep $delay
 done
-echo
 ```
 
-Remove blank spaces:
+Remove espaços em branco:
 
 ```bash
 tr -d '[[:space:]]'
 ```
 
-## Colors
-https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
+Remove caracteres repetidos:
+
+```bash
+filename=${filename//+(-)/-} # Need enable shopt -s extglob
+filename=$(sed -E 's/-+/-/g' <<< "$filename")
+filename=$(tr -s '-' <<< "$filename")
+```
 
 # Shopts
 
@@ -492,9 +495,22 @@ https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
 | `promptvars`              | Habilita a expansão de variáveis no prompt do shell.                                      |
 | `sourcepath`              | Procura arquivos para o comando `source` no `PATH`.                                       |
 
+## Códigos de saída
+
+| Código     | Descrição                                                           |
+|------------|---------------------------------------------------------------------|
+| 0          | Execução bem-sucedida (sem erros).                                  |
+| 1          | Erro genérico ou desconhecido.                                      |
+| 2          | Uso incorreto do comando ou erro de sintaxe (invocação inválida).   |
+| 126        | Comando encontrado, mas não executável.                             |
+| 127        | Comando não encontrado.                                             |
+| 128        | Erro relacionado a um sinal de término inválido.                    |
+| 130        | Script terminado pelo usuário (Ctrl+C envia sinal SIGINT).          |
+| 137        | Processo terminado pelo sistema (exemplo: sinal SIGKILL).           |
+| 139        | Falha de segmentação (segmentation fault).                          |
+| 255        | Erro fora do intervalo esperado (para falhas gerais).               |
+
 ```bash
-# Links
-#
 # Alias
 # alias live="live-server"
 # alias live=" python -m http.server -b 127.0.0.1 8000 
@@ -506,7 +522,11 @@ https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
 # xfconf-query -c xsettings -p /Net/ThemeName -r && \
 # xfconf-query -c xsettings -p /Net/ThemeName -s Lightly"
 #
-# Links
-# https://www.npmjs.com/package/live-server
-# https://github.com/Browsersync/browser-sync
 ```
+
+## Links
+
+- https://www.npmjs.com/package/live-server
+- https://github.com/Browsersync/browser-sync
+- https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
+

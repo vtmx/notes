@@ -91,7 +91,6 @@ sudo pacman -Scc
 # SigLevel = Optional TrustedOnly
 SigLevel = Never
 
-
 sudo pacman -Syy
 sudo pacman-key --refresh-keys
 sudo pacman-key --populate archlinux manjaro
@@ -115,6 +114,13 @@ makepkg
 
 --noconfirm
   Sem confirmação.
+```
+
+# Errors
+failed to synchronize all databases (unable to lock database)
+
+```
+sudo rm /var/lib/pacman/db.lck
 ```
 
 - Crie diretório pkgbuild e entre nele

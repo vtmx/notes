@@ -154,6 +154,12 @@ Kate:
 ~/.config/katerc
 ```
 
+Vídeo resolution:
+
+```
+~/.local/share/kscreen
+```
+
 Kvantum:
 
 ```
