@@ -2,14 +2,15 @@
 
 Convert and resize:
 
-```
-convert -resize 2560x1435 src.png dist.avif
+```bash
+magick -resize 2560x1435 src.png dist.avif
 ```
 
-Convert png to jpg:
+Convert:
 
 ```bash
-magick -format jpg <file.png>
+magick input.jpg output.png
+magick input.png output.avif
 ```
 
 Create a wallpaper with a logo:
@@ -18,7 +19,8 @@ Create a wallpaper with a logo:
 inkscape logo.svg --export-filename=logo.png
 inkscape logo.svg -o logo.png
 
-magick convert -size 1920x1080 xc:'#222' \
+magick \
+  -size 1920x1080 xc:'#222' \
   -gravity center \( logo.svg -resize 350x -fill '#ffff00' \) \
   -composite wallpaper.png
 ```
@@ -31,4 +33,17 @@ magick out.jpg \        # input
   -quality 85 \         # quality
   -gaussian-blur 0.05 \ # blur
   out2.jpg              # output
+```
+
+Avif format:
+
+```bash
+avifenc input.jpg output.avif
+avifenc -q 80 input.jpg output.avif
+```
+
+Jxl format:
+
+```bash
+cjxl input.png output.jxl
 ```

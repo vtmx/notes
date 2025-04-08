@@ -510,6 +510,19 @@ filename=$(tr -s '-' <<< "$filename")
 | 139        | Falha de segmentação (segmentation fault).                          |
 | 255        | Erro fora do intervalo esperado (para falhas gerais).               |
 
+## PS1 show only one dir
+
+```bash
+if [[ -n "$DISPLAY" ]]; then
+  PS1=$'
+\[\e[0;36m\]${PWD##*/}\[\e[0m\] \
+\[\e[0;35m\]$(git branch --show-current 2>/dev/null)\[\e[0m\]
+\[\e[0;32m\]❯\[\e[0m\] '
+else
+  PS1=$'\n\[\e[0;36m\]$(pwd)\[\e[0m\] \n\[\e[0;32m\]>\[\e[0m\] '
+fi
+```
+
 ```bash
 # Alias
 # alias live="live-server"
