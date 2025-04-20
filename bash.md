@@ -468,6 +468,18 @@ filename=$(sed -E 's/-+/-/g' <<< "$filename")
 filename=$(tr -s '-' <<< "$filename")
 ```
 
+Ler QRCode:
+
+```bash
+zbarimg qr.png
+```
+
+Gerar QRCode:
+
+```bash
+qrencode "Text" -o qr.png
+```
+
 # Shopts
 
 | Opção                     | Descrição                                                                                  |

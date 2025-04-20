@@ -16,7 +16,8 @@ https://gtkthemingguide.surajmandal.in/#/getting_started
 ## xfce-panel
 
 ```bash
-# Number of desktop
+# Number of desktop generic monitor
+# No label 0.25 time, use single panel run
 sh -c "echo $(wmctrl -d | awk '/\*/ { print $NF }')"
 sh -c "echo $(($(xdotool get_desktop) + 1 ))"
 ```

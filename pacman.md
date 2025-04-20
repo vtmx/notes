@@ -84,20 +84,9 @@ sudo pacman -Scc
 
 # Mirrors
 /etc/pacman.d/mirrorlist
-
-# Corrupted PGP signature
-/etc/pacman.conf
-# Not recomended
-# SigLevel = Optional TrustedOnly
-SigLevel = Never
-
-sudo pacman -Syy
-sudo pacman-key --refresh-keys
-sudo pacman-key --populate archlinux manjaro
-https://forum.manjaro.org/t/howto-solve-keyring-related-issues-in-manjaro/96949
 ```
 
-## Criação
+# Criação
 
 ```bash
 makepkg
@@ -116,13 +105,6 @@ makepkg
   Sem confirmação.
 ```
 
-# Errors
-failed to synchronize all databases (unable to lock database)
-
-```
-sudo rm /var/lib/pacman/db.lck
-```
-
 - Crie diretório pkgbuild e entre nele
 - Crie arquivo PKGBUILD
 - `makepkg` cria o pacote
@@ -130,6 +112,28 @@ sudo rm /var/lib/pacman/db.lck
 - `sudo pacman -U --noconfirm packagename-any.pkg.tar.zst`
 - `pacman -R --noconfirm packagename`
 
+## Errors
+
+Corrupted PGP signature:
+
+```bash
+/etc/pacman.conf
+# Not recomended
+# SigLevel = Optional TrustedOnly
+SigLevel = Never
+
+sudo pacman -Syy
+sudo pacman-key --refresh-keys
+sudo pacman-key --populate archlinux manjaro
+```
+
+Failed to synchronize all databases (unable to lock database)
+
+```bash
+sudo rm /var/lib/pacman/db.lck
+```
+
 ## Links
 
 - https://github.com/kretcheu/dicas/blob/master/pacman.md
+- https://forum.manjaro.org/t/howto-solve-keyring-related-issues-in-manjaro/96949
