@@ -116,6 +116,12 @@ echo ${var}{,,,}
 vida vida vida vida
 ```
 
+Inicia variável:
+
+```bash
+: "${var:=Iniciada}"
+```
+
 Executa o segundo caso o primeiro falhe:
 
 ```bash
@@ -210,14 +216,14 @@ while read; do
 done < <(wget -qO- "$url"|grep -oP 'src="\K.*(png|jpg)(?=")')
 ```
 
-Declara variáveis inteiras :
+Declara variáveis inteiras:
 
 ```bash
 declare -i a+=b
 let a+=b
 ```
 
-Renomear múltiplas extednções:
+Renomear múltiplas extenções:
 
 ```bash
 for file in *.json; do

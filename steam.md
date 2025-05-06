@@ -6,3 +6,9 @@ Edit file to open in BigPicture:
 /usr/share/applications/steam.desktop
 Exec=/usr/bin/steam-runtime %U -bigpicture
 ```
+
+Open without gpu:
+
+```bash
+steam -disable-gpu
+```
