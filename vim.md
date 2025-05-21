@@ -35,6 +35,7 @@ gi = Volta para a última linha em inserção
 :[num] = Vai ao número da linha
 num_linha+G = Vai para linha num_linha
 50% = Vai para 50% do texto
+z= = Exibe opções de auto-correção
 ```
 
 ## Inserção
