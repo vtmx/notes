@@ -26,6 +26,16 @@ Debug shortcut:
 ctrl+shift+alt+i
 ```
 
+If don't work:
+
+```
+Devtools settins
+[x] Enable browser chrome and add-on...
+[x] Enable remote debug
+
+Go to ... > More tools > Browser Toolbox
+```
+
 xdg-portal kde integration:
 
 ```
@@ -66,6 +76,7 @@ Tools > Options > Advanced > General > Accessibility: [ ] "Always use the cursor
 ## about:config
 
 ```
+about:about
 about:blank
 about:config
 about:debugging
