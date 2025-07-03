@@ -474,6 +474,16 @@ filename=$(sed -E 's/-+/-/g' <<< "$filename")
 filename=$(tr -s '-' <<< "$filename")
 ```
 
+Remover parte do texto:
+
+```bash
+cut -c-3 <file>
+# xxx-texto
+
+cut -c3- <file>
+# texto-xxx
+```
+
 Ler QRCode:
 
 ```bash

@@ -13,6 +13,12 @@ magick input.jpg output.png
 magick input.png output.avif
 ```
 
+Convert and psd:
+
+```bash
+magick input.psd[0] output.jpg
+```
+
 Create a wallpaper with a logo:
 
 ```bash

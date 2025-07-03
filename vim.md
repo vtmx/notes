@@ -35,7 +35,7 @@ gi = Volta para a última linha em inserção
 :[num] = Vai ao número da linha
 num_linha+G = Vai para linha num_linha
 50% = Vai para 50% do texto
-z= = Exibe opções de auto-correção
+z= = Exibe opções de auto-correção (lang)
 ```
 
 ## Inserção
@@ -323,6 +323,14 @@ local function map(mode, lhs, rhs, opts)
   opts.silent = opts.silent ~= false
   vim.keymap.set(mode, lhs, rhs, opts)
 end
+```
+
+```bash
+# Remove linhas em brancos consecutivas
+:%s/\n\{2,}/\r/g
+
+# Adiciona uma linha a cada ponto final
+:%s/\.\s*/.\r/g
 ```
 
 

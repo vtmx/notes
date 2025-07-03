@@ -26,6 +26,7 @@
 
 | Atalho   | Descrição                                  |
 | -------- | ------------------------------------------ |
+| `Esc+.`  | Repeter a última palavra                   |
 | `Alt+.`  | Adota a última palavra do comando anterior |
 | `Ctrl+p` | Próximo comando                            |
 | `Ctrl+n` | Comando anterior                           |
