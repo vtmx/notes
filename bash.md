@@ -496,6 +496,13 @@ Gerar QRCode:
 qrencode "Text" -o qr.png
 ```
 
+Remover caracteres repetidos:
+
+```bash
+# teste---mago -> teste-mago
+echo "${var//+(-)/-}"
+```
+
 # Shopts
 
 | Opção                     | Descrição                                                                                  |
