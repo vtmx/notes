@@ -11,3 +11,10 @@ Remova recursivamente os arquivos gif:
 ```bash
 fd -s -t f -e 'gif' -x rm {}
 ```
+
+Pesquisa todos os pontos exceto o da extensão:
+
+```bash
+fd '\..*[^/]\.[^/]+$'
+```
+

@@ -12,12 +12,6 @@ Rename:
 perl-rename 's/old/new/' *
 ```
 
-Pesquisa todos os pontos exceto o da extensão:
-
-```bash
-fd '\..*[^/]\.[^/]+$'
-```
-
 Renomear sequencialmente:
 
 ```bash

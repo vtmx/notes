@@ -1,32 +1,32 @@
 # gpg
 
-List public keys:
+Lista chaves públicas:
 
 ```bash
 gpg -k,--list-keys,--list-public-keys
 ```
 
-Import public key:
+Importa chave pública:
 
 ```bash
 # Normaly file-signing.key
 gpg --import <file>
 ```
 
-Verify key:
+Verifica chave:
 
 ```bash
 # Normaly file.sig file
 gpg --verify <key> <file>
 ```
 
-Delete key:
+Remove chave:
 
 ```bash
 gpg --delete-keys <id>
 ```
 
-Especify plaintext:
+Especifica texto:
 
 ```bash
 gpg --armor

@@ -35,3 +35,9 @@ See all pkg for node_modules
 ```bash
 du -sh ./node_modules/* | sort -nr | grep '\dM.*'
 ```
+
+Mover todos os arquivos dos subdiretórios para o diretório corrente:
+
+```bash
+find . -mindepth 2 -type f -exec mv -n {} . \;
+```

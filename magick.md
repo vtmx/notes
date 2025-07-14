@@ -1,5 +1,17 @@
 # imagemagick
 
+Converter arquivo pdf:
+
+```bash
+magick file.jpg -compress jpeg file.pdf
+```
+
+Remover senha pdf:
+
+```bash
+qpdf --decrypt --password=xxx file-protect.pdf file.pdf
+```
+
 Convert and resize:
 
 ```bash

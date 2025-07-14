@@ -1,18 +1,18 @@
 # entr
 
-With file exec:
+Vigia alteração no arquivo:
 
 ```bash
 echo filename.sh | entr ./filename.sh
 ```
 
-Clear terminal:
+Limpa terminal:
 
 ```bash
 echo filename.sh | entr -c ./filename.sh
 ```
 
-No file exec:
+Verifica todos os arquivos:
 
 ```bash
 echo ls *.sh | entr /bin/bash filename.sh

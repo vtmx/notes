@@ -1,24 +1,24 @@
 # cmus
 
-Add in library view:
+Adiciona a biblioteca:
 
 ```
 :a ~/Music
 ```
 
-Create playlist:
+Cria playlist:
 
 ```
 :pl-create <playlist>
 ```
 
-Add in playlist:
+Adiciona na playalist:
 
 ```
 :add -p <dir>
 ```
 
-Order in playlist:
+Ordena playlist:
 
 ```
 p | P = Move from playlist

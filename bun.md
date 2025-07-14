@@ -1,6 +1,6 @@
 # bun
 
-Install:
+Instala:
 
 ```
 bun install | i -g (global)
@@ -13,13 +13,13 @@ Remove:
 bun remove
 ```
 
-Execute:
+Executa:
 
 ```
 bunx
 ```
 
-List:
+Lista:
 
 ```
 bun pm ls

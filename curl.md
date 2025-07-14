@@ -1,12 +1,13 @@
 # curl
 
-Get status code of url:
+Retorna status da página:
 
 ```bash
+curl -Is https://www.biggerpockets.com/blue | head -n1 | awk '{print $2}'
 curl --head 'https://modules.vlang.io/net.http.html#get' | awk '/HTTP/ {print $2}'
 ```
 
-Get json:
+Recebe json:
 
 ```bash
 curl -s -X POST 'https://api.groq.com/openai/v1/chat/completions' \

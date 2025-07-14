@@ -13,7 +13,7 @@ lxappearence
 Inherits=We10XOS-cursors
 ```
 
-Open after key:
+Abre após pressionar:
 
 ```bash
 super + o ; {e,w,m}
