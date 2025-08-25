@@ -1,5 +1,9 @@
 # Terminal
 
+## Exibe todos os binds
+
+`bind -p`
+
 ## Movimetação
 
 | Atalho   | Descrição                             |
@@ -105,7 +109,7 @@
 | `Ctrl+e`                           | Move cursor para o final da linha                                                                                                   |
 | `Ctrl+f`                           | Move cursor para próxima caractere                                                                                                  |
 | `Ctrl+g`                           | Sai do modo de pesquisa de histórico                                                                                                |
-| `Ctrl+h`                           | Deleta próximo caractere                                                                                                            |
+| `Ctrl+h`                           | Deleta caractere anterior                                                                                                           |
 | `Ctrl+i`                           | Simula tab                                                                                                                          |
 | `Ctrl+k`                           | Deleta todo texto a frente                                                                                                          |
 | `Ctrl+j`                           | Executa a tecla Enter                                                                                                               |

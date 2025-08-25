@@ -177,7 +177,7 @@ git clone --depth 1
 git clone [url] --branch [branch] --single-branch
 ```
 
-## Resolvendo problema arquivos grantes
+## Resolvendo problema arquivos
 
 ```bash
 # GH001: Large files detected. You may want to try Git Large File Storage
@@ -189,6 +189,9 @@ git rebase -i HEAD~2
 
 # Ou
 git reset --soft HEAD^2
+
+# Ou força dando prioridade para o remoto
+git reset --hard origin/main
 ```
 
 # Lembrar credencial

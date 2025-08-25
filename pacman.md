@@ -1,84 +1,112 @@
 # pacman
 
-# Instalação
+Instalando pacote:
 
-```bash
-# Instalando pacote
+```
 sudo pacman -S package
+```
 
-# Sem confirmação
+Instalado pacote semSem confirmação:
+
+```
 sudo pacman --noconfirm -S package
+```
 
-# Cria um arquivo com a lista de pacotes instalados:
+Cria um arquivo com a lista de pacotes instalados:
+
+```
 pacman -Qqe > packages.txt
+```
 
-# Instala todos os pacotse usando um arquivo com listagem:
+Instala todos os pacotse usando um arquivo com listagem:
+
+```
 sudo pacman -S --needed - < packages.txt
 ```
 
-## Remoção
+Removendo pacote:
 
-```bash
-# Removendo pacote
+```
 sudo pacman -R package
+```
 
-# Sem confirmação
+Sem confirmação:
+
+```
 sudo pacman --noconfirm -R package
+```
 
-# Remove com dependências
+Remove com dependências:
+
+```
 sudo pacman -Rs package
+```
 
-# Verifica e remove pacotes órfãos:
+Verifica e remove pacotes órfãos::
+
+```
 pacman -Qtdq | sudo pacman -Rns -
-
-# Ou
 pacman -Qtdq | sudo pacman -Rns -
-
-# Ou
 pacman -Qqd | sudo pacman -Rsu -
 ```
 
-## Pesquisa
+Pacote disponíveis para instalção:
 
-```bash
-# Pacote disponíveis para instalção
+```
 pacman -Fy package
+```
 
-# Pacotes instalados
+Pacotes instalados:
+
+```
 pacman -Qqe package
+```
 
-# Pacotes não usados
+Pacotes não usados:
+
+```
 pacman -Qtdq package
+```
 
-# Verifica dependência do pacote:
+Verifica dependência do pacote::
+
+```
 pacman -Qi package
+```
 
-# Tamanho dos pacotes individuais instalados
+Tamanho dos pacotes individuais instalados:
+
+```
 LC_ALL=C.UTF-8 pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | LC_ALL=C.UTF-8 sort -h
 ```
 
-## Cache
+Remove pacotes não-instalados do cache:
 
-```bash
-# Verifica tamanho do cache atual
-du -h /var/cache/pacman/pkg
-
-# Remove cache de pacotes removidos
-sudo paccache -ruk0
-
-# Remove cache e mantendo última versão de pacotes
-sudo paccache -rk1
-
-# Remove cache dos pacotes desinstalados
+```
 sudo pacman -Sc
+```
 
-# Limpando totalmente o cache do pacman
+Verifica tamanho do cache atual:
+
+```
+du -h /var/cache/pacman/pkg
+```
+
+Remove cache dos pacotes desinstalados:
+
+```
+sudo pacman -Sc
+```
+
+Limpando totalmente o cache do pacman:
+
+```
 sudo pacman -Scc
 ```
 
 ## Repostórios
 
-```bash
+```
 # Repositórios
 /etc/pacman.conf
 
