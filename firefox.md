@@ -150,3 +150,4 @@ https://github.com/zen-browser/desktop/issues/5983
 - https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme
 - https://github.com/QNetITQ/WaveFox
+- https://github.com/stonecrusher/simpleMenuWizard
