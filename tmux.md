@@ -2,11 +2,22 @@
 
 ## Comandos
 
-```
-# Exibe opções atuais
-tmux show-options -g
+Exibe todas as árvores de janelas e sessões:
 
-# Exibe opção específica
+```
+tmux choose-tree
+```
+
+
+Exibe opções atuais:
+
+```
+tmux show-options -g
+```
+
+Exibe opção específica:
+
+```
 tmux show-options -g status
 ```
 

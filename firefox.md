@@ -144,6 +144,13 @@ Fail click bookmarks:
 https://github.com/zen-browser/desktop/issues/5983
 ```
 
+Abrir em modo seguro:
+
+```bash
+firefox --safe-mode
+firefox --no-remote --profile /tmp/ff-clean
+```
+
 ## Links
 
 - https://docs.zen-browser.app/guides/live-editing
