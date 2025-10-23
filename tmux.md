@@ -32,6 +32,6 @@ tmux show-options -g status
 | `Prefix + [`        | Entra no modo de cópia |
 | `Prefix + {}`       | move pane              |
 | `Prefix + Ctrl + o` | move pane              |
-| `Ctrl + b`          | active copy mode       |
-| `Ctrl + q`          | Show panels            |
-| `Ctrl + q + 2`      | Go panel 2             |
+| `Prefix + b`        | active copy mode       |
+| `Prefix + q`        | Show panels            |
+| `Prefix + q + 2`    | Go panel 2             |

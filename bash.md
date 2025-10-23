@@ -56,6 +56,13 @@ Diretório de execução:
 script_dir=${0%/*}
 ```
 
+Arquivo e formato:
+
+```bash
+name="${file%.*}"
+format="${file##*.}"
+```
+
 Verifica se programa existe:
 
 ```bash

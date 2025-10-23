@@ -60,8 +60,8 @@ git pull origin branchname --allow-unrelated-histories
 
 ```bash
 # Rejeitar
-! [rejected] master -> master (fetch first)
-git push --force origin master
+! [rejected] master -> main (fetch first)
+git push --force origin main
 
 # Cria um novo branch e entra nele
 git checkout -b novo-branch

@@ -151,10 +151,17 @@ firefox --safe-mode
 firefox --no-remote --profile /tmp/ff-clean
 ```
 
+Extensão boa para download:
+
+```bash
+hsl-downloader
+```
+
 ## Links
 
+- https://github.com/QNetITQ/WaveFox
 - https://docs.zen-browser.app/guides/live-editing
+- https://github.com/stonecrusher/simpleMenuWizard
 - https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme
-- https://github.com/QNetITQ/WaveFox
-- https://github.com/stonecrusher/simpleMenuWizard
+- https://www.reddit.com/r/FirefoxCSS/comments/7kti37/how_to_make_it_so_that_show_all_tags_is_expanded
