@@ -96,6 +96,12 @@ eof
 grep 'teste' <<< 'teste'
 ```
 
+Pesquisar uma palavra em diversos arquivos:
+
+```bash
+grep -r 'palavra' dir
+```
+
 Executa o segundo enquanto o primeiro ainda está em execução:
 
 ```bash
