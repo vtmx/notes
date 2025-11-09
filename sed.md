@@ -34,6 +34,13 @@ Corrigi pontuação:
 sed -r 's/([.,:;!?]) ([^ ])/\1 \2' file.txt
 ```
 
+Mais de um comando use ';' :
+
+```bash
+sed -E '/^[0-9]+$/d; s/^([0-9]{2}):([0-9]{2}):([0-9]{2}).+$/\1:\2:\3/' transcricao.pt.srt
+```
+
+
 ## Referências
 
 https://github.com/adrianlarion/useful-sed

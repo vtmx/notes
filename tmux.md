@@ -21,6 +21,12 @@ Exibe opção específica:
 tmux show-options -g status
 ```
 
+Exibe keybinds:
+
+```
+tmux list-keys
+```
+
 ## Atalhos
 
 | Atalho              | Descrição              |

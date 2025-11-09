@@ -571,8 +571,47 @@ else
 fi
 ```
 
+Mangá
+
 ```bash
-# Alias
+awk '/wp-manga-chapter-img">$/ {print $0}' site.url
+wget $(curl 'site' | grep -Eo 'https://mangalivre.to/wp-content/uploads/WP-manga/data.+.webp')
+curl 'site' | grep -Eo 'https://mangalivre.to/wp-content/uploads/WP-manga/data.+.webp' | xargs wget
+```
+
+Renomear bak arquivo
+
+```bash
+cp file.txt{,.bak}
+```
+
+Renomear bak arquivo:
+
+```bash
+echo $var\1
+# igual
+echo ${var}1
+```
+
+Número dos processadores:
+
+```bash
+nproc
+```
+
+Shift:
+
+```bash
+set {A..F}
+echo $*
+A..F
+shift
+B..F
+```
+
+Alias
+
+```bash
 # alias live="live-server"
 # alias live=" python -m http.server -b 127.0.0.1 8000 
 # alias xf="sassc -M -t expanded $HOME/.local/share/themes/Lightly/gtk-3.0/src/main.scss \
@@ -582,7 +621,6 @@ fi
 # xfce reload theme
 # xfconf-query -c xsettings -p /Net/ThemeName -r && \
 # xfconf-query -c xsettings -p /Net/ThemeName -s Lightly"
-#
 ```
 
 ## Links
