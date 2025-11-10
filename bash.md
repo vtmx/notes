@@ -39,6 +39,12 @@ Cria um arquivo novo ou excluí o conteúdo de um existente:
 ls >teste.txt
 ```
 
+Recebe conteúdo de um arquivo:
+
+```bash
+text=$(<file.txt)
+```
+
 Adiciona texto no início da linha do arquivo:
 
 ```bash
