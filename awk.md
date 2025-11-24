@@ -70,9 +70,8 @@ Faz pesquisa e altera campo:
 awk -v find="${1,,}" '{line=tolower($0); if(line ~ find) print}' file
 awk -v find="${1,,}" '{line=tolower($0); if(index(line, find)) print}' file
 awk -v find="${1,,}" '{line=tolower($0); if(match(line, find)) print}' file
-```
 
-```bash
+# Substitui valor
 awk '/wp-manga-chapter-img">$/ {gsub(/<img.+src=\"/, "", $0); print $0}' site.url
 ```
 
@@ -82,7 +81,7 @@ Linha que começa com erro e termina com horário:
 awk '/^erro/ && /[0-9]{2}:[0-9]{2}$/ {print $0}'
 ```
 
-Ignora linha iniciada com Música:
+Ignora linha iniciada com [Música]:
 
 ```bash
 awk '/^Música]/ { next }'
@@ -105,6 +104,17 @@ awk '/"url":/ {
   url = gensub(/."url": "(.)",?/, "\\1", "g")
   print url
 }' data.json
+```
+
+Recebe valor da tag A e seu conteúdo:
+
+```awk
+# Links
+/DT><A / {
+  title= gensub(/^[ \t]*<DT><A HREF=".+>([^<]+).*$/, "\\1", "g")
+  link = gensub(/^.*<DT><A HREF="([^"]+)".*$/, "\\1", "g")
+  print "- [" title "] " "(" link ")"
+}
 ```
 
 Coleta valors de campos json:

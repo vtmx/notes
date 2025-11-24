@@ -26,5 +26,8 @@ XF86Keys:
 XF86Audio{RaiseVolume,LowerVolume,Mute}
 XF86Audio{Play,Prev,Next,Stop}
 XF86MonBrightness{Up,Down}
-# https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols
 ```
+
+## Referências
+
+- https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols

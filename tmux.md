@@ -1,30 +1,32 @@
 # tmux
 
-## Comandos
-
 Exibe todas as árvores de janelas e sessões:
 
 ```
 tmux choose-tree
 ```
 
-
-Exibe opções atuais:
+Opções atuais:
 
 ```
 tmux show-options -g
 ```
 
-Exibe opção específica:
+Opção específica:
 
 ```
 tmux show-options -g status
 ```
 
-Exibe keybinds:
+Listas:
 
 ```
-tmux list-keys
+tmux list-commands
+tmux list-clients
+tmux list-commands
+tmux list-panes
+tmux list-sessions
+tmux list-windows
 ```
 
 ## Atalhos
@@ -41,3 +43,4 @@ tmux list-keys
 | `Prefix + b`        | active copy mode       |
 | `Prefix + q`        | Show panels            |
 | `Prefix + q + 2`    | Go panel 2             |
+| `Prefix + w`        | Choose tree            |

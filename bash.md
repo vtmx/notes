@@ -7,8 +7,8 @@ Variáveis:
 | $?              | Recebe última saída recebida                                   |
 | $$              | Descrever                                                      |
 | !!              | Exibe o último comando                                         |
-| $\_             | Pega último parâmetro passado                                  |
-| $\*             | Todas as expansões unificadas                                  |
+| $_              | Pega último parâmetro passado                                  |
+| $*              | Todas as expansões unificadas                                  |
 | $@              | Todas as expansões                                             |
 | $0              | Exibe shell atual                                              |
 | $BASHPID        | Exibe o ID do bash                                             |
@@ -79,7 +79,6 @@ echo $?
 Opções bash:
 
 ```bash
-extglob # Exibe
 shopt -s extglob # Ativa
 shopt -u globasciiranges # Desativa
 ```
@@ -268,7 +267,7 @@ sed -E "s|<Id>([[:digit:]])*)echo "</Id>|<Id>$((\1 + 2))</Id>"|ge
 Rename pattern:
 
 ```bash
-for file in pattern_*;
+for file in pattern*;
   do mv "$file" "${file//*_/}";
 done
 ```
@@ -585,10 +584,18 @@ wget $(curl 'site' | grep -Eo 'https://mangalivre.to/wp-content/uploads/WP-manga
 curl 'site' | grep -Eo 'https://mangalivre.to/wp-content/uploads/WP-manga/data.+.webp' | xargs wget
 ```
 
-Renomear bak arquivo
+Renomear bak arquivo com prefixo ou sufixo:
 
 ```bash
+cp file{,novo}.txt
+cp {,bkp-}file.txt
 cp file.txt{,.bak}
+```
+
+Confirma comando posterior:
+
+```bash
+yes | pacman -S pkg
 ```
 
 Renomear bak arquivo:
@@ -615,13 +622,30 @@ shift
 B..F
 ```
 
+Valor padrão:
+
+```bash
+# Recebe o valor de $1, caso não exista recebe usuário
+user=${1:-usuario}
+
+# Caso valor de $1 esteja vazia recebe $USER
+user=${1:=$USER}
+```
+
+Transforma comando em um arquivo:
+
+```bash
+arq=<(ls)
+echo "$arq"
+```
+
 Alias
 
 ```bash
 # alias live="live-server"
 # alias live=" python -m http.server -b 127.0.0.1 8000 
 # alias xf="sassc -M -t expanded $HOME/.local/share/themes/Lightly/gtk-3.0/src/main.scss \
-#
+
 # Config
 # $HOME/.local/share/themes/Lightly/gtk-3.0/gtk.css && \
 # xfce reload theme

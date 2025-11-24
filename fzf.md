@@ -22,11 +22,11 @@ export FZF_DEFAULT_OPTS="\
   --color=gutter:-1,border:black"
 
 
-bindings
+# Bindings
 Ctrl + T = LS
 Ctrl + R = History
- Alt + C = CD
- Tab     = Marca com fzf -m
+Alt + C  = CD
+Tab      = Marca com fzf -m
 ```
 
 ## Links

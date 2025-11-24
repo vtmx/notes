@@ -1,27 +1,17 @@
 # bun
 
-Instala:
-
-```
+```bash
+# Instala:
 bun install | i -g (global)
 bun add
-```
 
-Remove:
-
-```
+# Remove:
 bun remove
-```
 
-Executa:
-
-```
+# Executa:
 bunx
-```
 
-Lista:
-
-```
+#Lista
 bun pm ls
 bun pm ls -g
 ```
