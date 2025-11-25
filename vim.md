@@ -333,6 +333,25 @@ end
 :%s/\.\s*/.\r/g
 ```
 
+Remove linhas em branco:
+
+```vim
+:g/^$/d
+```
+
+Remove espaços no início da linha:
+
+```vim
+:g/^ /d
+```
+
+Remover espaços no início e no final:
+
+```vim
+:%s/^\s\+|\s\+$//g
+:%s/^\s\+//e | %s/\s\+$//e
+:%s/\r//g | %s/^\s\+|\s\+$//g
+```
 
 ## Links
 
