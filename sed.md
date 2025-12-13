@@ -7,6 +7,12 @@ sed 's/old_word/new_word/g' <<< 'The old word.'
 > The new world.
 ```
 
+Substituição criando um arquivo de bkp:
+
+```bash
+sed -i.bkp 's/old_word/new_word/g' file
+```
+
 Regex extendido:
 
 ```bash

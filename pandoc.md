@@ -31,5 +31,26 @@ ${for(author)}
 ${endfor}
 ```
 
+Converte para html, importa estilo e abre o arquivo:
+
+```bash
+# -t html5 → converte para html5
+# --standalone → gera <head> completo
+# --embed-resources → substitui o --self-contained antigo (mais inteligente com imagens, etc.)
+# -c + URL → aplica o CSS externo
+# --metadata title="Quiz" → título bonitinho na aba do navegador
+
+pandoc quiz.md -t html5 \
+--metadata title='Quiz' \
+--embed-resources \
+--standalone \
+-c 'style.css' \
+-o quiz.html && zen-browser quiz.html
+
+#-c 'https://cdn.simplecss.org/simple.css' \
+#-c 'https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css' \
+# -o quiz.html && xdg-open quiz.html
+```
+
 # Links
 - https://stackoverflow.com/questions/26483499/pandoc-template-with-yaml-metadata
