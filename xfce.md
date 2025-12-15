@@ -66,4 +66,5 @@ https://www.youtube.com/watch?v=WTmA65fURdQ
 ## Links
 
 - https://man.archlinux.org/search?q=xfce4
-- https://gtkthemingguide.surajmandal.in/#/getting_started
+- https://docs.xfce.org/xfce/xfwm4/keyboard_shortcuts
+- https://gtkthemingguide.surajmandal.in
