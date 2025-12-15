@@ -1,6 +1,35 @@
 # xfce
 
-Habilita Debug
+Como usar o mesmo atalho:
+
+- Abra o editor de configuração com o comando `xfce4-settings-editor`, meu atalho é `Super+Alt+.`
+- Na barra lateral, escolha a opção `xfce4-keyboard-shortcuts`
+- Escolhi a opção `xfwm4` indo em custom e verificando algum atlaho já usado, abri ele, copiei os dados
+- Crie um novo com os mesmos dados só mudando o atalho
+- É furada tentar editar o arquivo XML, devido ele não atualizar após a modificação e facilmente gera conflito, reinciando os atalhos padrões
+
+Consulta todos os atalhos:
+
+```
+xfconf-query -c xfce4-keyboard-shortcuts -l -v
+```
+
+Consulta somente os atalhos customizados:
+
+```
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom -l -v && \
+xfconf-query -c xfce4-keyboard-shortcuts -p /xfwm4/custom -l -v
+```
+
+Adiciona atalhos:
+
+```
+xfconf-query -c xfce4-keyboard-shortcuts -p "/xfwm4/custom/<Super>c" -t string -s "close_window_key"
+xfconf-query -c xfce4-keyboard-shortcuts -p "/xfwm4/custom/<Super>l" -t string -s "next_workspace_key"
+xfconf-query -c xfce4-keyboard-shortcuts -p "/xfwm4/custom/<Super>Right" -t string -s "next_workspace_key"
+```
+
+Habilita Debug:
 
 ```
 gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true
@@ -8,9 +37,8 @@ Ctrl + Shift + D
 Ctrl + Shift + I
 
 Or
-GTK_DEBUG=interactive your-app
 
-https://gtkthemingguide.surajmandal.in/#/getting_started
+GTK_DEBUG=interactive your-app
 ```
 
 xfce-panel:
@@ -34,3 +62,8 @@ Corrigi tamanho dos ícones barra de tarefas:
 ```bash
 https://www.youtube.com/watch?v=WTmA65fURdQ
 ```
+
+## Links
+
+- https://man.archlinux.org/search?q=xfce4
+- https://gtkthemingguide.surajmandal.in/#/getting_started
