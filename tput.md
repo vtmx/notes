@@ -20,6 +20,7 @@
 | `setab {1,8}` | Cor background |
 | `setaf {1,8}` | Cor foreground |
 | `rev`         | Cores reversas |
+| `sgr0`        | Reseta cores   |
 
 ## Estilos
 

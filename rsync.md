@@ -1,9 +1,9 @@
 # rsync
 
-Backup espelhando diretório:
+Backup espelhando diretório não copia arquivos ocultos nem diretório node_modules:
 
 ```bash
-rsync -ahzP --delete --exclude '.*' src/ dst/
+rsync -ahzP --delete --exclude '.*' --exclude 'node_modules/' src/ dst/
 ```
 
 Usado para backup mantém arquivos:

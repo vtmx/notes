@@ -36,7 +36,7 @@ Alt + Espaço + N = Minimiza
 Alt + Espaço + X = Maximiniza
 ```
 
-## ```Múltiplos Desktop
+## Múltiplos Desktop
 
 ```
 Ctrl + Win + D = Cria uma nova área de trabalho

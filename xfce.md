@@ -21,6 +21,12 @@ xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom -l -v && \
 xfconf-query -c xfce4-keyboard-shortcuts -p /xfwm4/custom -l -v
 ```
 
+Exibe cores no terminal:
+
+```
+xfce4-terminal --color-table
+```
+
 Adiciona atalhos:
 
 ```
