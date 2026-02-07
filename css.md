@@ -1,54 +1,91 @@
 # css
 
-Attribute exists:
+Texto perfeito na caixa:
+
+```css
+p { text-box: trim-both cap alphabetic }
+```
+
+Scrollbar com cores:
+
+```css
+div { scrollbar-color: blue transparent }
+```
+
+Nova formatação hsl:
+
+```css
+div { background: hsl(10 10 10) }
+```
+
+Misturas de cores:
+
+```css
+div { background: color-mix(in srgb blue, white 10%) }
+```
+
+Justificação avançada:
+
+```css
+p { text-wrap: balance }
+p { text-wrap: pretty }
+```
+
+Validações melhores:
+
+```css
+input:user-valid { border-color: green }
+input:user-invalid { border-color: red }
+```
+
+Atributo existe:
 
 ```css
 [data-value]
-```
 
-Attribute has this exact value:
+Atributo que possuí o valor exato:
 
 ```css
 [data-value='foo']
 ```
 
-Attribute value contains this value somewhere in it:
+Atributo cujo valor contém este trecho em algum lugar:
 
 ```css
 [data-value*='foo']
 ```
 
-Attribute has this value in a space-separated list somewhere:
+Atributo que possuí este valor em uma lista separada por espaços:
 
 ```css
 [data-value~='foo']
 ```
 
-Attribute value starts with this:
+Atributo cujo valor começa com isto:
 
 ```css
 [data-value^='foo']
 ```
 
-Attribute value starts with this in a dash-separated list:
+Atributo cujo valor começa com isto em uma lista separada por hífen:
 
 ```css
 [data-value|='foo']
 ```
 
-Attribute value ends with this:
+Atributo cujo valor termina com isto:
 
 ```css
 [data-value$='foo']
 ```
 
-Multiple values:
+Múltiplos valores:
 
 ```css
 clamp(min, val, max)
 ```
 
-Multiple colors based color scheme:
+Múltiplas cores baseadas em esquema de cores:
 
 ```css
 :root {
@@ -61,16 +98,11 @@ body {
 }
 ```
 
-Reset:
+Reset (normalização de estilos):
 
 ```css
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   box-sizing: border-box;
-}
-
-* {
   margin: 0;
   padding: 0;
   font: inherit;
@@ -80,24 +112,20 @@ body {
   line-height: 1.5;
 }
 
-canvas,
-img,
-picture,
-svg,
-video {
+canvas, img, picture, svg, video {
   display: block;
   max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   overflow-wrap: break-word;
   hyphens: auto;
+}
+
+/* Mostrar outline de foco apenas quando o usuário estiver navegando com tab (não ao clicar) /
+/ Exceto para input e textarea */
+*:focus:not(:is(input, textarea)) {
+  outline: none;
 }
 ```
 

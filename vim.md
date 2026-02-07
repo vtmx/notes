@@ -220,11 +220,21 @@ zr = Abre todas
 zm = Fecha todas
 ma = Marca local a
 Ma = Vai ao local a
-:%norm! @a = Executa em todas as macros
-:%normal Whd = % executa o comando em normal em todas as linhas
-:norm = ||
 !comando = Executar comando terminal
 .!bash = Executa linha selecionada com o bash
+```
+
+## Norm
+
+```vim
+# ctrl+v<esc> fazem o char especial para retornar
+# ao modo normal
+
+# Todo arquivo
+% norm ci'nova_palavra'<ctrl+v><esc>$
+
+# Linhas específicas
+10,15 norm ci'nova_palavra'<ctrl+v><esc>$
 ```
 
 ## Verificar log de inicialização
@@ -247,7 +257,7 @@ InspectTree = Exibe pilha da linguagem
 
 ## Auxliares
 
-```
+```bash
 xclip = Usado para coletar ctrl+c do vim
 ```
 
@@ -297,8 +307,8 @@ Janelas:
 ```bash
 <C-w> c = Fecha janela
 <C-w> x = Alterna janela
-<C-w> 10+ = Aumenta janela na horizontal 
-<C-w> 10- = Comprimi janela na horizontal 
+<C-w> 10+ = Aumenta janela na horizontal
+<C-w> 10- = Comprimi janela na horizontal
 <C-w> 10> = Aumenta janela na vertical
 <C-w> 10< = Comprimi janela na vertical
 ```
@@ -353,18 +363,18 @@ Remover espaços no início e no final:
 :%s/\r//g | %s/^\s\+|\s\+$//g
 ```
 
+LSP Emmet
+O LSP do emmet_ls só funcionou instalando o lsp manualmente
+npm install -g emmet-ls
+
 ## Links
 
 - https://vim.rtorr.com
-- https://github.com/NvChad
-- https://github.com/LazyVim/LazyVim
-- https://github.com/LunarVim/LunarVim
-- https://github.com/AstroNvim/AstroNvim
+- https://shapeshed.com/vim-netrw
 - https://bitbucket.org/sergio/mylazy-nvim
 - http://vimcasts.org/episodes/operating-on-search-matches-using-gn
 - https://stackoverflow.com/questions/18948491/running-python-code-in-vim
 - https://github.com/jdhao/nvim-config/blob/fc144e08957c39954927ae1f48ce70d8b464d258/core/mappings.lua
-- https://shapeshed.com/vim-netrw
 - https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua
 - https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer
 - https://github.com/echasnovski/nvim/blob/a3916554cb3cada94b7c4a1f7a1c4d6ab4e8b558/src/settings.lua
