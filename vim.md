@@ -235,6 +235,9 @@ Ma = Vai ao local a
 
 # Linhas específicas
 10,15 norm ci'nova_palavra'<ctrl+v><esc>$
+
+# No VsCode
+10,15 norm ci'nova_palavra<Esc>$
 ```
 
 ## Verificar log de inicialização
@@ -363,9 +366,16 @@ Remover espaços no início e no final:
 :%s/\r//g | %s/^\s\+|\s\+$//g
 ```
 
-LSP Emmet
-O LSP do emmet_ls só funcionou instalando o lsp manualmente
-npm install -g emmet-ls
+## Tecla,Comando Interno,Descrição
+
+K,      vim.lsp.buf.hover(),           Exibe a documentação flutuante sob o cursor
+gd,     vim.lsp.buf.definition(),      Salta para a definição do símbolo
+gD,     vim.lsp.buf.declaration(),     Salta para a declaração (se suportado)
+grn,    vim.lsp.buf.rename(),          Renomeia o símbolo em todo o projeto
+gra,    vim.lsp.buf.code_action(),     Abre o menu de ações de código (Code Actions)
+grr,    vim.lsp.buf.references(),      Lista todas as referências do símbolo
+gO,     vim.lsp.buf.document_symbol(), Lista os símbolos do documento atual
+CTRL-S, vim.lsp.buf.signature_help(),  Exibe ajuda de assinatura (em modo Insert)
 
 ## Links
 
