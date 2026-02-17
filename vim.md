@@ -368,7 +368,9 @@ Remover espaços no início e no final:
 
 ## Tecla,Comando Interno,Descrição
 
+```
 K,      vim.lsp.buf.hover(),           Exibe a documentação flutuante sob o cursor
+K,      Pressionando o K novamente, entra na página documento 'q' para sair
 gd,     vim.lsp.buf.definition(),      Salta para a definição do símbolo
 gD,     vim.lsp.buf.declaration(),     Salta para a declaração (se suportado)
 grn,    vim.lsp.buf.rename(),          Renomeia o símbolo em todo o projeto
@@ -376,6 +378,10 @@ gra,    vim.lsp.buf.code_action(),     Abre o menu de ações de código (Code A
 grr,    vim.lsp.buf.references(),      Lista todas as referências do símbolo
 gO,     vim.lsp.buf.document_symbol(), Lista os símbolos do documento atual
 CTRL-S, vim.lsp.buf.signature_help(),  Exibe ajuda de assinatura (em modo Insert)
+[d,     Move para o diagnóstico anterior.
+]d,     Move para o próximo diagnóstico.
+<C-W>d, Abre o diagnóstico atual em uma janela flutuante.
+```
 
 ## Links
 
