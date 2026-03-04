@@ -383,6 +383,16 @@ CTRL-S, vim.lsp.buf.signature_help(),  Exibe ajuda de assinatura (em modo Insert
 <C-W>d, Abre o diagnóstico atual em uma janela flutuante.
 ```
 
+Expand:
+
+```bash
+:!bash %              # run bash file
+:echo @%i             # directory/name of file
+:echo expand('%:t')   # name of file ('tail')
+:echo expand('%:p')   # full path
+:echo expand('%:p:h')
+````
+
 ## Links
 
 - https://vim.rtorr.com

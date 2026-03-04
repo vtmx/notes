@@ -73,6 +73,8 @@ Verifica se programa existe:
 
 ```bash
 type firefox
+type -p firefox
+command -v firefox
 echo $?
 ```
 
@@ -643,7 +645,7 @@ Alias
 
 ```bash
 # alias live="live-server"
-# alias live=" python -m http.server -b 127.0.0.1 8000 
+# alias live=" python -m http.server -b 127.0.0.1 8000
 # alias xf="sassc -M -t expanded $HOME/.local/share/themes/Lightly/gtk-3.0/src/main.scss \
 
 # Config
