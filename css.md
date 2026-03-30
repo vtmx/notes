@@ -129,6 +129,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 ```
 
+Novo modo de centralizar elementos
+
+```
+position: absolute;
+place-self: center;
+insert: 0; /* shorthand > top,right,left,bottom: 0; */
+```
+
 # Links
 
 - https://www.youtube.com/watch?v=2lyDv0wOQuQ

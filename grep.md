@@ -82,7 +82,7 @@ shopt -u extglob # desativa
 
 Pega último comando com w:
 ```bash
-!w 
+!w
 ```
 
 Cria arquivo de backup:
@@ -121,9 +121,13 @@ grep -C1 'line2' file
 # line3
 ```
 
+grep -x palavra exta
+grep -v inverte
+grep -o somente resultado
+
 Remove o que conseguir e guarda os próximos para depois:
 
 ```bash
-ls arq | xargs rm 
+ls arq | xargs rm
 ls arq* | cut -s -f2 -d.
 ```

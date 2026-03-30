@@ -46,6 +46,19 @@ Mais de um comando use ';' :
 sed -E '/^[0-9]+$/d; s/^([0-9]{2}):([0-9]{2}):([0-9]{2}).+$/\1:\2:\3/' transcricao.pt.srt
 ```
 
+Exemplo:
+
+```bash
+var="install(){
+  sudo dnf install -y package.rpm
+}"
+
+sed -n '/install() {/{n;p;q}' <<< "$var"
+# sudo dnf install -y package.rpm
+
+sed -n '/install() {/,/}/ s/.*dnf install //p' <<< "$var" | tr -d '}'
+# -y package.rpm
+```
 
 ## Referências
 

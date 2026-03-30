@@ -29,6 +29,14 @@ tmux list-sessions
 tmux list-windows
 ```
 
+```
+Mostra o índice da janela seguido pelo nome do processo que está rodando no painel ativo no momento
+#I:#{pane_current_command}
+
+Mostra o índice da janela seguido pelo nome da janela (window-name)
+#I:#W
+```
+
 ## Atalhos
 
 | Atalho              | Descrição              |

@@ -73,6 +73,13 @@ Note that this is an accessibility feature of Firefox.
 Tools > Options > Advanced > General > Accessibility: [ ] "Always use the cursor keys to navigate within pages"
 ```
 
+Disable preview tab:
+
+```
+browser.tabs.hoverPreview.enabled
+browser.tabs.hoverPreview.showThumbnails
+```
+
 ## about:config
 
 ```

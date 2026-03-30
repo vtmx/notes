@@ -1,5 +1,30 @@
 # pacman
 
+Atualiza chaveiros:
+
+```
+sudo pacman -Sy archlinux-keyring
+```
+
+Reseta e popula chaves:
+
+```
+sudo rm -rf /etc/pacman.d/gnupg
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+```
+
+Conflito de chaveiros:
+
+```
+/etc/pacman.conf
+/etc/pacman-mirrors.conf
+
+# Fail pgp temp disable
+/etc/pacman.d/mirrorlist
+SigLevel = Never
+```
+
 Instalando pacote:
 
 ```
@@ -40,6 +65,19 @@ Remove com dependências:
 
 ```
 sudo pacman -Rs package
+```
+
+Somente baixa os pacotes mas não instala:
+
+```
+sudo pacman -Syuw
+-S: Sincroniza os pacotes.
+-y: Atualiza as bases de dados dos repositórios.
+-u: Identifica pacotes que precisam de atualização.
+-w: (Wait/Download only) Apenas baixa os arquivos para o cache (/var/cache/pacman/pkg/) sem realizar a instalação.
+
+Posteriormente, quando desejar instalar o que foi baixado, basta rodar o comando padrão:
+sudo pacman -Syu.
 ```
 
 Verifica e remove pacotes órfãos::

@@ -151,8 +151,10 @@
 - https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc
 - https://gist.github.com/tuxfight3r/60051ac67c5f0445efee?permalink_comment_id=4465571
 - https://github.com/fliptheweb/bash-shortcuts-cheat-sheet/blob/master/README.md
+- https://gist.github.com/memphys/2225770?permalink_comment_id=5780765
+- https://skorks.com/2009/09/bash-shortcuts-for-maximum-productivity
 - https://mehmandarov.com/navigating-and-editing-the-command-line
+- kitty + list-fonts --psnames | grep "BlexMono Nerd Font Medium"
 - https://keycombiner.com/collections/terminal
 - https://itsfoss.com/linux-terminal-shortcuts
-- kitty + list-fonts --psnames | grep "BlexMono Nerd Font Medium"
 

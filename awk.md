@@ -123,3 +123,18 @@ Coleta valors de campos json:
 readarray -t sites < <(awk -F'"' '/": \{/ {print $2}' data.json)
 readarray -t urls < <(awk -F'"' '/"url":/ {print $4}' data.json)
 ```
+
+Exemplo
+
+```bash
+v="install(){
+  sudo dnf install -y package.rpm
+}"
+
+awk '/install\(\) \{/ { if (getline > 0) print }' <<< "$va"
+# sudo dnf install -y package.rpm
+
+# O exit sai após a primeira ocorrência
+awk '/install(){/ {getline} /sudo/ {$1=""; $2=""; $3=""; print $0; exit}' <<< "$v" | tr -s ' '
+# -y mago-pato.rpm
+```
