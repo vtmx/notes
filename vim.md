@@ -226,7 +226,7 @@ Ma = Vai ao local a
 
 ## Norm
 
-```vim
+```
 # ctrl+v<esc> fazem o char especial para retornar
 # ao modo normal
 
@@ -242,20 +242,20 @@ Ma = Vai ao local a
 
 ## Verificar log de inicialização
 
-```
+```bash
 nvim --startuptime log.txt
 ```
 
 ## Extras
 
-```
-r! comando = Executar comando terminal
-:set list = Add marks
-:set nolist = Remove marks
-:set list! = Toogle marks
+```vim
+r! comando " Executar comando terminal
+:set list " Add marks
+:set nolist " Remove marks
+:set list! " Toogle marks
 gx = Open text in xgd-open
-Inspect = Exibe estilo atual sobre o cursor
-InspectTree = Exibe pilha da linguagem
+Inspect " Exibe estilo atual sobre o cursor
+InspectTree " Exibe pilha da linguagem
 ```
 
 ## Auxliares
@@ -272,32 +272,37 @@ Arquivos padrões do nvim:
 
 Inspecionar com o treesitter:
 
-## Adicionando corretor ortográfico dicionário
+Adicionando corretor ortográfico dicionário
 
 ```bash
 mkdir /tmp/vero && cd /tmp/vero
 wget https://pt-br.libreoffice.org/assets/Uploads/PT-BR-Documents/VERO/VeroptBR3215AOC.oxt
 unzip VeroptBR3215AOC.oxt
+```
 
-# Demora um bocadinho
+```vim
+" Demora um bocadinho
 
-# Abra o vim no diretório do arquivo extraído
+" Abra o vim no diretório do arquivo extraído
 nvim /tmp/vero
 
-# Execute o comando para compilar
+" Execute o comando para compilar
 :mkspell pt pt_BR
 
-# Copiar arquivo gerado
+" Copiar arquivo gerado
 sudo cp /tmp/vero/pt.utf-8.spl /usr/share/nvim/runtime/spell
 
-# Em vim
+" Em vim
 set spell spelllang=pt
 
-# Em Lua
+" Em Lua
 vim.opt.spell = true
 vim.opt.spelllang = "pt"
+```
 
 # Atalhos
+
+```
 z=  Vê as sugestões para uma palavra certa, e troca se você escolher alguma delas
 zg  Adiciona a palavra (no dicionario) em que o cursor está em cima
 zug Remove a última palavra adicionada no dicionario
@@ -307,7 +312,7 @@ zug Remove a última palavra adicionada no dicionario
 
 Janelas:
 
-```bash
+```
 <C-w> c = Fecha janela
 <C-w> x = Alterna janela
 <C-w> 10+ = Aumenta janela na horizontal
@@ -338,11 +343,11 @@ local function map(mode, lhs, rhs, opts)
 end
 ```
 
-```bash
-# Remove linhas em brancos consecutivas
+```vim
+" Remove linhas em brancos consecutivas
 :%s/\n\{2,}/\r/g
 
-# Adiciona uma linha a cada ponto final
+" Adiciona uma linha a cada ponto final
 :%s/\.\s*/.\r/g
 ```
 
@@ -358,12 +363,37 @@ Remove espaços no início da linha:
 :g/^ /d
 ```
 
+Borda em regex:
+
+```
+borda de fim de palavra: word\>
+borda de início de palavra: \<word
+borda de início e no vim de palavra: \<word\>
+```
+
 Remover espaços no início e no final:
 
 ```vim
 :%s/^\s\+|\s\+$//g
 :%s/^\s\+//e | %s/\s\+$//e
 :%s/\r//g | %s/^\s\+|\s\+$//g
+```
+
+Checar se plugin está ativado:
+
+```vim
+:echo exists("g:loaded_gzip")
+:scriptnames
+:scriptnames | grep gzip
+:filter gzip scriptnames
+```
+
+Ver opções ativas:
+
+```vim
+lua print(vim.opt.wrap:get())
+lua print(vim.g.colors_name)
+lua print(vim.api.nvim_get_var('colors_name'))
 ```
 
 ## Tecla,Comando Interno,Descrição
@@ -385,7 +415,7 @@ CTRL-S, vim.lsp.buf.signature_help(),  Exibe ajuda de assinatura (em modo Insert
 
 Expand:
 
-```bash
+```vim
 :!bash %              # run bash file
 :echo @%i             # directory/name of file
 :echo expand('%:t')   # name of file ('tail')
@@ -393,9 +423,47 @@ Expand:
 :echo expand('%:p:h')
 ````
 
+Inicia e para o treesitter:
+
+```vim
+:lua vim.treesitter.start()
+:lua vim.treesitter.stop()
+```
+
+Localização e como verificar parsers:
+
+```vim
+~/.local/share/nvim/site/parser/
+:lua print(vim.inspect(require('nvim-treesitter').get_installed()))
+:lua print(vim.inspect(vim.api.nvim_get_runtime_file("parser/*.so", true)))
+```
+
+Parsers disponíveis:
+
+```
+https://github.com/nvim-treesitter/nvim-treesitter/blob/main/lua/nvim-treesitter/parsers.lua
+```
+
+Check lsp:
+
+```vim
+:checkhealth lsp
+```
+
+Cria comando personalizado :LspStart
+
+```lua
+vim.api.nvim_create_user_command('LspStart', function()
+  require('lspconfig').gopls.setup({})
+  vim.cmd('LspStart')
+end, {})
+```
+
+
 ## Links
 
 - https://vim.rtorr.com
+- https://neovimcheatsheet.com
 - https://shapeshed.com/vim-netrw
 - https://bitbucket.org/sergio/mylazy-nvim
 - http://vimcasts.org/episodes/operating-on-search-matches-using-gn

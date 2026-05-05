@@ -1,6 +1,6 @@
 # Firefox
 
-Search bookmarks in bar:
+Pesquisa favoritos na barra de pesquisa
 
 ```
 type * and search
@@ -8,7 +8,19 @@ ctrl + b = Show bookmarks in sidebar
 ctrl + shift + o = show bookmarks in new window
 ```
 
-Customizar menu:
+Os arquivos de configurações do navegador ficam em:
+
+```
+prefers.js
+```
+
+Os de usuário, esse é fixo:
+
+```
+users.js
+```
+
+Customiza menu:
 
 - Disable titlebar
 - Density compact
@@ -29,7 +41,7 @@ ctrl+shift+alt+i
 If don't work:
 
 ```
-Devtools settins
+Devtools settings
 [x] Enable browser chrome and add-on...
 [x] Enable remote debug
 
@@ -76,8 +88,20 @@ Tools > Options > Advanced > General > Accessibility: [ ] "Always use the cursor
 Disable preview tab:
 
 ```
-browser.tabs.hoverPreview.enabled
-browser.tabs.hoverPreview.showThumbnails
+browser.tabs.hoverPreview.enabled=false
+browser.tabs.hoverPreview.showThumbnails=false
+```
+
+Desabilitar resturar sessão
+
+```
+browser.sessionstore.enabled=false
+```
+
+Desabilitar resturar sessão ao fechar com ele aberto:
+
+```
+browser.sessionstore.resume_from_crash=false
 ```
 
 ## about:config

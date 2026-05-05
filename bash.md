@@ -641,6 +641,19 @@ arq=<(ls)
 echo "$arq"
 ```
 
+Debug configurações:
+
+```
+bash -n ~/.config/bash/functions
+bash -n ~/.config/bash/aliases
+bash -n ~/.config/bash/envs
+bash -n ~/.config/bash/pkgs
+
+echo "Iniciando carregamento..."
+time source ~/.config/bash/envs
+time source ~/.config/bash/aliases
+```
+
 Alias
 
 ```bash
