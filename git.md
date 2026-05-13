@@ -201,6 +201,19 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=600'
 ```
 
+# Voltar arquivo duas modificações anteriores
+
+```
+git show HEAD~2:file.txt
+```
+
+# Ir para modificação antiga e retornar
+
+```
+git switch --detach HEAD~2
+git switch -
+```
+
 ## Links
 
 - https://www.conventionalcommits.org/en/v1.0.0/

@@ -654,6 +654,12 @@ time source ~/.config/bash/envs
 time source ~/.config/bash/aliases
 ```
 
+Comandos do tipo input recarregar
+
+```
+Atalho C-x + C+r
+```
+
 Alias
 
 ```bash

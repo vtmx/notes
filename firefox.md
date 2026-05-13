@@ -188,6 +188,12 @@ Extensão boa para download:
 hsl-downloader
 ```
 
+Não restaurar sessão:
+
+```
+browser.sessionstore.resume_from_crash
+```
+
 ## Links
 
 - https://github.com/QNetITQ/WaveFox
