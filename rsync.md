@@ -36,7 +36,13 @@ Espelha diretório, removendo caso não tenha em src:
 rsync -av --delete src/ dst/
 ```
 
-Using / in end save all files, not using copy dir to another dir
+Exemplo remoto:
+
+```bash
+rsync -ahzP src/ root@hostname:/dst
+```
+
+Usando '/' salva todos os arquivos, não usando, copia diretório para o outro diretório
 
 ```
 -a Mantém timestamp dos arquivos
@@ -49,12 +55,6 @@ Using / in end save all files, not using copy dir to another dir
 --partial Copia caso corte no meio continua
 --progress Exibe tempo de todos os arquivos
 --remove-source-file Move arquivos
-```
-
-Exemplo remoto: 
-
-```bash
-rsync -ahzP src/ root@hostname:/dst
 ```
 
 ## Links

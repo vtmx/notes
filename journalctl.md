@@ -1,7 +1,19 @@
 # journalctl
 
-Exibe log do boot mais recente:
+Exibe log do boot mais do último boot:
 
-```bash
+```
 journalctl -b
+```
+
+Exibe log em tempo real:
+
+```
+journalctl -f
+```
+
+Exibe log com foco no erro:
+
+```
+journalctl -b -p err
 ```

@@ -76,11 +76,14 @@ ctrl-v edita comando
 ```
 
 Habilita opções extendidas
+
+```bash
 shopt -s extglob # ativa
 shopt -u extglob # desativa
 ```
 
 Pega último comando com w:
+
 ```bash
 !w
 ```
