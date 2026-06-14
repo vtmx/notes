@@ -17,3 +17,9 @@ Acompanhar:
 ```
 journalctl -b -f -p err
 ```
+
+Usando o smarth:
+
+```
+sudo smartctl -a /dev/sdb
+```
