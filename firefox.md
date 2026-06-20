@@ -8,6 +8,12 @@ ctrl + b = Show bookmarks in sidebar
 ctrl + shift + o = show bookmarks in new window
 ```
 
+Remover favicons:
+
+```
+favicons.sqlite
+```
+
 Os arquivos de configurações do navegador ficam em:
 
 ```
