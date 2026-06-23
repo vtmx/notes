@@ -10,3 +10,15 @@ pass: pass
 
 chsh -s /bin/bash username
 ```
+
+Driver máximo nvidia:
+
+```
+nvidia-570
+```
+
+Driver recomendado:
+
+```
+nvidia-550
+```

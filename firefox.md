@@ -58,7 +58,9 @@ xdg-portal kde integration:
 
 ```
 # https://wiki.archlinux.org/title/Firefox
+# lxqt and kde
 widget.use-xdg-desktop-portal.file-picker = 1
+widget.use-xdg-desktop-portal.mime-handler = 1
 ```
 
 Pages:
