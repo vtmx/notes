@@ -1,5 +1,11 @@
 # Retroarch
 
+Geralmente o Retroarch inicia com fontes pixeladas e ícones com quadrados pretos:
+
+```
+Main Menu > Online Updater > Update Assets
+```
+
 ## Shortcuts
 
 ```

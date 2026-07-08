@@ -194,6 +194,25 @@ git reset --soft HEAD^2
 git reset --hard origin/main
 ```
 
+Removendo um commit específico:
+
+```bash
+# Entra no rebase interativo:
+git rebase -i HEAD~3
+
+# Edita o arquivo para remover o update 2, salve e feche o arquivo:
+pick f7308275 Update update3
+drop ebaeec9e Update update2
+pick 67729838 Update update1
+
+# Adicione e continue
+git add .
+git rebase --continue.
+
+# Force a subida das modificações:
+git push origin main --force
+```
+
 # Lembrar credencial
 
 ```bash

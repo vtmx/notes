@@ -22,3 +22,23 @@ Driver recomendado:
 ```
 nvidia-550
 ```
+
+Recuperação boas dicas:
+
+```
+sudo mkdir /mnt/boot
+sudo mount /dev/sda1 /mnt/boot
+
+# Usado para brtfs
+sudo mount -o subvol=@ /dev/sda2 /mnt/
+
+sudo mount /dev/scc1 /mnt/home
+```
+
+# Entrar no sistema
+
+```
+sudo manjaro-chroot /mnt
+```
+
+Caso apareça em um shell diferente, vc está no sistema anterior

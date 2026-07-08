@@ -29,3 +29,13 @@ style.big_font = renderer.font.load(HOMEDIR .. '/.local/share/fonts/Segoe UI/Seg
 style.code_font = renderer.font.load(HOMEDIR .. '/.local/share/fonts/Blex Mono Nerd Font/BlexMonoNerdFont-Medium.ttf', 15 * SCALE)
 style.italic_code_font = renderer.font.load(HOMEDIR .. '/.local/share/fonts/Blex Mono Nerd Font/BlexMonoNerdFont-MediumItalic.ttf', 15 * SCALE)
 ```
+
+## Atalhos
+
+```
+Ctrl+L = Selecionar linha
+Ctrl+Shift+D = Duplicar linhas
+
+Ctrl+Enter = Nova linha pra baixo
+Ctrl+Shift+Enter = Nova linha pra cima
+```

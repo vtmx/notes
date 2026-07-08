@@ -137,6 +137,12 @@ place-self: center;
 insert: 0; /* shorthand > top,right,left,bottom: 0; */
 ```
 
+Novos métodos de anchor:
+
+```
+https://css-tricks.com/css-anchor-positioning-guide
+```
+
 # Links
 
 - https://www.youtube.com/watch?v=2lyDv0wOQuQ

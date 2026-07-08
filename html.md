@@ -2,6 +2,21 @@
 
 Não funcionou muito bem:
 
-```bash
+```html
 <link rel='preload' as='font' type='font/woff2' fetchpriority='low' crossorigin href='/fonts/Inter-Medium.woff2'>
 ```
+
+Novo método de loading de imagens:
+
+```html
+<img src='file.jpg' alt='Img' loading='lazy' sizes='auto'>
+```
+
+  ```
+  ```
+  ```
+
+
+  ```
+  ```
+  ```
