@@ -15,10 +15,19 @@ Sistema » Opção do desenvolvedor » Desenho (Retirar escala de animação de 
 
 ## Apps
 
-- Microsoft
-- Minma Icon Pack
-- OrangeLine IconPack : LineX
-- Keyboard Swift Microsoft
+- Greenline Icon
+- Musicolet
+- PodcastAdict
+
+## Fdroid
+
+- Heliboard
+  - Fudo do teclado: ff91d25
+  - Fundo da tecla: ff393943
+  - Fudo da tecla funcional: ff91d25
+  - Fundo da barra de espaço: ff393943
+- Murine Launcher
+- NewPipe
 
 ## KDE Connect
 

@@ -1,5 +1,9 @@
 # kindle
 
+## Koreader logs
+
+/mnt/koreader/crash.log
+
 ## JailBreaker WindBreaker
 
 Esse método só funciona nas versões abaixo da 5.18.

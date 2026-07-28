@@ -199,6 +199,13 @@ Failed to synchronize all databases (unable to lock database)
 sudo rm /var/lib/pacman/db.lck
 ```
 
+Ignora pacote:
+
+```
+# /etc/pacman.conf
+IgnorePkg = nome-do-pacote
+```
+
 ## Links
 
 - https://github.com/kretcheu/dicas/blob/master/pacman.md

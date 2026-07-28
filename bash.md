@@ -121,7 +121,7 @@ Executa o segundo comando caso o primeiro seja ok:
 comando1 && comando2
 ```
 
-Pasta atual current dir:
+Diretório atual current dir:
 
 ```bash
 cwd=$(dirname "$0")
@@ -390,12 +390,6 @@ head 4 <<< $(file.md)
 head -n4 <<< $(file.md)
 tail 4 <<< $(file.md)
 tail -n4 <<< $(file.md)
-```
-
-Ytdlp download playlist:
-
-```bash
-yt-dlp -x --audio-format mp3 "URL_DA_PLAYLIST"
 ```
 
 Check exa:

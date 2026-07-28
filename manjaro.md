@@ -31,7 +31,6 @@ sudo mount /dev/sda1 /mnt/boot
 
 # Usado para brtfs
 sudo mount -o subvol=@ /dev/sda2 /mnt/
-
 sudo mount /dev/scc1 /mnt/home
 ```
 

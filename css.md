@@ -122,16 +122,31 @@ h1, h2, h3, h4, h5, h6, p {
   hyphens: auto;
 }
 
-/* Mostrar outline de foco apenas quando o usuário estiver navegando com tab (não ao clicar) /
-/ Exceto para input e textarea */
+/* Mostrar outline de foco apenas quando o usuário estiver navegando com tab (não ao clicar) */
+/* Exceto para input e textarea */
 *:focus:not(:is(input, textarea)) {
   outline: none;
 }
 ```
 
+Inverter valor da custom properties:
+
+```css
+el {
+  --v: 15px
+  left: calc(var(--v) * -1);
+}
+```
+
+Container style:
+
+```css
+@container style(--theme: dark) {}
+```
+
 Novo modo de centralizar elementos
 
-```
+```css
 position: absolute;
 place-self: center;
 insert: 0; /* shorthand > top,right,left,bottom: 0; */
@@ -139,9 +154,15 @@ insert: 0; /* shorthand > top,right,left,bottom: 0; */
 
 Novos métodos de anchor:
 
-```
+```css
 https://css-tricks.com/css-anchor-positioning-guide
 ```
+
+## Sintaxe de Regra vs. Função
+
+No CSS, a presença ou ausência do espaço define visualmente o papel da instrução:
+Sem espaço (fn()): Identifica uma chamada de função (ex: calc(), var(), rgb()).
+Com espaço (@rule ()): Identifica uma palavra-chave / regra de arroba seguida de uma expressão genérica entre parênteses.
 
 # Links
 

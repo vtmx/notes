@@ -38,6 +38,12 @@ Remove repositório remoto:
 git remote rm origin
 ```
 
+Alterar repositório remoto:
+
+```bash
+git remote set-url origin <novo-url>
+```
+
 Faz upload para o branch principal:
 
 ```bash

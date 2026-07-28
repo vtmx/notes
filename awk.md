@@ -41,7 +41,6 @@ awk '!/^$/ {print}' file
 Field separator:
 
 ```bash
-awk '!/^$/ {print}' file
 awk NF':' file.txt
 awk 'BEGIN{FS=","}
 ```
