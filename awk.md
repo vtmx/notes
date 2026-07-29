@@ -38,11 +38,11 @@ Remove linhas em branco:
 awk '!/^$/ {print}' file
 ```
 
-Field separator:
+Campos separadores:
 
 ```bash
-awk NF':' file.txt
-awk 'BEGIN{FS=","}
+awk -F':' '{print $1}' file
+awk 'BEGIN{FS=":"}' '{print $1}' file
 ```
 
 Imprimi total de linhas:

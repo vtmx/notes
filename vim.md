@@ -459,6 +459,15 @@ vim.api.nvim_create_user_command('LspStart', function()
 end, {})
 ```
 
+Executando macro 'a' apartir da linha atual:
+
+```vim
+" Até linha 50
+:.,50 !normal @a
+
+" Até final do arquivo
+:.,$ !normal @a
+```
 
 ## Links
 
