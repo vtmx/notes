@@ -1,10 +1,14 @@
-## wine config
+# wine config
+
+Config:
 
 ```bash
-config:
 winecfg
+```
 
-restart
+Restart:
+
+```bash
 mv ~/.wine ~/.wine.old
 winebot -u
 ```

@@ -477,6 +477,7 @@ Executando macro 'a' apartir da linha atual:
 - https://neovimcheatsheet.com
 - https://shapeshed.com/vim-netrw
 - https://bitbucket.org/sergio/mylazy-nvim
+- https://linkarzu.com/posts/neovim/markdown-setup-2025
 - http://vimcasts.org/episodes/operating-on-search-matches-using-gn
 - https://stackoverflow.com/questions/18948491/running-python-code-in-vim
 - https://github.com/jdhao/nvim-config/blob/fc144e08957c39954927ae1f48ce70d8b464d258/core/mappings.lua
