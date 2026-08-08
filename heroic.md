@@ -4,7 +4,7 @@
 
 No menu lateral a esquerda do Heroic
 Clique em Versões do Wine e baixe o ProtonGE, fica salvo em:
-`/home/vitor/.config/heroic/tools/proton/`
+`$HOME/.config/heroic/tools/proton/`
 
 ## Método manual:
 

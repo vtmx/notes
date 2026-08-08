@@ -71,8 +71,8 @@ Aparearance > Window Appearance > Custom UI Modification...
 
 ## Commands
 
-```
-sudo cp logo-vitormelo.svg /opt/vivaldi/resources/vivaldi/resources
+```bash
+sudo cp logo.svg /opt/vivaldi/resources/vivaldi/resources
 ```
 
 ## Links

@@ -45,7 +45,7 @@ man -f command
 ## Acesso partição
 
 ```bash
-sudo chown -hR vitor /run/media/vitor/db5d4111-906e-4fc2-881a-b8f703167c16/
+sudo chown -hR vitor /run/media/user/db5d4111-906e-4fc2-881a-b8f703167c16/
 ```
 
 ## Monta partição no boot

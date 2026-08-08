@@ -15,8 +15,9 @@ perl-rename 's/old/new/' *
 Renomear sequencialmente:
 
 ```bash
-rename -n 's/.+/sprintf("palavra-%03d", ++$i)/e' *.ext
-rename -n 's/.*/sprintf "palavra-%03d", ++$i/e' *.ext
+# Os dois formatos são válidos
+rename -n 's/.+/sprintf("nome-%02d", ++$i)/e' *.ext
+rename -n 's/.*/sprintf "nome-%02d", ++$i/e' *.ext
 ```
 
 Renomeando grupo de datas:
@@ -28,6 +29,5 @@ rename 's/^(\d{4})(\d{2})(\d{2})/\1-\2-\3/' *
 Remove todos os pontos exceto do *.mp3
 
 ```bash
-ren 's/(?<=.)\.(?=.*\.mp3$)//g' *.mp3
+rename 's/(?<=.)\.(?=.*\.mp3$)//g' *.mp3
 ```
-

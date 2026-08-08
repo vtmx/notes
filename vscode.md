@@ -151,7 +151,7 @@ Ctrl + Shift + P = Select Default Shell
 ## Node Modules
 
 ```
-C:\Users\vitor\AppData\Roaming\npm\node_modules
+C:\Users\user\AppData\Roaming\npm\node_modules
 ```
 
 ## KDE File Picker
