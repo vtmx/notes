@@ -469,6 +469,12 @@ Executando macro 'a' apartir da linha atual:
 :.,$ !normal @a
 ```
 
+Quebrando o texto wrap coluna:
+
+```vim
+" Após a seleção pressione gq
+```
+
 ## Links
 
 [Teste](http://gool.com)
