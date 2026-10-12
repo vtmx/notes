@@ -38,5 +38,5 @@ crush --continue
 Limpar todas as sessões:
 
 ```
-crush session list | awk '{print}' | while read -r id; do crush session delete $id; done
+crush session list | awk '{print $1}' | while read -r id; do crush session delete $id; done
 ```
