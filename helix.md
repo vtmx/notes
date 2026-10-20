@@ -1,8 +1,43 @@
 # Helix
 
-## Shortcuts
+## Comandos
 
+```bash
+# Geral
+hx --health
+
+# Específico
+hx --health bash
+hx --health go
 ```
+
+## Configurações
+
+```bash
+# Desabilita dicas
+auto-info = false
+
+# Habilita auto pares
+auto-pairs = true
+
+# Show bufferline
+[editor.linebufferline] = {never, multiple, always}
+
+# Diff exibe modificações
+gutters = ['diff', 'line-numbers', 'spacer']
+
+# Exibe white space
+[editor.whitespace]
+render = 'all'
+
+# Show tip in code
+[editor.lsp]
+display-inlay-hints = true
+```
+
+## Keys
+
+```bash
 x = Select all line if press other lines
 s = Search word when line select
 ; = Deselect one cursor
@@ -42,10 +77,11 @@ Alt + o    = Expand argument
 
 ## Theme Location
 
-```
+```bash
 /var/lib/helix/runtime/themes/
 ```
 
 ## Links
 
 - https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers
+- https://docs.helix-editor.com/themes.html

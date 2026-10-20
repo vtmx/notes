@@ -475,6 +475,16 @@ Quebrando o texto wrap coluna:
 " Após a seleção pressione gq
 ```
 
+## Múltiplos cursores (>= 0.13)
+
+- `Q` adicona curso no multi
+- `<c-l>` limpa muti-cursor
+- `<c-v>` ao final da seleção Q adicona multi-cursor
+- `q=` após cursores feitos, adiciona modo de seguir, onde é possível andar com os cursores
+- `zqgn` após a pesquisa ou *# seleciona todos no multi-cursor
+- `g<c-a>` adiciona contador aos cursores
+- `gQ` recupera cursores antigos
+
 ## Links
 
 [Teste](http://gool.com)

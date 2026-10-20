@@ -239,6 +239,20 @@ git switch --detach HEAD~2
 git switch -
 ```
 
+Verificar os maiores items do repositório:
+
+```
+git rev-list --objects --all | git cat-file --batch-check='%(objectsize:disk) %(rest)' | sort -n -r | head -n 20
+```
+
+Limpar item de todo repositório:
+
+```
+git filter-repo --invert-paths --force --path <caminho-arq>
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+```
+
 ## Links
 
 - https://www.conventionalcommits.org/en/v1.0.0/

@@ -2,25 +2,25 @@
 
 Exibe todas as árvores de janelas e sessões:
 
-```
+```bash
 tmux choose-tree
 ```
 
 Opções atuais:
 
-```
+```bash
 tmux show-options -g
 ```
 
 Opção específica:
 
-```
+```bash
 tmux show-options -g status
 ```
 
 Listas:
 
-```
+```bash
 tmux list-commands
 tmux list-clients
 tmux list-commands

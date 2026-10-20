@@ -29,5 +29,5 @@ Editor:
 ```
 
 ## Links
-https://marketplace.visualstudio.com/items?itemName=jimmydaddy.vscode-bard
-https://marketplace.visualstudio.com/items?itemName=MichaelZhou.fleet-theme
+- https://marketplace.visualstudio.com/items?itemName=jimmydaddy.vscode-bard
+- https://marketplace.visualstudio.com/items?itemName=MichaelZhou.fleet-theme
