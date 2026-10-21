@@ -38,48 +38,51 @@ display-inlay-hints = true
 ## Keys
 
 ```bash
-x = Select all line if press other lines
-s = Search word when line select
-; = Deselect one cursor
-Alt + ; = Change location of select
+x = Seleciona toda a linha
+s = Pesquisa na seleção
+; = Remove seleção
+Alt + ; = Altera cursor entre início e fim da seleção
 
-C = Multiple cursors
-, = Deselect multiple-cursor
+C = Adiciona novo cursor abaixo
+, = Remove seleção múltipla
 
-& = Align multiple line when multiple cursor
+& = Alinha caracteres selecionados baseando-se no cursor
 
-. = repeat
+. = Repete ação
 Alt + . = Repeat f / t
 
-y = Copy
-p = Paste
-r = Replace
-R = Replace clipboard
+y = Copia
+p = Cola
+r = Substitui
+R = Substitui seleção pelo conteúdo do clipboard
 
-* = In text select, change same word with n/N
+* = Seleciona todo todas as palavras que está no cursor atual
 
-Ctrl + s = Jump
-Ctrl + o = Next jump
-Ctrl + i = Prev jump
+Ctrl + s = Salva posição
+Ctrl + o = Próximo salto
+Ctrl + i = Salto anterior
+Space + j = Picker de saltos
 
-Space + ? = Show commands
+Space + ? = Exibe todos os comandos
 
-Using * in word, type v and N,n to select ocorrences.
-Select multiple lines, type s, write: word1|word2|word3
+Pesquisa por múltiplas palavras usando s: palavra1|palavra2|palavra3
 
-Alt + n, p = Next and prev argument
-Alt + o    = Expand argument
+Alt + o,i = Expande e contraciona seleção baseada no treesiter
+Alt + n,p = Próxima seleção e seleção anterior baseada no treesiter
 
-[ + space = Add new line about
-] + space = Add new line below
+] + space = Adiciona linha abaixo
+[ + space = Adiciona linha acima
 
+Alt+s = Adiciona cursor em todas as seleções
+S = select invert
+` = to lower case
+alt+` = to uper case
 ```
 
-## Theme Location
-
-```bash
-/var/lib/helix/runtime/themes/
-```
+## In picker
+alt+<enter> open file mantain picker
+ctrl+t toggle previer
+%type = select header colun
 
 ## Links
 
