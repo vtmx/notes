@@ -20,17 +20,17 @@ auto-info = false
 # Habilita auto pares
 auto-pairs = true
 
-# Show bufferline
+# Exibe bufferline
 [editor.linebufferline] = {never, multiple, always}
 
 # Diff exibe modificações
 gutters = ['diff', 'line-numbers', 'spacer']
 
-# Exibe white space
+# Exibe espaços e símbolos
 [editor.whitespace]
 render = 'all'
 
-# Show tip in code
+# Exibe tooltip
 [editor.lsp]
 display-inlay-hints = true
 ```
@@ -84,7 +84,50 @@ alt+<enter> open file mantain picker
 ctrl+t toggle previer
 %type = select header colun
 
+<tab> = após {} sai do bloco
+t+<enter> = seleciona linha até o fim
+:reflow 50 = reposiciona texto com 50 colunas
+:readfile <file> = adiciona conteúdo do arquivo no buffer
+
+Saída de comandos no editor:
+
+```bash
+# Command mode
+:insert-output ls
+
+# Normal mode
+!ls
+<alt>! ls # append
+```
+
+Modificar diretório:
+
+
+```bash
+:cd <dir>
+```
+
+## Vantagens
+
+- Leader <space> nativo
+- Pickers nativos
+- HelpKeys ao pressionar <leader>
+- Comando `:54` move cursor automáticamente
+- Map `gw` plugin de `hoop,fast` nativo
+- Map `f,t` continuam extenden-se além da linha atual
+- Map `<c-r>` em insert exibe ajuda dos registros
+
+## Desvantagens
+
+- Limpar trecho de linha a frente como `C` no vim não funciona
+- Comandos específicos em linha como `:5{d,y}` para apagar, copiar linha específica não funciona
+- Não gera auto-complete das palavras do arquivo nativamente
+- Não gera auto-complete de arquivos como `<c-x>f`
+- Auto-complete precisa ser completado com <enter>, não aceita <c-y>
+- Map de upper e lower case usa ` e <alt>` WTF!
+
 ## Links
 
 - https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers
 - https://docs.helix-editor.com/themes.html
+- http://en.helixgolf.com

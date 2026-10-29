@@ -475,7 +475,7 @@ Quebrando o texto wrap coluna:
 " Após a seleção pressione gq
 ```
 
-## Múltiplos cursores (>= 0.13)
+Múltiplos cursores (>= 0.13):
 
 - `Q` adicona curso no multi
 - `<c-l>` limpa muti-cursor
@@ -484,6 +484,23 @@ Quebrando o texto wrap coluna:
 - `zqgn` após a pesquisa ou *# seleciona todos no multi-cursor
 - `g<c-a>` adiciona contador aos cursores
 - `gQ` recupera cursores antigos
+
+Colar registro:
+
+```bash
+# Depois de selecionado
+"ya
+
+# Em insert
+<c-x><c-o>a
+```
+
+Continuar completando path:
+
+```bash
+# Após escolher o caminho repita o mapeamento
+<c-x><c-f><c-x><c-f>
+```
 
 ## Links
 
